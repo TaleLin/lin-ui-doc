@@ -1,0 +1,23 @@
+{
+  "name": "lin-ui-doc",
+  "version": "1.0.0",
+  "description": "Lin UI 文档",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juzi214032/lin-ui-doc.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juzi214032/lin-ui-doc/issues"
+  },
+  "homepage": "https://github.com/juzi214032/lin-ui-doc#readme",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}

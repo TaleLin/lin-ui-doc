@@ -1,0 +1,31 @@
+# 指定运行环境
+language: node_js
+node_js:
+  - lts/*
+
+install:
+  - yarn install
+
+script:
+  # 编译文档
+  - yarn docs:build
+
+# 仅监控 master 分支
+branches:
+  only:
+    - master
+
+after_success:
+  - cd docs/.vuepress/dist
+  - git init
+  - git config --global user.name "TravisCI"
+  - git config --global user.email "juzi214032@qq.com"
+  - git add -A
+  - "git commit -m 'build: Travis CI 自动编译"
+
+  # 部署 Gitee Pages
+  - if [ ${GITEE_SWITCH} -eq 1 ]; then git push -f "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" master:${GITEE_BRANCH}; fi
+  # 部署 GitHub Pages
+  - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push -f "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" master:${GITHUB_BRANCH}; fi
+  # 部署 Coding Pages
+  - if [ ${CODING_SWITCH} -eq 1 ]; then git push -f "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" master:${CODING_BRANCH}; fi
