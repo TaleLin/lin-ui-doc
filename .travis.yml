@@ -18,10 +18,10 @@ branches:
 after_success:
   - cd dist
   - git init
-  - git config --global user.name "Deployment Bot"
-  - git config --global user.email "deploy@travis-ci.org"
+  - git config --global user.name "Juzi"
+  - git config --global user.email "juzi214032@qq.com"
   - git add -A
-  - "git commit -m 'build: Travis CI 自动编译'"
+  - "git commit -m 'build: Travis CI automatic compilation.'"
 
   # 部署 Gitee Pages
   - if [ ${GITEE_SWITCH} -eq 1 ]; then git push -f "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" master:${GITEE_BRANCH}; fi
