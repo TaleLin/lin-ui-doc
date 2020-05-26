@@ -87,12 +87,12 @@ npm安装：`/miniprogram_npm/lin-ui/icon/index`
 <br />
 为满足自定义的需求，首先我们要去下载 `Lin UI` 源码。
 
-```base
+```sh
 git clone https://github.com/TaleLin/lin-ui.git
 ```
 安装相关依赖
 
-```base
+```sh
 npm install
 ```
 
