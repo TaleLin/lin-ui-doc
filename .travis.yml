@@ -8,7 +8,7 @@ install:
 
 script:
   # 编译文档
-  - yarn docs:build
+  - yarn build
 
 # 仅监控 master 分支
 branches:
