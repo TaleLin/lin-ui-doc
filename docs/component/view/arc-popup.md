@@ -7,7 +7,6 @@ title: 弧形滚动弹出层 ArcPopup（研发中）
 > Popup弧形滚动弹出层组件。
 
 
-该组件支持<a href="/start/wx.html">wx.lin</a>用法。
 该组件支持[wx.lin](/start/wx.html)用法。
 
 ## 基础使用
