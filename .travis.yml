@@ -22,11 +22,13 @@ after_success:
   - git config --global user.email "juzi214032@qq.com"
   - git add -A
   - "git commit -m 'build: Travis CI automatic compilation.'"
-
-  # 部署 Gitee Pages
-  - if [ ${GITEE_SWITCH} -eq 1 ]; then git push -f "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" master:${GITEE_BRANCH}; fi
   # 部署 GitHub Pages
   - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push -f "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" master:${GITHUB_BRANCH}; fi
+  # 部署 Gitee Pages
+  - git config --global user.name "Deployment Bot"
+  - git config --global user.email "deploy@travis-ci.org"
+  - if [ ${GITEE_SWITCH} -eq 1 ]; then git push -f "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" master:${GITEE_BRANCH}; fi
+
   # 部署 Coding Pages
   - cd ../docs/.vuepress
   - sed -i "s$/lin-ui-doc/$/$" config.js
@@ -35,8 +37,6 @@ after_success:
   - yarn build
   - cd dist
   - git init
-  - git config --global user.name "Juzi"
-  - git config --global user.email "juzi214032@qq.com"
   - git add -A
   - "git commit -m 'build: Travis CI automatic compilation.'"
   - if [ ${CODING_SWITCH} -eq 1 ]; then git push -f "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" master:${CODING_BRANCH}; fi
