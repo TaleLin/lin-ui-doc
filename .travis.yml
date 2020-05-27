@@ -13,16 +13,17 @@ jobs:
     - name: "Github Pages"
       install:
         - yarn install
+      before_script:
+        - git clone https://${GITHUB_REPOSITORY}
+        - cp -r lin-ui-doc dist
       script:
         - yarn build
       after_success:
-        - cd dist
-        - git init
         - git config --global user.name "Juzi"
         - git config --global user.email "juzi214032@qq.com"
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
-        - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push -f "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" master:${GITHUB_BRANCH}; fi
+        - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" master:${GITHUB_BRANCH}; fi
     - name: "Gitee Pages"
       install:
         - yarn install
