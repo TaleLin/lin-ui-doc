@@ -80,7 +80,7 @@ jobs:
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - git checkout -b $TRAVIS_BRANCH
         - git push -f "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" $TRAVIS_BRANCH
-  - name: "Develop Doc"
+    - name: "Develop Doc"
       if: branch = develop
       install: yarn install
       before_script:
