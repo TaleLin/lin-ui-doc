@@ -10,6 +10,12 @@ branches:
 
 jobs:
   include:
+    - name: "Code Async"
+      install: skip
+      script: skip
+      after_success:
+        - if [ ${GITEE_SWITCH} -eq 1 ]; then git push -f "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" master:master; fi
+        - if [ ${CODING_SWITCH} -eq 1 ]; then git push -f "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" master:master; fi
     - name: "Github Pages"
       install:
         - yarn install
@@ -30,7 +36,7 @@ jobs:
       install:
         - yarn install
       before_script:
-        - git clone -b ${GITHUB_BRANCH} https://${GITHUB_REPOSITORY}
+        - git clone -b gh-pages https://${GITEE_REPOSITORY}
       script:
         - yarn build
       after_success:
@@ -40,12 +46,12 @@ jobs:
         - git config --global user.email "deploy@travis-ci.org"
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
-        - if [ ${GITEE_SWITCH} -eq 1 ]; then git push -f "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" ${GITEE_BRANCH}:${GITEE_BRANCH}; fi
+        - if [ ${GITEE_SWITCH} -eq 1 ]; then git push "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" ${GITEE_BRANCH}:${GITEE_BRANCH}; fi
     - name: "Coding Pages"
       install:
         - yarn install
       before_script:
-        - git clone -b ${GITHUB_BRANCH} https://${GITHUB_REPOSITORY}
+        - git clone -b gh-pages https://${CODING_REPOSITORY}
         - cd docs/.vuepress
         - sed -i "s$/lin-ui-doc/$/$" config.js
         - cd ../../
@@ -57,4 +63,4 @@ jobs:
         - git config --global user.email "deploy@travis-ci.org"
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
-        - if [ ${CODING_SWITCH} -eq 1 ]; then git push -f "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" ${CODING_BRANCH}:${CODING_BRANCH}; fi
+        - if [ ${CODING_SWITCH} -eq 1 ]; then git push "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" ${CODING_BRANCH}:${CODING_BRANCH}; fi
