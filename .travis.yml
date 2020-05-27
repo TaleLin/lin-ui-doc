@@ -19,6 +19,7 @@ jobs:
       script:
         - yarn build
       after_success:
+        - cd dist
         - git config --global user.name "Juzi"
         - git config --global user.email "juzi214032@qq.com"
         - git add -A
