@@ -90,6 +90,7 @@ jobs:
         - cd ../../
       script: yarn build
       after_success:
+        - cp -r lin-ui-doc/.git dist/.git
         - cd dist
         - git init
         - git config --global user.name "Deployment Bot"
