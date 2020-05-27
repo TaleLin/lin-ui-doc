@@ -14,7 +14,7 @@ jobs:
       install:
         - yarn install
       before_script:
-        - git clone https://${GITHUB_REPOSITORY}
+        - git clone -b gh-pages https://${GITHUB_REPOSITORY}
         - cp -r lin-ui-doc dist
       script:
         - yarn build
