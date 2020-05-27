@@ -64,7 +64,7 @@ jobs:
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - if [ ${CODING_SWITCH} -eq 1 ]; then git push "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" ${CODING_BRANCH}; fi
     - name: "Develop Doc"
-      if: branch =~ ^feat/.*$
+      if: branch =~ ^gh-pages-*$
       install: yarn install
       before_script:
         - cd docs/.vuepress
