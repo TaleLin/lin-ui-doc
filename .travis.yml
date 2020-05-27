@@ -7,22 +7,22 @@ node_js:
 branches:
   only:
     - master
+    - /^gh-pages-.*$/
 
 jobs:
   include:
     - name: "Code Async"
+      if: branch = master
       install: skip
       script: skip
       after_success:
         - if [ ${GITEE_SWITCH} -eq 1 ]; then git push -f "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" master; fi
         - if [ ${CODING_SWITCH} -eq 1 ]; then git push -f "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" master; fi
     - name: "Github Pages"
-      install:
-        - yarn install
-      before_script:
-        - git clone -b ${GITHUB_BRANCH} https://${GITHUB_REPOSITORY}
-      script:
-        - yarn build
+      if: branch = master
+      install: yarn install
+      before_script: git clone -b ${GITHUB_BRANCH} https://${GITHUB_REPOSITORY}
+      script: yarn build
       after_success:
         - cp -r lin-ui-doc/.git dist/.git
         - cd dist
@@ -33,12 +33,11 @@ jobs:
         - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" ${GITHUB_BRANCH}; fi
         - date "+%Y-%m-%d %H:%M:%S"
     - name: "Gitee Pages"
-      install:
-        - yarn install
+      if: branch = master
+      install: yarn install
       before_script:
         - git clone -b gh-pages https://${GITEE_REPOSITORY}
-      script:
-        - yarn build
+      script: yarn build
       after_success:
         - cp -r lin-ui-doc/.git dist/.git
         - cd dist
@@ -48,15 +47,14 @@ jobs:
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - if [ ${GITEE_SWITCH} -eq 1 ]; then git push "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" ${GITEE_BRANCH}; fi
     - name: "Coding Pages"
-      install:
-        - yarn install
+      if: branch = master
+      install: yarn install
       before_script:
         - git clone -b gh-pages https://e.coding.net/juzi214032/lin-ui-doc.git
         - cd docs/.vuepress
         - sed -i "s$/lin-ui-doc/$/$" config.js
         - cd ../../
-      script:
-        - yarn build
+      script: yarn build
       after_success:
         - cp -r lin-ui-doc/.git dist/.git
         - cd dist
@@ -65,3 +63,22 @@ jobs:
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - if [ ${CODING_SWITCH} -eq 1 ]; then git push "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" ${CODING_BRANCH}; fi
+    - name: "Develop Doc"
+      if: branch =~ ^feat/.*$
+      install: yarn install
+      before_script:
+        - cd docs/.vuepress
+        - sed -i "s$/lin-ui-doc/$/$" config.js
+        - cd ../../
+      script: yarn build
+      after_success:
+        - cd dist
+        - git init
+        - git config --global user.name "Deployment Bot"
+        - git config --global user.email "deploy@travis-ci.org"
+        - git add -A
+        - "git commit -m 'build: Travis CI automatic compilation.'"
+        - git checkout -b $TRAVIS_BRANCH
+        - git push -f "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" $TRAVIS_BRANCH
+
+
