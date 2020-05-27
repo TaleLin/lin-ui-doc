@@ -51,7 +51,7 @@ jobs:
       install:
         - yarn install
       before_script:
-        - git clone -b gh-pages https://${CODING_REPOSITORY}
+        - git clone -b gh-pages https://${GITEE_REPOSITORY}
         - cd docs/.vuepress
         - sed -i "s$/lin-ui-doc/$/$" config.js
         - cd ../../
