@@ -31,7 +31,6 @@ jobs:
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" ${GITHUB_BRANCH}; fi
-        - date "+%Y-%m-%d %H:%M:%S"
     - name: "Gitee Pages"
       if: branch = master
       install: yarn install
