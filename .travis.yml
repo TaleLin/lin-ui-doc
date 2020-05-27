@@ -15,10 +15,10 @@ jobs:
         - yarn install
       before_script:
         - git clone -b gh-pages https://${GITHUB_REPOSITORY}
-        - cp -r lin-ui-doc dist
       script:
         - yarn build
       after_success:
+        - cp -r lin-ui-doc/.git dist/.git
         - cd dist
         - git config --global user.name "Juzi"
         - git config --global user.email "juzi214032@qq.com"
