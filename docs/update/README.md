@@ -1,8 +1,49 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.1`
+最新版本：`0.8.3`
 
-### [v0.8.1](https://github.com/TaleLin/lin-ui/compare/0.8.0...0.8.1) (2020-05-21)
+## [v0.8.3](https://github.com/TaleLin/lin-ui/compare/0.8.2...0.8.3) (2020-06-10)
+
+
+### Features
+
+* **ArcPopup:** 新增 ArcPop 组件，[文档地址](http://doc.mini.talelin.com/component/view/arc-popup.html) ([18c515e](https://github.com/TaleLin/lin-ui/commit/18c515e9bee46d59032b482bbbbfb2ec836f29e0))
+* **CapsuleBar:** 新增 CapsuleBar 组件，[文档地址](http://doc.mini.talelin.com/component/nav/capsule-bar.html) ([4ec3708](https://github.com/TaleLin/lin-ui/commit/4ec3708f89d16af22f7258cf1b429726596582d7))
+* **Input:** 新增 show-eye 属性 ([df35556](https://github.com/TaleLin/lin-ui/commit/df35556eab064e6ca8d0fcbe9f69a6adeb5c96c7)), closes [#531](https://github.com/TaleLin/lin-ui/issues/531)
+* **Input:** 新增外部样式类 l-input-class ([969f1d0](https://github.com/TaleLin/lin-ui/commit/969f1d029e32ec49e9f7881e79db865da7c95047)), closes [#137](https://github.com/TaleLin/lin-ui/issues/137)
+* **Textarea:** 新增 cursor-spacing 属性 ([319e66d](https://github.com/TaleLin/lin-ui/commit/319e66d50cfdd518b8bc27437cdd247c9bd6d8fd)), closes [#250](https://github.com/TaleLin/lin-ui/issues/250)
+
+
+### Bug Fixes
+
+* **List:** 修复组件 iconSize 与 iconColor 无效问题 ([fed69dc](https://github.com/TaleLin/lin-ui/commit/fed69dc593085ae9549102ec5ec45ce1a990e504)), closes [#884](https://github.com/TaleLin/lin-ui/issues/884)
+
+
+
+## [v0.8.2](https://github.com/TaleLin/lin-ui/compare/0.8.1...0.8.2) (2020-06-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **Button:** hover 和 disable 样式变动
+
+### Features
+
+* **NoticeBar:** 新增 l-icon-class 外部样式类 ([e4c19b3](https://github.com/TaleLin/lin-ui/commit/e4c19b3df6948ee172897066956a9a65f4c55df7)), closes [#850](https://github.com/TaleLin/lin-ui/issues/850)
+* **WaterFlow:** 新增事件 linitemtap ([9def5ec](https://github.com/TaleLin/lin-ui/commit/9def5ecaf304c7447613431a5ced9885375a4407)), closes [#839](https://github.com/TaleLin/lin-ui/issues/839)
+
+
+### Bug Fixes
+
+* **Button:** 修复 bg-color 在 disable=true 的情况下不生效的问题 ([b37a057](https://github.com/TaleLin/lin-ui/commit/b37a0571b13e3162734493f841233448b375bd73)), closes [#817](https://github.com/TaleLin/lin-ui/issues/817)
+* **Card:** 修复 type 属性校验报错问题 ([2580c76](https://github.com/TaleLin/lin-ui/commit/2580c7651e2356d2cd91bccb4d4c311458bfaaea)), closes [#838](https://github.com/TaleLin/lin-ui/issues/838)
+* **Form:** 修复校验规则 required 无效的问题 ([37ff8c7](https://github.com/TaleLin/lin-ui/commit/37ff8c749a055ab0258e16a83158bbd64f6ae998)), closes [#856](https://github.com/TaleLin/lin-ui/issues/856)
+* **Input:** 修复 width 属性无效的问题 ([358e687](https://github.com/TaleLin/lin-ui/commit/358e687ada49fef1da5b2bc435f14587ac156c03)), closes [#860](https://github.com/TaleLin/lin-ui/issues/860) [#744](https://github.com/TaleLin/lin-ui/issues/744)
+* **Popup:** 修复组件事件穿透的问题 ([f075bae](https://github.com/TaleLin/lin-ui/commit/f075baef4536c36eda42885b2adf8b06ff613e24))
+* **Segment:** 修复动态修改 tab 无效问题 ([78f1d19](https://github.com/TaleLin/lin-ui/commit/78f1d1921befd4d02d005b28bfd8b7c40a4132e5)), closes [#845](https://github.com/TaleLin/lin-ui/issues/845)
+
+
+## [v0.8.1](https://github.com/TaleLin/lin-ui/compare/0.8.0...0.8.1) (2020-05-21)
 
 
 ### ⚠ BREAKING CHANGES
@@ -27,7 +68,7 @@
 
 
 
-## [v0.8.0](https://github.com/TaleLin/lin-ui/compare/0.7.2...0.8.0) (2020-05-11)
+## [v0.8.0](https://github.com/TaleLin/lin-ui/compare/0.7.6...0.8.0) (2020-05-11)
 
 ### Bug Fixes
 

@@ -18,7 +18,7 @@ title: 圆型进度条 Circle(研发中)
 
 ## 外圆直径
 
-通过`out-diameter`属性设置进度条外圆的直径，默认值100，单位`rpx`.
+通过`outer-diameter`属性设置进度条外圆的直径，默认值100，单位`rpx`. 进度条的宽窄可以通过设置内外圆直径来控制。
 
 示例代码
 
@@ -28,7 +28,7 @@ title: 圆型进度条 Circle(研发中)
 
 ## 内圆直径
 
-通过`inner-diameter`属性设置进度条内圆的直径，默认值90，单位`rpx`.
+通过`inner-diameter`属性设置进度条内圆的直径，默认值90，单位`rpx`.进度条的宽窄可以通过设置内外圆直径来控制。
 
 ```wxml
  <l-circle percent='50' inner-diameter='80'></l-circle>
@@ -56,7 +56,7 @@ title: 圆型进度条 Circle(研发中)
 
 ## 中间的背景颜色
 
-通过`inner-color`属性可以设置未选择的进度条颜色，默认颜色`#FFFFFF`。
+通过`inner-color`属性可以设置中间背景颜色，默认颜色`#FFFFFF`。
 
 示例代码
 
@@ -73,21 +73,32 @@ title: 圆型进度条 Circle(研发中)
 
 ## 文字颜色
 
-通过`text-color`属性，可以设置文字颜色，默认为黑色。
+通过`value-color`属性，可以设置文字颜色，默认为黑色。
 
 
 示例代码
 
 ```wxml
-<l-circle percent='50' show-info='{{true}}' text-color='red'></l-circle>
+<l-circle percent='50' show-info='{{true}}' value-color='red'></l-circle>
 ```
 
 ## 文字大小
 
-通过`text-size`属性，可以设置文字的字体大小，默认25，单位`rpx`
+通过`value-size`属性，可以设置文字的字体大小，默认25，单位`rpx`
 
 ```wxml
-<l-circle percent='50' show-info='{{true}}' text-size='30'></l-circle>
+<l-circle percent='50' show-info='{{true}}' value-size='30'></l-circle>
+```
+
+## 自定义背景
+
+通过传入slot="background"自定义中间背景图案。
+注：自定义背景和文字显示不能同时设置。
+
+```wxml
+<l-circle percent='50'>
+    <image src="timg.jpeg" slot='background' style="width:90rpx;height:90rpx;border-radius:50%;display:block;" />
+</l-circle>
 ```
 
 ## 进度条属性（Circle Attributes）
@@ -101,8 +112,8 @@ title: 圆型进度条 Circle(研发中)
 | background-color	| 未选择的进度条的颜色 |	String	| - |#EBEBEB| -|
 | inner-color	| 中间部分的背景颜色 |	String	| - |#FFFFFF| -|
 |show-info| 显示当前百分比数值|boolean|-|false| -|
-|text-color| 文字颜色| String | -| -|- |
-|text-size| 文字大小| String | -| 25,单位`rpx`|- |
+|value-color| 文字颜色| String | -| -|- |
+|value-size| 文字大小| String | -| 25,单位`rpx`|- |
 |active | 是否开启进度条动画  | Boolean |  |  false| 0.8.0|
 | duration| 进度增加1%所需毫秒数 |Number | |  30，单位毫秒| 0.8.0|
 
@@ -110,6 +121,13 @@ title: 圆型进度条 Circle(研发中)
 
 | 外部样式类   | 说明 | 备注| 版本 |  
 |:----|:----|:----|:----|
-|l-text-class | 文本的外部样式类| | |
+|l-value-class | 文本的外部样式类| | |
+
+
+## 插槽（Circle Slots）
+
+| 插槽名   | 说明 | 备注| 版本 |  
+|:----|:----|:----|:----|
+|background | 自定义中间的背景图案| | |
 
 <RightMenu />

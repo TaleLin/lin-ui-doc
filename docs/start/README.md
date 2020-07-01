@@ -15,19 +15,19 @@ Lin UI提供两种安装方法，满足不同开发者的需求。如果您需�
 
 打开小程序的项目根目录，执行下面的命令（如果使用了云开发，需要进入miniprogram文件夹下执行下面的命令）。
 
-```sh
+```base
 npm init
 ```
 此时，会生成一个package.json文件，命令行里会以交互的形式让你填一些项目的介绍信息，你可以耐心填完，当然也可以忽略，全部按回车键来快速完成项目初始化。
 ::: tip 注意事项
 - 1.执行npm init进行初始化，此时会生成一个package.json文件，如果不进行npm init，在构建npm的时候会报一个错误：`没有找到 node_modules 目录`
 - 2.不建议使用cnpm，这样会带来一些未知的错误。如果网络情况不佳，可以使用下面的命令行更换为淘宝源。
-```sh
+```bash
 npm config set registry https://registry.npm.taobao.org 
 ```
 :::
 接着，继续执行下面的命令。
-```sh
+```base
 npm install lin-ui
 ```
 
@@ -46,7 +46,7 @@ npm install lin-ui
 
 直接通过git下载  `Lin UI`  源代码，并将 `dist` 目录（Lin-UI 组件库）拷贝到自己的项目中。
 
-```sh
+```base
 git clone https://github.com/TaleLin/lin-ui.git
 ```
 
@@ -87,12 +87,12 @@ npm安装：`/miniprogram_npm/lin-ui/icon/index`
 <br />
 为满足自定义的需求，首先我们要去下载 `Lin UI` 源码。
 
-```sh
+```base
 git clone https://github.com/TaleLin/lin-ui.git
 ```
 安装相关依赖
 
-```sh
+```base
 npm install
 ```
 
