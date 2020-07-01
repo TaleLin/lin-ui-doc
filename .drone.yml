@@ -6,16 +6,13 @@ clone:
   depth: 1
 
 steps:
-- name: greeting
+- name: deploy
   image: alpine
   volumes:
     - name: deploy_dir
       path: /root/dist/
   commands:
     - cp -fR . /root/dist/
-  when:
-    branch:
-      - server
 
 volumes:
   - name: deploy_dir
