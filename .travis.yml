@@ -63,7 +63,7 @@ jobs:
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - if [ ${CODING_SWITCH} -eq 1 ]; then git push "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" ${CODING_BRANCH}; fi
-        - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" head:server; fi
+        - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push -f "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" head:server; fi
     - name: "Test Doc"
       if: branch =~ ^gh-pages-.*$
       install: yarn install
