@@ -5,7 +5,7 @@ module.exports = {
   evergreen: false,
   host: 'localhost',
   port: 3000,
-  base:'/',
+  base:'/lin-ui-doc',
   dest:'./dist',
   head:[
     ['link',{
