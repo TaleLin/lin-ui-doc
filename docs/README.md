@@ -1,10 +1,10 @@
+
 <p align="center">
   <!-- <a href="http://doc.mini.7yue.pro/"> -->
     <img
       class="QR-img" src="http://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEZWVFhTU3I2YnRTVnB6VHZsbHR0SzJtMHNCK28rUE41QzljaFBmdmc2ZUFBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
   <!-- </a> -->
 </p>
-
 
 <div align="center"> <span class="logo" > Lin UI </span> </div>
 
@@ -28,7 +28,7 @@
 ![](https://img.shields.io/badge/cli-0.0.1.alpha.1-3963bc.svg)
 ![](https://img.shields.io/badge/npm-v3.0.0+-00d508.svg)
 ![](https://img.shields.io/badge/gulp-v3.9.1-00d508.svg)
-![](https://img.shields.io/badge/node-v8.11.0+-00d508.svg)
+![](https://img.shields.io/badge/node-v12.18.0+-00d508.svg)
 
 </div>
 

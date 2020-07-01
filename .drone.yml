@@ -1,0 +1,23 @@
+kind: pipeline
+type: docker
+name: 自动部署
+
+clone:
+  depth: 1
+
+steps:
+- name: greeting
+  image: alpine
+  volumes:
+    - name: deploy_dir
+      path: /root/dist/
+  commands:
+    - cp -fR . /root/dist/
+  when:
+    branch:
+      - server
+
+volumes:
+  - name: deploy_dir
+    host:
+      path: /root/docker/project/doc_lin_ui

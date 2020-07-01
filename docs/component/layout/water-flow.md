@@ -183,6 +183,12 @@ Page({
 |:----|:----|:----|:----|:----|
 | column-gap |  瀑布流列间距 | String | - | 20rpx |
 
+## 瀑布流子项事件（WaterFlowItem Events）
+
+| 事件名称         | 说明                 | 返回值                                       | 备注 | 版本号 |
+| ---------------- | -------------------- | -------------------------------------------- | ---- | ---- |
+| bind:linitemtap   | 点击瀑布流子项回调事件 | 自定义传入的子项数据 | -    | 0.8.2|
+
 <RightMenu />
 
 [1]: https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/generics.html

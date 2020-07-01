@@ -104,7 +104,7 @@ title: 搜索栏 SearchBar
 | focus             | 获取焦点                                     | Boolean | true/false     | false    |
 | type              | input 的类型                                 | String  | ---            | ---      |
 | value             | 输入框的初始内容                             | String  | ---            | ---      |
-| clear             | 是否显示清除按钮                             | Boolean | true/false     | false    |
+| clear             | 是否显示清除按钮                             | Boolean | true/false     | true    |
 | maxlength         | 最大输入长度，设置为 -1 的时候不限制最大长度 | Number  |                | 140      |
 | placeholder-style | 设置输入框占位文本的内联样式                 | String  |                |
 

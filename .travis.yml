@@ -41,8 +41,8 @@ jobs:
       after_success:
         - cp -r lin-ui-doc/.git dist/.git
         - cd dist
-        - git config --global user.name "Deployment Bot"
-        - git config --global user.email "deploy@travis-ci.org"
+        - git config --global user.name "Juzi"
+        - git config --global user.email "juzi214032@qq.com"
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - if [ ${GITEE_SWITCH} -eq 1 ]; then git push "https://${GITEE_USERNAME}:${GITEE_TOKEN}@${GITEE_REPOSITORY}" ${GITEE_BRANCH}; fi
@@ -58,11 +58,12 @@ jobs:
       after_success:
         - cp -r lin-ui-doc/.git dist/.git
         - cd dist
-        - git config --global user.name "Deployment Bot"
-        - git config --global user.email "deploy@travis-ci.org"
+        - git config --global user.name "Juzi"
+        - git config --global user.email "juzi214032@qq.com"
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - if [ ${CODING_SWITCH} -eq 1 ]; then git push "https://${CODING_USERNAME}:${CODING_TOKEN}@${CODING_REPOSITORY}" ${CODING_BRANCH}; fi
+        - if [ ${GITHUB_SWITCH} -eq 1 ]; then git push "https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@${GITHUB_REPOSITORY}" head:server; fi
     - name: "Test Doc"
       if: branch =~ ^gh-pages-.*$
       install: yarn install
@@ -74,8 +75,8 @@ jobs:
       after_success:
         - cd dist
         - git init
-        - git config --global user.name "Deployment Bot"
-        - git config --global user.email "deploy@travis-ci.org"
+        - git config --global user.name "Juzi"
+        - git config --global user.email "juzi214032@qq.com"
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - git checkout -b $TRAVIS_BRANCH
@@ -93,8 +94,8 @@ jobs:
         - cp -r lin-ui-doc/.git dist/.git
         - cd dist
         - git init
-        - git config --global user.name "Deployment Bot"
-        - git config --global user.email "deploy@travis-ci.org"
+        - git config --global user.name "Juzi"
+        - git config --global user.email "juzi214032@qq.com"
         - git add -A
         - "git commit -m 'build: Travis CI automatic compilation.'"
         - git checkout -b $TRAVIS_BRANCH

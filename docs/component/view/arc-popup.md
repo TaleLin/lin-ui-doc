@@ -1,13 +1,17 @@
 ---
-title: 弧形滚动弹出层 ArcPopup（研发中）
+title: 弧形滚动弹出层 ArcPopup
 ---
 
-# ArcPopup
+# <H2Icon/> ArcPopup 弧形滚动弹出层
 
 > Popup弧形滚动弹出层组件。
 
 
-该组件支持[wx.lin](/start/wx.html)用法。
+该组件支持<a href="/start/wx.html">wx.lin</a>用法。
+
+::: tip 注意事项
+ 为保证文档低阅读难度，详细代码请去[github](https://github.com/TaleLin/lin-ui/tree/develop/examples/pages/components/view/pages/arc-popup "github")查看。
+:::
 
 ## 基础使用
 
@@ -16,7 +20,7 @@ title: 弧形滚动弹出层 ArcPopup（研发中）
 ```wxml
 <l-arc-popup show="{{true}}">基础案例</l-arc-popup>
 ```
-![基本使用方法](https://s1.ax1x.com/2020/05/03/JxOGB4.png)
+![基本使用方法](/screenshots/arc-popup/1.png)
 
 ## 最大/小高度设置
 
@@ -34,7 +38,7 @@ title: 弧形滚动弹出层 ArcPopup（研发中）
   </view>
 </l-arc-popup>
 ```
-![最大/小高度设置](https://s1.ax1x.com/2020/05/03/JxOruD.png)
+![最大/小高度设置](/screenshots/arc-popup/2.png)
 
 
 ## 组件顶部弧度
@@ -47,7 +51,7 @@ title: 弧形滚动弹出层 ArcPopup（研发中）
   设置组件弧度
 </l--arc-popup>
 ```
-![组件顶部弧度](https://s1.ax1x.com/2020/05/03/JxOsDe.png)
+![组件顶部弧度](/screenshots/arc-popup/3.png)
 
 
 ## 遮罩层区域透明度设置
@@ -59,7 +63,7 @@ title: 弧形滚动弹出层 ArcPopup（研发中）
   设置遮罩区域透明度
 </l--arc-popup>
 ```
-![遮罩层区域透明度设置](https://s1.ax1x.com/2020/05/03/JxX7QK.png)
+![遮罩层区域透明度设置](/screenshots/arc-popup/4.png)
 
 ## 从上/下弹出
 
@@ -70,7 +74,7 @@ title: 弧形滚动弹出层 ArcPopup（研发中）
   从上方弹出
 </l--arc-popup>
 ```
-![从上弹出](https://s1.ax1x.com/2020/05/03/JxXHsO.png)
+![从上弹出](/screenshots/arc-popup/5.png)
 
 ## 显示顶部内容（高级用法）
 
@@ -103,174 +107,15 @@ title: 弧形滚动弹出层 ArcPopup（研发中）
   </view>
 </l--arc-popup>
 ```
-
-```wxss
-.header-content {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  height: 80rpx;
-  justify-content: space-between;
-}
-
-.popup-header-demo {
-  display: flex;
-  flex-direction: column;
-}
-
-.popup-header-desc {
-  line-height: 50rpx;
-  font-size: 25rpx;
-  color: #bbb;
-}
-
-.popup-scroll-view {
-  white-space: nowrap;
-  margin-top: 30rpx;
-  width: 100%;
-  height: 180rpx;
-}
-
-.popup-scroll-list {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
-.popup-avatar-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 30rpx;
-  width: 150rpx;
-  height: 100%;
-  color: #333;
-}
-
-.popup-avatar-image {
-  width: 130rpx;
-  height: 130rpx;
-  border-radius: 50%;
-}
-
-.popup-header-line {
-  margin-top: 50rpx;
-  width: 100%;
-  height: 2rpx;
-  background-color: #eee;
-}
-
-.popup-header-title {
-  margin-top: 30rpx;
-  font-size: 35rpx;
-}
-
-.popup-header-contet-desc {
-  margin-top: 30rpx;
-  color: #333;
-}
-
-```
-
-<img src="https://s1.ax1x.com/2020/05/24/tSUMh4.png" alt="tSUMh4.png" border="0" width="300"/>
+![显示顶部区域](/screenshots/arc-popup/6.png)
 
 ## 案例演示
+::: tip
+[详细源码](https://github.com/TaleLin/lin-ui/tree/develop/examples/pages/components/view/pages/arc-popup "详细源码")
+::: 
 
-### 代码演示
-```wxml
-<l-arc-popup show="{{true}}">
-  <view class="popup-demo">
-    <view class="popup-demo-top">
-      <image src="/images/view/default-image.jpg" class="popup-demo-top-image"></image>
-      <text style="margin-left:20rpx;font-weight: 550;">LinUI</text>
-      <text style="margin-left:20rpx;font-weight: 550;">申请</text>
-    </view>
-    <view class="popup-demo-desc">获取你的昵称、头像、地区及性别</view>
-    <view class="popup-demo-info">
-      <view class="popup-demo-info-avatar">
-        <open-data type="userAvatarUrl"></open-data>
-      </view>
-      <view class="popup-demo-info-detail">
-        <view class="popup-demo-info-name">
-          <open-data type="userNickName"></open-data>
-        </view>
-        <view class="popup-demo-info-desc">微信个人信息</view>
-      </view>
-    </view>
-    <view class="popup-demo-button">
-      <l-button style='margin-right:50rpx' bg-color="#ccc">取消</l-button>
-      <l-button type="success" style='margin-right:50rpx'>允许</l-button>
-    </view>
-  </view>
-</l-arc-popup>
-```
-
-```wxss
-
-.popup-demo {
-  display: flex;
-  flex-direction: column;
-}
-
-.popup-demo-top {
-  display: flex;
-  align-items: center;
-}
-
-.popup-demo-top-image {
-  width: 50rpx;
-  height: 50rpx;
-  border-radius: 50%;
-}
-
-.popup-demo-desc {
-  font-size: 33rpx;
-  font-weight: 500;
-  margin-top: 30rpx;
-}
-
-.popup-demo-info {
-  display: flex;
-  padding: 15rpx 0;
-  margin-top: 30rpx;
-  border-top: 2rpx solid #eee;
-  border-bottom: 2rpx solid #eee;
-}
-
-.popup-demo-info-avatar {
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 10rpx;
-  overflow: hidden;
-}
-
-.popup-demo-info-detail {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-left: 30rpx;
-  width: 200rpx;
-  height: 100rpx;
-}
-
-.popup-demo-info-name {
-  font-size: 33rpx;
-}
-
-.popup-demo-info-desc {
-  color: #555;
-}
-
-.popup-demo-button {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 80rpx;
-}
-```
-
-![显示顶部内容](https://s1.ax1x.com/2020/05/17/YRk14x.png)
+![常见案例](/screenshots/arc-popup/7.png)
+![高级案例](/screenshots/arc-popup/8.png)
 
 
 ## 组件属性（ArcPopup Attributes）
