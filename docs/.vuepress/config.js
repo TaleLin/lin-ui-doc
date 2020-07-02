@@ -2,7 +2,7 @@ const highlight = require('./public/js/highlight')
 
 module.exports = {
   title:'Lin UI',
-  evergreen: false,
+  description:'Lin UI 是基于 微信小程序原生语法 实现的组件库。遵循简洁、易用的设计规范。',
   host: 'localhost',
   port: 3000,
   base:'/',

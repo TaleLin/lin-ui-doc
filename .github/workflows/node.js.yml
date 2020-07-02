@@ -1,4 +1,4 @@
-name: 自动编译
+name: 持续集成
 
 on: [push]
 
@@ -29,7 +29,7 @@ jobs:
 
 
   deploy_to_github_pages:
-    name: 部署 Github Page
+    name: 部署 Pages
     runs-on: ubuntu-latest
     steps:
       - name: 拉取代码
@@ -44,8 +44,16 @@ jobs:
         run: sed -i "s#base:'/',#base:'/lin-ui-doc/',#" docs/.vuepress/config.js
       - name: 开始编译
         run: npm run build
-      - name: 上传到 Github Pages
+      - name: 部署 Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+      - name: 部署 Gitee Pages
+        uses: yanglbme/gitee-pages-action@master
+        with:
+            gitee-username: juzi214032
+            gitee-password: ${{ secrets.GITEE_TOKEN }}
+            gitee-repo: juzi214032/lin-ui-doc
+            branch: gh-pages
+            directory: ./dist
