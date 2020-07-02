@@ -1,0 +1,26 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: 安装 Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: 安装 NPM 依赖
+      run: npm i
+    - name: 开始编译
+      run: npm run build --if-present
+    - name: 部署上传
+      uses: easingthemes/ssh-deploy@v2.1.4
+      env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "dist/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
