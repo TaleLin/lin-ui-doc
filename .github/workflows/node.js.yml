@@ -4,8 +4,9 @@ on: [push]
 
 jobs:
   deploy_to_server:
-    name: 部署到服务器
+    name: 服务器部署
     runs-on: ubuntu-latest
+    if: ${{github.ref == "master"}}
     steps:
       - name: 拉取代码
         uses: actions/checkout@v2
@@ -29,8 +30,9 @@ jobs:
 
 
   deploy_to_github_pages:
-    name: 部署 Pages
+    name: Github Pages 部署
     runs-on: ubuntu-latest
+    if: ${{github.ref == "master"}}
     steps:
       - name: 拉取代码
         uses: actions/checkout@v2
@@ -49,11 +51,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-      - name: 部署 Gitee Pages
-        uses: yanglbme/gitee-pages-action@master
-        with:
-            gitee-username: juzi214032
-            gitee-password: ${{ secrets.GITEE_TOKEN }}
-            gitee-repo: juzi214032/lin-ui-doc
-            branch: gh-pages
-            directory: ./dist
