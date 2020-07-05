@@ -1,0 +1,53 @@
+name: 持续集成
+
+on: [push]
+
+jobs:
+  deploy_to_server:
+    name: 服务器部署
+    runs-on: ubuntu-latest
+    if: ${{github.ref == "master"}}
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v2
+      - name: 安装 Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+      - name: 安装 NPM 依赖
+        run: npm i
+      - name: 开始编译
+        run: npm run build
+      - name: 部署上传
+        uses: easingthemes/ssh-deploy@v2.1.4
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "dist/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: ${{ secrets.REMOTE_TARGET }}
+
+
+  deploy_to_github_pages:
+    name: Github Pages 部署
+    runs-on: ubuntu-latest
+    if: ${{github.ref == "master"}}
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v2
+      - name: 安装 Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+      - name: 安装 NPM 依赖
+        run: npm i
+      - name: 修改编译路径
+        run: sed -i "s#base:'/',#base:'/lin-ui-doc/',#" docs/.vuepress/config.js
+      - name: 开始编译
+        run: npm run build
+      - name: 部署 Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
