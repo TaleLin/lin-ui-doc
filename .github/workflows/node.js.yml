@@ -32,7 +32,7 @@ jobs:
   deploy_to_github_pages:
     name: Github Pages 部署
     runs-on: ubuntu-latest
-    if: github.ref == "master"
+    if: github.ref == 'master'
     steps:
       - name: 拉取代码
         uses: actions/checkout@v2
