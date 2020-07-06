@@ -32,6 +32,7 @@ module.exports = {
   },
   themeConfig: {
     sidebarDepth: 0,
+    smoothScroll: true,
     logo: '/images/left-logo.png',
     lastUpdated: '上次更新',
     nav: [
