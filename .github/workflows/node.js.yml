@@ -53,14 +53,26 @@ jobs:
           publish_dir: ./dist
 
 
-  async_repository:
-    name: 仓库同步
+  async_repository_gitee:
+    name: Gitee 同步
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: spyoungtech/mirror-action@master
-        name: Gitee 同步
+      - name: Gitee 同步
+        uses: spyoungtech/mirror-action@master
         with:
           REMOTE: https://gitee.com/juzi214032/lin-ui-doc.git
           GIT_USERNAME: juzi214032
           GIT_PASSWORD: ${{ secrets.GITEE_TOKEN }}
+
+  async_repository_coding:
+    name: Coding 同步
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Coding 同步
+        uses: spyoungtech/mirror-action@master
+        with:
+          REMOTE: https://e.coding.net/juzi214032/lin-ui-doc.git
+          GIT_USERNAME: MJdiuGOEDD
+          GIT_PASSWORD: ${{ secrets.CODING_TOKEN }}
