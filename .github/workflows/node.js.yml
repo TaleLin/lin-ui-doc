@@ -28,7 +28,6 @@ jobs:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
 
-
   deploy_to_github_pages:
     name: Github Pages 部署
     runs-on: ubuntu-latest
@@ -52,7 +51,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
 
-
   deploy_to_coding_pages:
     name: Coding Pages 部署
     runs-on: ubuntu-latest
@@ -67,25 +65,32 @@ jobs:
         run: npm i
       - name: 开始编译
         run: npm run build
+      - name: 部署 master 分支
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: coding-pages-${{github.ref}}
       - name: 部署 develop 分支
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/develop'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages-${{github.ref}}
+          publish_branch: coding-pages-${{github.ref}}
       - name: 部署 test 分支
         uses: peaceiris/actions-gh-pages@v3
         if: startsWith(github.ref,'refs/heads/test/')
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages-${{github.ref}}
+          publish_branch: coding-pages-${{github.ref}}
 
   async_repository_gitee:
     name: Gitee 同步
     runs-on: ubuntu-latest
-    needs: [deploy_to_github_pages,deploy_to_coding_pages]
+    needs: [deploy_to_github_pages, deploy_to_coding_pages]
     if: always()
     steps:
       - uses: actions/checkout@v1
@@ -99,7 +104,7 @@ jobs:
   async_repository_coding:
     name: Coding 同步
     runs-on: ubuntu-latest
-    needs: [deploy_to_github_pages,deploy_to_coding_pages]
+    needs: [deploy_to_github_pages, deploy_to_coding_pages]
     if: always()
     steps:
       - uses: actions/checkout@v1
