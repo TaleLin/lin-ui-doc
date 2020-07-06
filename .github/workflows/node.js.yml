@@ -6,7 +6,7 @@ jobs:
   deploy_to_server:
     name: 服务器部署
     runs-on: ubuntu-latest
-    if: github.ref == "master"
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: 拉取代码
         uses: actions/checkout@v2
@@ -32,7 +32,7 @@ jobs:
   deploy_to_github_pages:
     name: Github Pages 部署
     runs-on: ubuntu-latest
-    if: github.ref == 'master'
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: 拉取代码
         uses: actions/checkout@v2
@@ -51,3 +51,16 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+
+  async_repository:
+    name: 仓库同步
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: spyoungtech/mirror-action@master
+        name: Gitee 同步
+        with:
+          REMOTE: https://gitee.com/juzi214032/lin-ui-doc.git
+          GIT_USERNAME: juzi214032
+          GIT_PASSWORD: ${{ secrets.GITEE_TOKEN }}
