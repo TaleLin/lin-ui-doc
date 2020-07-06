@@ -38,6 +38,10 @@ module.exports = {
   themeConfig: {
     sidebarDepth: 0,
     smoothScroll: true,
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '纠正错误',
+    repo: "TaleLin/lin-ui-doc",
     logo: '/images/left-logo.png',
     lastUpdated: '上次更新',
     nav: [
@@ -64,10 +68,6 @@ module.exports = {
       {
         text: '慕课课程',
         link: '/imooc/'
-      },
-      {
-        text: 'GitHub',
-        link: 'https://github.com/TaleLin/lin-ui'
       },
       {
         text: '版本日志',
