@@ -53,6 +53,37 @@ jobs:
           publish_dir: ./dist
 
 
+  deploy_to_coding_pages:
+    name: Coding Pages 部署
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v2
+      - name: 安装 Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+      - name: 安装 NPM 依赖
+        run: npm i
+      - name: 修改编译路径
+        run: sed -i "s#base:'/',#base:'/lin-ui-doc/',#" docs/.vuepress/config.js
+      - name: 开始编译
+        run: npm run build
+      - name: 部署 develop 分支
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/develop'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages-${{github.ref}}
+      - name: 部署 test 分支
+        uses: peaceiris/actions-gh-pages@v3
+        if: startsWith(github.ref,'refs/heads/test/')
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages-${{github.ref}}
+
   async_repository_gitee:
     name: Gitee 同步
     runs-on: ubuntu-latest
