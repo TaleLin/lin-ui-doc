@@ -1,24 +1,35 @@
 const highlight = require('./public/js/highlight')
 
 module.exports = {
-  title:'Lin UI',
-  description:'Lin UI 是基于 微信小程序原生语法 实现的组件库。遵循简洁、易用的设计规范。',
+  title: 'Lin UI',
+  description: 'Lin UI 是基于 微信小程序原生语法 实现的组件库。遵循简洁、易用的设计规范。',
   host: 'localhost',
   port: 3000,
-  base:'/',
-  dest:'./dist',
-  head:[
-    ['link',{
-      rel:'icon',
-      href:'/favicon.ico'
-    }],[
-      "script",
-      {
-        src:"https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js"
-      }
-    ]
+  base: '/',
+  dest: './dist',
+  plugins: [
+    'vuepress-plugin-medium-zoom',
+    ['vuepress-plugin-code-copy', {
+      align:"bottom",
+      color:"#3963bc",
+      successText:"复制成功~"
+    }]
   ],
-  chainMarkdown (config) {
+  head: [
+    ['link', {
+      rel: 'icon',
+      href: '/favicon.ico'
+    }], ["script", {
+      async: true,
+      type: "text/javascript",
+      src: "https://s9.cnzz.com/z_stat.php?id=1279053128&web_id=1279053128"
+    }], ["script", {
+      async: true,
+      type: "text/javascript",
+      src: "https://hm.baidu.com/hm.js?8628fff92d16599a4cb40c15288bf5e3"
+    }]
+  ],
+  chainMarkdown(config) {
     config
       .options
       .highlight(highlight)
@@ -26,6 +37,11 @@ module.exports = {
   },
   themeConfig: {
     sidebarDepth: 0,
+    smoothScroll: true,
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '纠正错误',
+    repo: "TaleLin/lin-ui-doc",
     logo: '/images/left-logo.png',
     lastUpdated: '上次更新',
     nav: [
@@ -52,10 +68,6 @@ module.exports = {
       {
         text: '慕课课程',
         link: '/imooc/'
-      },
-      {
-        text: 'GitHub',
-        link: 'https://github.com/TaleLin/lin-ui'
       },
       {
         text: '版本日志',

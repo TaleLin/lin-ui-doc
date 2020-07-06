@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/juzi214032/lin-ui-doc#readme",
   "devDependencies": {
-    "vuepress": "^1.5.0"
+    "vuepress": "^1.5.0",
+    "vuepress-plugin-medium-zoom": "^1.1.8"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
   }
 }
