@@ -1,0 +1,61 @@
+<!-- pages/about/index.wxml -->
+<view class='container'>
+  <view class='logo-container'>
+    <image class='logo-img' src='/images/logo.png'></image>
+    <view class="version-container">
+      <image src="https://img.shields.io/npm/v/lin-ui.svg" class="version-img"></image>
+      <image src="https://img.shields.io/npm/dt/lin-ui.svg" class="download-img"></image>
+    </view>
+  </view>
+  <view class='address-container'>
+    <view class='dot' />
+    <view class='doc-container' bindtap='copyLink' data-link="http://doc.mini.7yue.pro">
+      <text class='doc-txt'>Web端文档</text>
+      <text class='address'>http://doc.mini.7yue.pro</text>
+    </view>
+  </view>
+  <view class='address-container'>
+    <view class='dot' />
+    <view class='doc-container' bindtap='copyLink' data-link="https://github.com/Talelin/lin-ui">
+      <text class='doc-txt'>Github</text>
+      <text class='address'>https://github.com/Talelin/lin-ui</text>
+    </view>
+  </view>
+  <view class='address-container'>
+    <view class='dot' />
+    <view class='doc-container' bindtap='copyLink' data-link="https://gitee.com/talelin/lin-ui">
+      <text class='doc-txt'>码云</text>
+      <text class='address'>https://gitee.com/talelin/lin-ui</text>
+    </view>
+  </view>
+  <view class='attribute-container'>
+    <view class='attribute-title'>贡献人员</view>
+    <view class='attribute-item'>
+      <view class='attribute-code-container'>
+        <view class='code-circle'></view>
+        <view class='code-name'>策划</view>
+        <view class='coder'>七月</view>
+      </view>
+      <view class='attribute-code-container'>
+        <view class='code-circle'></view>
+        <view class='code-name'>研发</view>
+        <view class='coder'>宁缺</view>
+        <view class='coder'>娜娜</view>
+        <view class='coder'>寸起</view>
+        <view class='coder'>洪晨</view>
+        <view class='coder'>句号</view>
+        <view class='coder'>桔子</view>
+        <view class='coder'>木荣</view>
+      </view>
+      <view class='attribute-code-container'>
+        <view class='code-circle'></view>
+        <view class='code-name'>设计</view>
+        <view class='coder'>瓜瓜</view>
+      </view>
+    </view>
+  </view>
+  <image bindtap='onImage' src='/images/code.jpg' class='code'></image>
+  <text class='desc'>关注林间有风公众号</text>
+  <text class='desc'>点击图片可保存二维码识别</text>
+  <official-account class="account"></official-account>
+</view>

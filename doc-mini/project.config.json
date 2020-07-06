@@ -1,0 +1,261 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.0",
+	"appid": "wxb05fa7b69aa7e5b7",
+	"projectname": "doc-ttt",
+	"cloudfunctionTemplateRoot": "",
+	"watchOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 25,
+			"list": [
+				{
+					"id": -1,
+					"name": "dialog",
+					"pathName": "pages/components/response/pages/dialog/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "count",
+					"pathName": "pages/components/shopping/pages/count-selector/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "radio",
+					"pathName": "pages/components/form/pages/radio/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "toast",
+					"pathName": "pages/components/response/pages/toast/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "price",
+					"pathName": "pages/components/shopping/pages/price/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "loading",
+					"pathName": "pages/components/view/pages/loading/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "input",
+					"pathName": "pages/components/form/pages/input/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "status-show",
+					"pathName": "pages/components/view/pages/status-show/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "sgement",
+					"pathName": "pages/components/nav/pages/segment/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "/search-bar",
+					"pathName": "pages/components/shopping/pages/search-bar/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "about",
+					"pathName": "pages/about/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tag",
+					"pathName": "pages/components/view/pages/tag/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "tabs",
+					"pathName": "pages/components/nav/pages/tabs/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "water-flow",
+					"pathName": "pages/components/layout/pages/water-flow/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "badge",
+					"pathName": "pages/components/view/pages/badge/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "action-sheet",
+					"pathName": "pages/components/response/pages/action-sheet/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "list",
+					"pathName": "pages/components/layout/pages/list/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "steps",
+					"pathName": "pages/components/view/pages/steps/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "segment",
+					"pathName": "pages/components/nav/pages/segment/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "msg",
+					"pathName": "pages/components/response/pages/message/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "popup",
+					"pathName": "pages/components/view/pages/popup/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "skeleton",
+					"pathName": "pages/components/view/pages/skeleton/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "picture",
+					"pathName": "pages/components/layout/pages/picture-album/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ablumn",
+					"pathName": "pages/components/layout/pages/album/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "notice-bar",
+					"pathName": "pages/components/view/pages/notice-bar/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "button",
+					"pathName": "pages/components/basic/pages/button/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "button",
+					"pathName": "pages/components/basic/pages/button/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "message",
+					"pathName": "pages/components/response/pages/message/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

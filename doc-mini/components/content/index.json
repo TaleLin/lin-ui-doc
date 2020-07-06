@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mark":"/components/wemark/wemark"
+  }
+}

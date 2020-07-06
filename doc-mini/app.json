@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/navigator/index/index",
+    "pages/about/index",
+    "pages/navigator/content/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Lin Doc",
+    "navigationBarTextStyle": "black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxb05fa7b69aa7e5b7"
+  ],
+  "tabBar": {
+    "color": "#bbbbbb",
+    "selectedColor": "#3963BC",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/navigator/index/index",
+        "text": "组件",
+        "iconPath": "/images/tabbar/base.png",
+        "selectedIconPath": "/images/tabbar/base-select.png"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "text": "关于",
+        "iconPath": "/images/tabbar/team.png",
+        "selectedIconPath": "/images/tabbar/team-select.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "content-title": "/components/content-title/index",
+    "content-card": "/components/content-card/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

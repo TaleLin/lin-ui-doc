@@ -1,0 +1,12 @@
+<view class="container">
+  <view class='title-contianer'>
+    <image src='../../images/title.png' class='icon' ></image>
+    <text class='title'>{{title}}</text>
+  </view>
+  <mark md="{{md}}" highlight link type="wemark" />
+  <image class='logo' src='../../images/bottom-logo.png'></image>
+</view>
+
+<view class='bottom-container' bindtap='onIcon'>
+  <image class='bottom-icon' src='{{fromSelf?"/images/demo.png":"/images/home.png"}}'></image>
+</view>

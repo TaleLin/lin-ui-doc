@@ -1,0 +1,4 @@
+<notice-bar type="roll" frontIconName="notification">由于团队成员时间及微信审核等原因，导致小程序端文档更新落后于web端文档，敬请谅解！</notice-bar>
+<content md="{{md}}" title="{{title}}" fromSelf="{{fromSelf}}"/>
+<loading show="{{show}}" full-screen l-container-class="l-container" type="flip" />
+

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "content": "/components/content/index",
+    "loading": "/components/loading/index",
+    "notice-bar":"/components/notice-bar/index"
+  }
+}

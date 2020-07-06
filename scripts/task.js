@@ -9,7 +9,7 @@ const toDoc = require('./doc')
 const del = require('del')
 
 const srcPath = '../docs/component'
-const distPath = '../lin-mini/doc/component'
+const distPath = '../doc-mini/doc/component'
 
 const clean = (cleanPath) => () =>
   del([cleanPath], {

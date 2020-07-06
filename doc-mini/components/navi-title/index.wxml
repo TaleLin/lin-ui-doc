@@ -1,0 +1,9 @@
+<view class='navi-title'>
+  <view class="title-left">
+    <view class="line"></view>
+    <text class="title-left-text">{{title}}</text>
+  </view>
+  <view class="count">
+    <text >{{count}}</text>
+  </view>
+</view>

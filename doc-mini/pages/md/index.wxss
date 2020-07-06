@@ -1,0 +1,8 @@
+/* pages/md/index.wxss */
+
+.l-container{
+  background-color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
