@@ -8,7 +8,12 @@ module.exports = {
   base: '/',
   dest: './dist',
   plugins: [
-    'vuepress-plugin-medium-zoom'
+    'vuepress-plugin-medium-zoom',
+    ['vuepress-plugin-code-copy', {
+      align:"bottom",
+      color:"#3963bc",
+      successText:"复制成功~"
+    }]
   ],
   head: [
     ['link', {
