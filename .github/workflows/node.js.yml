@@ -1,14 +1,12 @@
 name: 持续集成
 
-on: 
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
   deploy_to_server:
     name: 服务器部署
     runs-on: ubuntu-latest
+    if: github.ref == "master"
     steps:
       - name: 拉取代码
         uses: actions/checkout@v2
@@ -34,6 +32,7 @@ jobs:
   deploy_to_github_pages:
     name: Github Pages 部署
     runs-on: ubuntu-latest
+    if: github.ref == "master"
     steps:
       - name: 拉取代码
         uses: actions/checkout@v2
