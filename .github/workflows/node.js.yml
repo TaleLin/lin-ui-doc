@@ -50,6 +50,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages
 
   deploy_to_coding_pages:
     name: Coding Pages 部署
