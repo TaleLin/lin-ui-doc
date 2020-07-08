@@ -154,7 +154,8 @@ module.exports = {
             'nav/segment',
             'nav/tabs',
             'nav/combined-tabs',
-            'nav/capsule-bar'
+            'nav/capsule-bar',
+            'nav/tab-bar.md'
           ]
         },
         {
