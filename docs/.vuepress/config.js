@@ -166,7 +166,8 @@ module.exports = {
             'form/image-picker',
             'form/rules',
             'form/rate',
-            'form/form'
+            'form/form',
+            'form/image-clipper'
           ]
         },
         {
