@@ -140,7 +140,8 @@ module.exports = {
           children: [
             'nav/segment',
             'nav/tabs',
-            'nav/combined-tabs'
+            'nav/combined-tabs',
+            'nav/capsule-bar'
           ]
         },
         {
