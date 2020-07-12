@@ -119,5 +119,7 @@ title: 价格 Price
 | l-class | 覆盖价格部分的外部样式类 | --- |
 | l-unit-class | 覆盖价格单位的外部样式类 | --- |
 | l-value-class | 覆盖价格数字部分的外部样式类 | --- |
+| l-decimal-class | 覆盖价格小数部分的外部样式类 | --- |
+| l-dot-class | 覆盖价格小数点的外部样式类 | --- |
 
 <RightMenu />
