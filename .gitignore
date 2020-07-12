@@ -2,3 +2,12 @@
 /node_modules
 /package-lock.json
 /dist
+.DS_Store
+# npm debug日志
+npm-debug.log
+# yarn错误日志
+yarn-error.log
+# vscode配置文件
+.vscode
+# yarn临时文件
+yarn.lock
