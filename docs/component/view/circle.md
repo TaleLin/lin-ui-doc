@@ -1,8 +1,8 @@
 ---
-title: 圆型进度条 Circle(研发中)
+title: 圆型进度条 Circle
 ---
 
-# <H2Icon /> 圆型进度条 Circle（研发中）
+# <H2Icon /> 圆型进度条 Circle
 
 > 用来展示当前事件进度。
 
@@ -18,7 +18,7 @@ title: 圆型进度条 Circle(研发中)
 
 ## 外圆直径
 
-通过`outer-diameter`属性设置进度条外圆的直径，默认值100，单位`rpx`. 进度条的宽窄可以通过设置内外圆直径来控制。
+通过`outer-diameter`属性设置进度条外圆的直径，默认值220，单位`rpx`. 进度条的宽窄可以通过设置内外圆直径来控制。
 
 示例代码
 
@@ -28,7 +28,7 @@ title: 圆型进度条 Circle(研发中)
 
 ## 内圆直径
 
-通过`inner-diameter`属性设置进度条内圆的直径，默认值90，单位`rpx`.进度条的宽窄可以通过设置内外圆直径来控制。
+通过`inner-diameter`属性设置进度条内圆的直径，默认值170，单位`rpx`.进度条的宽窄可以通过设置内外圆直径来控制。
 
 ```wxml
  <l-circle percent='50' inner-diameter='80'></l-circle>
@@ -105,29 +105,29 @@ title: 圆型进度条 Circle(研发中)
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  版本|
 |:----|:----|:----|:----|:----|:----|
-| percent	| 百分比	| Number | 0~100 | 0 | -|
-| out-diameter	| 外圆直径  |	number/string | - | 100,单位`rpx` | -|
-|inner-diameter| 内圆直径| number/string|-|90,单位`rpx`| -|
-| active-color	| 已选择的进度条的颜色 | String | -| 主题色 |- |
-| background-color	| 未选择的进度条的颜色 |	String	| - |#EBEBEB| -|
-| inner-color	| 中间部分的背景颜色 |	String	| - |#FFFFFF| -|
-|show-info| 显示当前百分比数值|boolean|-|false| -|
-|value-color| 文字颜色| String | -| -|- |
-|value-size| 文字大小| String | -| 25,单位`rpx`|- |
-|active | 是否开启进度条动画  | Boolean |  |  false| 0.8.0|
-| duration| 进度增加1%所需毫秒数 |Number | |  30，单位毫秒| 0.8.0|
+| percent	| 百分比	| Number | 0~100 | 0 | 0.8.4|
+| out-diameter	| 外圆直径  |	number/string | - | 220,单位`rpx` | 0.8.4|
+|inner-diameter| 内圆直径| number/string|-|170,单位`rpx`| 0.8.4|
+| active-color	| 已选择的进度条的颜色 | String | -| 主题色 |0.8.4 |
+| background-color	| 未选择的进度条的颜色 |	String	| - |#EBEBEB| 0.8.4|
+| inner-color	| 中间部分的背景颜色 |	String	| - |#FFFFFF| 0.8.4|
+|show-info| 显示当前百分比数值|boolean|-|false| 0.8.4|
+|value-color| 文字颜色| String | -| -|0.8.4|
+|value-size| 文字大小| String | -| 25,单位`rpx`|0.8.4|
+|active | 是否开启进度条动画  | Boolean |  |  false| 0.8.4|
+| duration| 进度增加1%所需毫秒数 |Number | |  30，单位毫秒| 0.8.4|
 
 ## 外部样式类（Circle ExternalClasses）
 
 | 外部样式类   | 说明 | 备注| 版本 |  
 |:----|:----|:----|:----|
-|l-value-class | 文本的外部样式类| | |
+|l-value-class | 文本的外部样式类| | 0.8.4|
 
 
 ## 插槽（Circle Slots）
 
 | 插槽名   | 说明 | 备注| 版本 |  
 |:----|:----|:----|:----|
-|background | 自定义中间的背景图案| | |
+|background | 自定义中间的背景图案| | 0.8.4|
 
 <RightMenu />
