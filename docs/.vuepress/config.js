@@ -131,7 +131,8 @@ module.exports = {
             'view/tag',
             'view/steps',
             'view/skeleton',
-            'view/arc-popup'
+            'view/arc-popup',
+            'view/circle'
           ]
         },
         {
