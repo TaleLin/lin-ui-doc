@@ -1,6 +1,38 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.3`
+最新版本：`0.8.5`
+
+### [v0.8.5](https://github.com/TaleLin/lin-ui/compare/0.8.4...0.8.5) (2020-07-16)
+
+
+### Features
+
+* **Circle:** 新增 Circle 组件 ([2a53a6a](https://github.com/TaleLin/lin-ui/commit/2a53a6a2f201c9312cd669c58bf95c971d98e93a))
+* **Price:** 新增 l-decimal-class 和 l-dot-class 外部样式类 ([ab7a19a](https://github.com/TaleLin/lin-ui/commit/ab7a19a09c056616f56cfc7dbcab4d576783595b)), closes [#943](https://github.com/TaleLin/lin-ui/issues/943)
+
+
+### Bug Fixes
+
+* **Collapse:** 修复 expand-item-id 默认展开属性无效问题 ([dbce382](https://github.com/TaleLin/lin-ui/commit/dbce3828c72bbd5996c6aadb2f382761077f4e50)), closes [#935](https://github.com/TaleLin/lin-ui/issues/935)
+
+* **Form:** 修复再次打开页面不能验证的问题 ([c474f23](https://github.com/TaleLin/lin-ui/commit/c474f23f116996ab525041589b5a852bae765d01)), closes #919
+
+## [v0.8.4](https://github.com/TaleLin/lin-ui/compare/0.8.3...0.8.4) (2020-06-24)
+
+
+### Features
+
+* **IndexList:** 新增 l-sidebar-item-class 外部样式类 ([59839c9](https://github.com/TaleLin/lin-ui/commit/59839c940e5b84b215504508f1b43ee066124f06))
+
+
+### Bug Fixes
+
+* **Album:** 修复图片无法正常显示的问题 ([d4b5962](https://github.com/TaleLin/lin-ui/commit/d4b5962a237df248c17a69e5cce1a86e08d28aa0)), closes [#921](https://github.com/TaleLin/lin-ui/issues/921)
+* **List:** 修复组件右侧箭头图标样式 ([7306008](https://github.com/TaleLin/lin-ui/commit/7306008710c5a98ed200dd847357111cdd5a1caf)), closes [#915](https://github.com/TaleLin/lin-ui/issues/915)
+* **WaterFlow:** 修复 linitemtap 事件未返回自定义数据问题 ([8b4c66e](https://github.com/TaleLin/lin-ui/commit/8b4c66e9ad7257e6a62da25f5a7ad4452ed64e05)), closes [#923](https://github.com/TaleLin/lin-ui/issues/923)
+* **WaterFlow:** 修复数据为[]时不刷新的问题 ([4e8cb6e](https://github.com/TaleLin/lin-ui/commit/4e8cb6ec5c081c390e2de11f9c27af44c39bc92f)), closes [#889](https://github.com/TaleLin/lin-ui/issues/889)
+
+
 
 ## [v0.8.3](https://github.com/TaleLin/lin-ui/compare/0.8.2...0.8.3) (2020-06-10)
 
