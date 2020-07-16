@@ -2,7 +2,7 @@ const highlight = require('./public/js/highlight')
 
 module.exports = {
   title: 'Lin UI',
-  description: 'Lin UI 是基于 微信小程序原生语法 实现的组件库。遵循简洁、易用的设计规范。',
+  description: 'Lin UI 是基于微信小程序原生语法 实现的组件库。遵循简洁、易用的设计规范。',
   host: 'localhost',
   port: 3000,
   base: '/',
@@ -41,7 +41,8 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '纠正错误',
-    repo: "TaleLin/lin-ui-doc",
+    repo: "TaleLin/lin-ui",
+    docsRepo: "TaleLin/lin-ui-doc",
     logo: '/images/left-logo.png',
     lastUpdated: '上次更新',
     nav: [
@@ -131,7 +132,8 @@ module.exports = {
             'view/tag',
             'view/steps',
             'view/skeleton',
-            'view/arc-popup'
+            'view/arc-popup',
+            'view/circle'
           ]
         },
         {
