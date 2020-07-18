@@ -66,9 +66,9 @@ title: 圆型进度条 Circle
 
 ## 显示数值
 
-通过设置`show-info`属性为{{true}}，可以显示当前百分比数值，默认为`false`.
+通过设置`show-value`属性为{{true}}，可以显示当前百分比数值，默认为`false`.
 ```wxml
-<l-circle percent='50' show-info='{{true}}'></l-circle>
+<l-circle percent='50' show-value='{{true}}'></l-circle>
 ```
 
 ## 文字颜色
@@ -111,7 +111,7 @@ title: 圆型进度条 Circle
 | active-color	| 已选择的进度条的颜色 | String | -| 主题色 |0.8.5 |
 | background-color	| 未选择的进度条的颜色 |	String	| - |#EBEBEB| 0.8.5|
 | inner-color	| 中间部分的背景颜色 |	String	| - |#FFFFFF| 0.8.5|
-|show-info| 显示当前百分比数值|boolean|-|false| 0.8.5|
+|show-value| 显示当前百分比数值|boolean|-|false| 0.8.5|
 |value-color| 文字颜色| String | -| -|0.8.5|
 |value-size| 文字大小| String | -| 25,单位`rpx`|0.8.5|
 |active | 是否开启进度条动画  | Boolean |  |  false| 0.8.5|
