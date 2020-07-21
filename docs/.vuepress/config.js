@@ -43,6 +43,7 @@ module.exports = {
     editLinkText: '纠正错误',
     repo: "TaleLin/lin-ui",
     docsRepo: "TaleLin/lin-ui-doc",
+    docsBranch: 'develop',
     logo: '/images/left-logo.png',
     lastUpdated: '上次更新',
     nav: [
