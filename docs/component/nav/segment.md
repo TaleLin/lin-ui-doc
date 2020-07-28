@@ -117,6 +117,18 @@ title: 选项卡 Segment
     </l-segment>  
 ```
 
+## 自定义数据
+
+如果你想给每个选项卡绑定一个自定义数据，可以通过`data-cell`实现：
+
+```html
+<l-segment bind:linchange="changeTabs" >
+  <l-segment-item data-cell="自定义数据 /">
+</l-segment>
+```
+
+通过`data-cell`绑定的数据，可以在`bind:linchange`中获取
+
 ## 选项卡初始样式
 
 - 选项卡位置在顶部和底部时的默认高度为`80rpx`，宽度等分，开启`scrollable`时，最小宽度为`160rpx`;
@@ -126,7 +138,7 @@ title: 选项卡 Segment
 
 ## 选项卡属性 (Segment Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
+| 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
 | active-key | 默认激活tabs的key | String | - | 默认为第一个 |
 | placement | 选项卡位置 | String | `top`/`left`/`right`/`bottom` | `top` |
@@ -143,7 +155,7 @@ title: 选项卡 Segment
 
 ## 选项卡子项属性 (Segment-item Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
+| 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
 | key | 对应 `active-key`，必填 | String	| - | - |
 | tab | 选项卡头显示文字 | String| - | - |
@@ -155,7 +167,7 @@ title: 选项卡 Segment
 | badge-count-type |  数字的显示方式 | String | `overflow`/`limit`/`custom`| `overflow` |
 | dot-badge | 显示圆点徽标 | Boolean | `false`/`true` | `false` |
 | badge-count | 徽标的数值 | String | - | - |
-| badge-max-count | 徽标数字最大值，超过最大值时显示${max-count}+ | Number   | -----   | 99   | 
+| badge-max-count | 徽标数字最大值，超过最大值时显示${max-count}+ | Number   | -----   | 99   |
 
 ## 选项卡外部样式类 (Segment ExternalClasses)
 
@@ -169,7 +181,7 @@ title: 选项卡 Segment
 | l-header-line-class | 覆盖选项卡装饰线的样式 | 替代l-class-header-line  |
 | l-tab-image-class | 覆盖选项卡图片的样式 | 替代l-class-tabimage |
 | l-icon-class |覆盖选项卡图标的样式 | 替代l-class-icon |
-| l-badge-class |覆盖徽标的样式 | ---| 
+| l-badge-class |覆盖徽标的样式 | ---|
 
 ## 已经弃用的外部样式类
 以下这些外部样式类已经停止支持，将在未来的某个版本中去除，请使用上方的外部样式类替代
@@ -177,19 +189,19 @@ title: 选项卡 Segment
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 |l-class-active | 覆盖选项卡激活状态样式 | 使用l-active-class替代 |
-|l-class-inactive | 覆盖选项卡默认状态样式 | 使用l-inactive-class替代 | 
+|l-class-inactive | 覆盖选项卡默认状态样式 | 使用l-inactive-class替代 |
 |l-class-line | 覆盖选项卡选中时装饰线的样式 | 使用l-line-class替代 |
-| l-class-header-line | 覆盖选项卡装饰线的样式 | 使用l-header-line-class替代 | 
+| l-class-header-line | 覆盖选项卡装饰线的样式 | 使用l-header-line-class替代 |
 |l-class-tabimage | 覆盖选项卡图片的样式  | 使用l-tab-image-class替代|
-| l-class-icon | 覆盖选项卡图标的样式 | 使用l-icon-class | 
+| l-class-icon | 覆盖选项卡图标的样式 | 使用l-icon-class |
 
 
 
 
 ## 选项卡事件 (Segment Events）
 
-| 事件名称   | 说明   | 返回值   |  备注   | 
+| 事件名称   | 说明   | 返回值   |  备注   |
 |:----|:----|:----|:----|
-| bind:linchange | `segment`切换的回调事件 | {activeKey:当前激活选项卡的`key`,currentIndex:当前激活选项卡的索引 | - |
+| bind:linchange | `segment`切换的回调事件 | activeKey：当前激活选项卡的 key <br/>currentIndex：当前激活选项卡的索引<br/>cell：segment-item 绑定的自定义数据 | - |
 
 <RightMenu />
