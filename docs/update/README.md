@@ -1,8 +1,31 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.5`
+最新版本：`0.8.6`
 
-### [v0.8.5](https://github.com/TaleLin/lin-ui/compare/0.8.4...0.8.5) (2020-07-16)
+### [v0.8.6](https://github.com/TaleLin/lin-ui/compare/0.8.5...0.8.6) (2020-07-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ImagePicker:** urls 不再接收对象数组
+
+### Features
+
+* **ImagePicker:** 新增 cells 属性 ([08cbad7](https://github.com/TaleLin/lin-ui/commit/08cbad73ea6db49199a8c38354374242a76b60f1)), closes [#921](https://github.com/TaleLin/lin-ui/issues/921)
+* **List:** 新增 l-link-icon-class 外部样式类 ([a9ab49f](https://github.com/TaleLin/lin-ui/commit/a9ab49fea4a9ec7dfc01e52e7f6684e1bb01940b)), closes [#977](https://github.com/TaleLin/lin-ui/issues/977)
+* **Segment:** 新增 data-cell 数据绑定方式 ([5653619](https://github.com/TaleLin/lin-ui/commit/5653619f01469c2335e4fd3fb1e1a8487df0a479)), closes [#973](https://github.com/TaleLin/lin-ui/issues/973)
+
+
+### Bug Fixes
+
+* **Button:** 修复 size 为 long 时，加载中图标没有右边距的问题 ([423bbf7](https://github.com/TaleLin/lin-ui/commit/423bbf7effba261f4b763aae7b0f444b33e2abb5)), closes [#980](https://github.com/TaleLin/lin-ui/issues/980)
+* **Form:** 修复 linreset 事件无效的问题 ([e585c7d](https://github.com/TaleLin/lin-ui/commit/e585c7d80724185ecfcc806b25fd0c1645c812a3)), closes [#954](https://github.com/TaleLin/lin-ui/issues/954)
+* **Icon:** 修复组件 l-self-class 外部样式类无效问题 ([ba869e3](https://github.com/TaleLin/lin-ui/commit/ba869e3f4e6df12d08bbb25d7e9e6aa43b0823aa)), closes [#968](https://github.com/TaleLin/lin-ui/issues/968)
+* **Popup:** 修复频繁切换 显示/隐藏 状态闪烁的问题 ([90022e5](https://github.com/TaleLin/lin-ui/commit/90022e5f8dd30bbc6aed6ae644b46289e4b1e427)), closes [#978](https://github.com/TaleLin/lin-ui/issues/978)
+
+
+
+## [v0.8.5](https://github.com/TaleLin/lin-ui/compare/0.8.4...0.8.5) (2020-07-16)
 
 
 ### Features
