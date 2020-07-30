@@ -2,7 +2,7 @@
 
 最新版本：`0.8.6`
 
-### [v0.8.6](https://github.com/TaleLin/lin-ui/compare/0.8.5...0.8.6) (2020-07-30)
+## [v0.8.6](https://github.com/TaleLin/lin-ui/compare/0.8.5...0.8.6) (2020-07-30)
 
 
 ### ⚠ BREAKING CHANGES
