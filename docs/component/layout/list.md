@@ -169,6 +169,7 @@ title: 列表 List
 | l-desc-class | 覆盖列表组件左侧描述文本的内容 |  - |
 | l-icon-class | 覆盖列表组件中`icon`的样式 |  - |
 | l-image-class | 覆盖列表组件中图片的样式 |  - |
+| l-link-icon-class | 覆盖列表组件中图片的样式 |  - |
 
 ## 列表事件（List Events）
 
