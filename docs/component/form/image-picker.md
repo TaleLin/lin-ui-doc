@@ -104,55 +104,67 @@ Page({
 
 ## 图片选择器属性（ImagePicker Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
+| 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
-| urls | 图片数组，支持两种格式，详见下方`Tips`| Array |  | [] | 
-| count | 最多可以选择的图片张数 | String/Number |  | 9 | 
-| size | 每行可显示的个数 | String/Number | 3/4 | 3 | 
-| mode | 图片剪裁、缩放的模式 | String | 参考官方image组件的mode属性可选值 | aspectFit | 
-| size-type | 所选的图片的尺寸 | String | original/compressed | original | 
+| urls | 初始图片链接，仅支持字符串数据 | Array |  | [] |
+| cells | 初始图片链接，对象数组格式 | Array |  | null |
+| count | 最多可以选择的图片张数 | String/Number |  | 9 |
+| size | 每行可显示的个数 | String/Number | 3/4 | 3 |
+| mode | 图片剪裁、缩放的模式 | String | 参考官方image组件的mode属性可选值 | aspectFit |
+| size-type | 所选的图片的尺寸 | String | original/compressed | original |
 | custom  | 设置是否传入`slot` | Boolean | true/false | false |
 | preview  | 是否可以预览 | Boolean | true/false | true |
 | clear  | 是否清空列表 | Boolean | true/false | true |
 | max-image-size | 图片最大限制，单位字节 | Number | | 10000000 |
 
-::: tip
-urls接收值可以有两种形式。
+::: tip 提示
 
-1. url数组，格式为
+urls 和 cells 两个属性中仅需选择其一传入即可，两者区别如下：
 
-```js
-['图片1.jpg','图片2.jpg','图片3.jpg']
-```
+- 若你的链接为如下**字符串数组**格式，请使用 `urls` 属性
 
-数组内元素为图片地址。
+  ```json
+  [
+      'https://talelin.com/logo1.png',
+      'https://talelin.com/logo2.png'
+  ]
+  ```
 
-2. url对象数组，对象中包含url和key。格式为：
+- 若你的链接为如下**对象数组**格式，请使用 `cells` 属性
 
-```js
-[{url:'1.jpg',
-  key: 'key1'},
-  {url:'2.jpg',
-  key:'key2'}]
-```
-  
-两种模式根据实际情况自行选择。在组件事件中返回的detail下所包含的all和current内容会根据所传的urls形式返回。
+  ```json
+  // url 属性名称不可改变，其余部分可根据你的业务需求随意修改
+  [{
+      url:'https://talelin.com/logo1.png',
+      name:'桔子'
+  },{
+      url:'https://talelin.com/logo2.png',
+      name:'juzi',
+      sex:'男'
+  }]
+  ```
+
+
 :::
+
+
+
+
 
 
 ## 已经弃用的属性
 
 以下这些属性已经停止支持，将在未来的某个版本中去除，请使用上方的属性替代
 
-| 参数   | 说明 | 备注 |  
+| 参数   | 说明 | 备注 |
 |:----|:----|:----|
-| temp-file-paths(已弃用)| 图片显示的列表 | 请按照最新格式传入urls属性 | 
+| temp-file-paths(已弃用)| 图片显示的列表 | 请按照最新格式传入urls属性 |
 
 
 ## 图片选择器外部样式类（ImagePicker ExternalClasses）
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
-| l-class   | 设置ImagePicker的外部样式类 | --- |  
+| l-class   | 设置ImagePicker的外部样式类 | --- |
 | l-item-class   | 设置ImagePicker每个图片的外部样式类 | ---  |
 
 
