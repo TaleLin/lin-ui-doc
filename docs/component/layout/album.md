@@ -69,7 +69,7 @@ data:{
 
 1. 单图
 
-当`urls`长度为1时，为单图展示情景。组件将所传图片等比压缩，长边压缩/拉伸至`360rpx`。
+当 `urls` 长度为 1 时，为单图展示情景。组件将所传图片等比压缩，长边压缩/拉伸至 360rpx。
 > 组件只包含图片部分，其他部分代码为展示用。
 
 ![单图](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmQyVVBmd3dSVFFBUVVCeEY1ekR1WFZJQW1lMTdwZ1J5NlAzdEpaVlpmcnhBPT0.jpeg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
@@ -139,7 +139,7 @@ data:{
 
 2. 多图
 
-当`urls`长度大于`1`时，为多图展示情景。多图展示时，最多展示9张照片，如果所传`urls`长度超过`9`，组件自动截取前`9`张照片进行展示。
+当 `urls` 长度大于 1 时，为多图展示情景。多图展示时，最多展示 9 张照片，如果所传 `urls` 长度超过 9，组件自动截取前 9 张照片进行展示。
 
 多图情景下，图片展示为边长`158rpx`的正方形图片。
 
@@ -256,6 +256,33 @@ data:{
     wxss文件同上
 ```
 
+
+# 高级用法
+
+为了满足用户的定制需求，我们新增了如下属性，可以让 Album 组件支持用户定制。
+
+## 指定最大展示图片数量
+
+通过设置属性 `maxNumber` 可以指定需要展示的最多图片数量。默认值为 9。当用户传递 `urls` 数组长度超过 `maxNumber` 指定数量时，超过的部分将不会展示。
+
+## 是否预览全部图片
+通过设置属性 `previewFullImage` 可以指定当所传图片数量超过 `maxNumber` 指定数量时，是否预览全部图片。默认值为 `true`（预览图片是指单击图片，进入预览模式，前提为 `preview` 设置为 `true`）
+
+举例：设置 `maxNumber` 为 10 ，所传 `urls` 长度为 15 。当不设置 `previewFullImage` 或者将 `previewFullImage` 设置为 `true` 时，点击图片，进行预览，可预览全部图片（ 15 张图片）。且在展示时，最后一张图片会显示灰色蒙层，并提示 +n 。 n 为剩余未展示图片数量。示例中展示 +5 。 
+
+如果将 `previewFullImage` 设置为 `false` ，点击图片，进行预览，可预览10张图片( `maxNumber` 设置的值)。且在展示时，最后一张图片无蒙层及 +n 的提示。
+
+
+## 设置每行显示图片数量
+
+`customRowNumber` 属性可以设置是否开启自定义每行图片，默认为 `false` 。
+
+当 `customRowNumber` 不设置或设置为 `false` 时，图片布局按照微信朋友圈布局规则显示（详情请查看上方多图展示规则）。
+
+当 `customRowNumber` 设置为 `true` 时，可以通过属性 `everyRowNumber` 设置每行显示图片的数量，`everyRowNumber` 默认值为 3 。
+
+
+
 ## 属性（Album Attributes）
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  版本号|
@@ -269,6 +296,10 @@ data:{
 | gap-column	| 多图时，图片垂直间隔 | Number |	- | 10 |	0.7.2|
 | single-mode	| 单图时，图片缩放裁剪的模式 |	String	| 见[小程序image组件](https://developers.weixin.qq.com/miniprogram/dev/component/image.html) |`aspectFit`|0.7.2	|
 | multiple-mode	| 多图时，图片缩放裁剪的模式 |	String	| 见[小程序image组件](https://developers.weixin.qq.com/miniprogram/dev/component/image.html) |`aspectFill`|0.7.2	|
+| max-number	| 最大展示图片数量| Number |	- | 9 |0.8.7|
+| preview-full-image	| 是否预览全部图片| Boolean |	`true`,`false`  |  `true` |0.8.7|
+| custom-row-number	| 是否开启自定义每行图片数量| Boolean |	`true`,`false`  |  `false` |0.8.7|
+| every-row-number	| 每行图片展示数量| Number |	- | 3 |0.8.7|
 
 
 ## 外部样式类（Album ExternalClasses）
