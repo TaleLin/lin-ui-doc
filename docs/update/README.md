@@ -1,6 +1,24 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.6`
+最新版本：`0.8.7`
+
+## [0.8.7](https://github.com/TaleLin/lin-ui/compare/0.8.6...0.8.7) (2020-08-06)
+
+### ⚠ BREAKING CHANGES
+
+* **Counter:** 删除 CountSelector 组件
+
+### Bug Fixes
+
+* **Event:** 修复组件嵌套导致同名自定义事件触发两次的问题 ([78f008b](https://github.com/TaleLin/lin-ui/pull/994)), closes [#989](https://github.com/TaleLin/lin-ui/issues/989) [#687](https://github.com/TaleLin/lin-ui/issues/687)
+
+### Features
+
+* **Album:** 新增自定义图片显示数量及状态 ([48342a8](https://github.com/TaleLin/lin-ui/commit/48342a8fd833527492846f03c26a70701a91ad85)), closes [#925](https://github.com/TaleLin/lin-ui/issues/925) [#962](https://github.com/TaleLin/lin-ui/issues/962)
+* **Counter:** 新增 lincahnge 事件 ([c90b083](https://github.com/TaleLin/lin-ui/commit/c90b08312bfd09ed5ed009553f944a67d3bc232e)), closes [#992](https://github.com/TaleLin/lin-ui/issues/992)
+* **ImageClipper:** 新增图片裁剪组件 ([c7d5e1c](https://github.com/TaleLin/lin-ui/commit/c7d5e1c2db9801b7d675d24624a41446616923eb)), closes [#561](https://github.com/TaleLin/lin-ui/issues/561)
+
+
 
 ## [v0.8.6](https://github.com/TaleLin/lin-ui/compare/0.8.5...0.8.6) (2020-07-30)
 
