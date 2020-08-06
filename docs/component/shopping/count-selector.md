@@ -19,9 +19,7 @@ title: 数量选择器 Counter
 ### 示例代码
 
 ```wxml
-<l-counter count="1"
-                  min="1"
-                  max="10"/>
+<l-counter count="1" min="1" max="10"/>
 ```
 
 ## 设置数量增减步长
@@ -33,10 +31,7 @@ title: 数量选择器 Counter
 ### 示例代码
 
 ```wxml
-<l-counter  count="1"
-            min="1"
-            max="10"
-            step="2"/>
+<l-counter count="1" min="1" max="10" step="2"/>
 ```
 
 ## 设置禁用状态
@@ -48,10 +43,7 @@ title: 数量选择器 Counter
 ### 示例代码
 
 ```wxml
-<l-counter  count="1"
-            min="1"
-            max="10"
-            disabled="{{true}}"/>
+<l-counter count="1" min="1" max="10" disabled="{{true}}"/>
 ```
 
 ## 数量选择器属性（Counter Attributes）
@@ -61,7 +53,7 @@ title: 数量选择器 Counter
 3. `l-disabled-class`与`l-symbol-class`为互斥关系。
 :::
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
+| 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
 | count | 设置起始数量 | Number | --- | 1 |
 | min | 设置最小数量 | Number | --- | 1 |
@@ -82,9 +74,10 @@ title: 数量选择器 Counter
 ## 数量选择器事件（Counter Events）
 
 | 事件名称        | 说明               | 返回值          | 备注 |
-| :--------- | :----------------- | :----- | :--------------- | :----- |
+| :--------- | :----------------- | :----- | :--------------- |
 | bind:lintap | 点击加（减）号及数字输入框失去焦点触发的事件 | {count,type} | type值为`reduce`、`add`和`blur` |
 | bind:linout | 数字超出可选范围触发的事件 | {type,way} | type值为`overflow_min`、`overflow_max`,way值为`icon`、`input`、`parameter`|
+| bind:lincahnge | 数字改变时触发的事件 | {count} | |
 
 ::: tip
 way值介绍：
