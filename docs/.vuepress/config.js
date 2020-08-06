@@ -178,7 +178,7 @@ module.exports = {
           collapsable: false,
           children: [
             'shopping/price',
-            'shopping/count-selector',
+            'shopping/counter',
             'shopping/search'
           ]
         }],
