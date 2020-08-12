@@ -108,6 +108,7 @@ module.exports = {
           collapsable: false,
           children: [
             'layout/list',
+            'layout/index-list',
             'layout/grid',
             'layout/card',
             'layout/water-flow',
