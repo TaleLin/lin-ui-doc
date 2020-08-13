@@ -16,7 +16,7 @@ title: 宫格 Grid
 
 ### 示例代码
 
-![默认](http://imglf5.nosdn0.126.net/img/VVpkaDA0b3BNODVOcHNZakFPOTdkUDN1dGVnVWt6dlVnOU5IWXE4Z2w5UGNDcnVtSHJvUUt3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=100](/screenshots/grid/image1.png)
 
 ```wxml
 <l-grid>
@@ -49,7 +49,7 @@ title: 宫格 Grid
 
 ### 示例代码
 
-![设置边框](http://imglf3.nosdn0.126.net/img/VVpkaDA0b3BNODVOcHNZakFPOTdkTHVFbGJVdmk0Ym51TUlmMVVkTlBCSjhrYTAyL05WWktnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=300](/screenshots/grid/image2.png)
 
 ```wxml
 <l-grid l-class="grid" show-border="{{true}}">
@@ -67,7 +67,7 @@ title: 宫格 Grid
 
 ### 示例代码
 
-![设置每行数目](http://imglf5.nosdn0.126.net/img/VVpkaDA0b3BNODVOcHNZakFPOTdkSjhOdXF0TVQxVmk5Q2ZuNDl4WmNmaDRldkk2SmZEejBBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=200](/screenshots/grid/image3.png)
 
 ```wxml
 <l-grid l-class="grid" row-num="4" show-col-border="{{true}}">
