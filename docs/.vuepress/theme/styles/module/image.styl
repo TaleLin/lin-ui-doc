@@ -1,0 +1,12 @@
+img[alt *= "center"]
+  display block
+  margin-left auto
+  margin-right auto
+
+for heightValue in range(100, 1000, 100)
+  img[alt *= \"height={heightValue}\"]
+    height heightValue px
+
+for widthValue in range(100, 1000, 100)
+  img[alt *= \"width={widthValue}\"]
+    width widthValue px
