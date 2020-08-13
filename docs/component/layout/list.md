@@ -10,7 +10,7 @@ title: 列表 List
 
 ### 示例代码
 
-![](http://imglf6.nosdn0.126.net/img/VVpkaDA0b3BNODVOcHNZakFPOTdkTWQxYXNPYW1rY0dVRmprYUxHbzI1U2tEeGhrUGNDSVB3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=200](/screenshots/list/image1.png)
 
 ```wxml
     <l-list title="购物车" />
@@ -42,7 +42,7 @@ title: 列表 List
 
 ### 示例代码
 
-![](http://imglf6.nosdn0.126.net/img/VVpkaDA0b3BNODZzY0hNeG9XdWhIcU5YQ3A0NHdxVkZTcE1lYWphUnNrVlAraTZwTFR3SDNRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=100](/screenshots/list/image2.png)
 
 ```wxml
     <l-list title="购物车" icon="cart" is-link="{{false}}"/>
@@ -79,7 +79,7 @@ title: 列表 List
 
 ### 示例代码
 
-![](http://imglf6.nosdn0.126.net/img/VVpkaDA0b3BNODVOcHNZakFPOTdkTmpnb0U3V1VNWDgyZ1pVZjFqcWp5dENGMGRjUjZkUnNRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=200](/screenshots/list/image3.png)
 
 ```wxml
   <l-list title="购物车" icon="cart" tag-content="购物车" />
@@ -99,7 +99,7 @@ title: 列表 List
 
 ### 示例代码
 
-![](http://imglf6.nosdn0.126.net/img/VVpkaDA0b3BNODZzY0hNeG9XdWhIcWhoU0tiRGhvcWJ5eTd6dmRwTlpYaEdoUHZ5Z0VWbFF3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=100](/screenshots/list/image4.png)
 
 ```wxml
   <l-list title="生成我的海报" dot-badge="{{true}}" />
@@ -114,7 +114,7 @@ title: 列表 List
 
 ### 示例代码
 
-![](http://imglf5.nosdn0.126.net/img/VVpkaDA0b3BNODZzY0hNeG9XdWhIbXZWVFllQ0JuK0VTRW9uRTJBMXVlSG45WGduTk9ENXB3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![center height=100](/screenshots/list/image5.png)
 
 ```wxml
  <l-list right-desc="生成我的海报">
