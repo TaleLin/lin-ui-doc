@@ -23,7 +23,9 @@ title: 索引列表 IndexList
 
 以上四个名词分别对应的部分如下图所示：
 
-![height=300center](/screenshots/index-list/basic-concept.png)
+:::img
+![height=300](/screenshots/index-list/basic-concept.png)
+:::
 
 ## 基本用法
 
