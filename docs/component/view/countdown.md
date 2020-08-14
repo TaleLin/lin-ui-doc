@@ -16,7 +16,10 @@ title: 倒计时 Countdown
 
 当`time-type='datetime'`时，`time`值格式为日期,且需要大于当前日期，如果小于当前日期，组件不会开始工作；
 
-![](http://imglf6.nosdn.127.net/img/VVpkaDA0b3BNODdIWkVtZ3NRc1d5L0xvWVlHd1BKSEVsaVZHZ0JCdlk1V29rekx2S3lyNlBnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+
+<img-wrapper>
+<img src="/screenshots/countdown/date-time.png" height="100"/>
+</img-wrapper>
 
 ```wxml
     <l-countdown />
@@ -27,7 +30,9 @@ title: 倒计时 Countdown
 
 当`time-type='second'`时，`time`属性接收一个整数，单位为秒，若传入的值小于 0 时，则会从 0 开始，目标时间为`time`的绝对值；若传入的值大于 0，则会从`time`值开始，到 0 结束。
 
-![](http://imglf3.nosdn.127.net/img/VVpkaDA0b3BNODdIWkVtZ3NRc1d5ejhLbDNvK2MyY0laMUpRekpoZk93WjE0c3A2YU02bU1BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+<img-wrapper>
+<img src="/screenshots/countdown/second.png" height="100"/>
+</img-wrapper>
 
 ```wxml
     <l-countdown time-type="second" time="1500"  />
@@ -40,7 +45,9 @@ title: 倒计时 Countdown
 
 ### 示例代码
 
-![](http://imglf6.nosdn.127.net/img/VVpkaDA0b3BNODdIWkVtZ3NRc1d5M0t2REZWTk91QWp3dkUzbkdhMUxSZVNIY0tPYXI3WHpBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+<img-wrapper>
+<img src="/screenshots/countdown/format.png" height="200"/>
+</img-wrapper>
 
 ```wxml
     <l-countdown time-type="second" time="60"  format="{%s}秒"/>
@@ -56,7 +63,9 @@ title: 倒计时 Countdown
 
 ### 示例代码
 
-![](http://imglf6.nosdn.127.net/img/VVpkaDA0b3BNODdIWkVtZ3NRc1d5NkRRUDNDUHNpY1RHSVlaZFJaVGJ3bnozZlNxRkJXNzRnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+<img-wrapper>
+<img src="/screenshots/countdown/class.png" height="100"/>
+</img-wrapper>
 
 ```wxml
  <l-countdown l-class-time="countdown-blue" time="1500" time-type="second" l-class="countdown-text"/>
