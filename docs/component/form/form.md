@@ -76,9 +76,9 @@ Page({
   },
 })
 ```
-
-![](http://imglf6.nosdn0.126.net/img/YXcvYzgxMzh2bmQ1Mi9XZ1dLVWQrT2dMU3dlajUyenQwQkVHNmZQWkllT0R4TWFaelczWEZnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
-
+:::img
+![height=200](/screenshots/form/image1.png)
+:::
 
 在 form 组件中，每一个表单域由一个 form-Item 组件构成，表单域中可以放置各种类型的表单控件，包括 `Input`、`Checkbox`、`Radio`、`Rate`、`TextArea` 。
 form-Item 中只能使用 Lin-UI 的表单元素，不能使用其他UI组件或者小程序的原生组件。
@@ -184,7 +184,9 @@ form-Item 中只能使用 Lin-UI 的表单元素，不能使用其他UI组件或
     });
   }
 ```
-![](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmQ1Mi9XZ1dLVWQrUDlwWjBCWktueUdKMmNUcWdudWRCcDZqL2hubktwcFFRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=250](/screenshots/form/image2.png)
+:::
 
 
 ## 更改表单域的布局方式
@@ -291,7 +293,9 @@ Page({
 })
 ```
 
-![](http://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmQ1Mi9XZ1dLVWQrTDV4aTZqbzF1THJFSFNXU2lhQlc5bW5OUlhLVmdzcU5nPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=200](/screenshots/form/image3.png)
+:::
 
 ### 自定义校验
 
@@ -356,7 +360,9 @@ data: {
   ]
 }
 ```
-![](http://imglf4.nosdn0.126.net/img/YXcvYzgxMzh2bmQ1Mi9XZ1dLVWQrSkw0dW5kcVA2Z1dNeFZyaCt6cHR1QkhOS3lTNUdSc3h3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=250](/screenshots/form/image4.png)
+:::
 
 ### 复杂表单的校验案例
 ```wxml
@@ -451,7 +457,9 @@ data: {
     ]
   }
 ```
-![](http://imglf4.nosdn0.126.net/img/YXcvYzgxMzh2bmQ1Mi9XZ1dLVWQrQXRsUWRJdURzMUYwSW1HUmFtbUYxRStxbVZWMGFQalJ3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=250](/screenshots/form/image5.png)
+:::
 
 ## 校验规则属性 （Rules Attributes）
 
