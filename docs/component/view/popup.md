@@ -17,7 +17,10 @@ title: 弹出层 Popup
 <l-popup show="{{true}}"> </l-popup>
 ```
 
-![自定义子节点](http://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEdQREVTOUJJYU0yamR0ZGNPeDhzcGZBYkEwcjZMNVo5TE5jZmJEakMrQmFBPT0.png?imageView&thumbnail=375x0&quality=96&stripmeta=0) 
+<img-wrapper>
+<img src="/screenshots/popup/show.jpg" height="400" alt="自定义子节点"/>
+</img-wrapper>
+
 
 ## 动画设置
 
@@ -48,8 +51,9 @@ Tips：静态图片展示效果相同，不做重复展示。
 
 ```
 
-![自定义子节点](http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEdQREVTOUJJYU0ycU9hOVlMT24wVzNxMFpTaFptNmNlL3NCd2JEZjI5NlVRPT0.png?imageView&thumbnail=375x0&quality=96&stripmeta=0) 
-
+<img-wrapper>
+<img src="/screenshots/popup/custom.jpg" height="400" alt="自定义子节点"/>
+</img-wrapper>
 
 ## 锁定
 
@@ -65,9 +69,9 @@ Tips：静态图片展示效果相同，不做重复展示。
 
 ```
 
-![锁定](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEVpUGU1WWJtQTB1ZXBVYVFQVHdyZkdCT0xDMSt3NkJ1TDZIN1RxTzdNS2VRPT0.png?imageView&thumbnail=375x0&quality=96&stripmeta=0)
-
-
+<img-wrapper>
+<img src="/screenshots/popup/locked.jpg" height="400" alt="锁定"/>
+</img-wrapper>
 
 ## 弹出层属性 （Popup Attributes）
 
