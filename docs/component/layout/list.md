@@ -10,7 +10,9 @@ title: 列表 List
 
 ### 示例代码
 
-![center height=200](/screenshots/list/image1.png)
+:::img
+![height=200](/screenshots/list/image1.png)
+:::
 
 ```wxml
     <l-list title="购物车" />
@@ -42,7 +44,9 @@ title: 列表 List
 
 ### 示例代码
 
-![center height=100](/screenshots/list/image2.png)
+:::img
+![height=100](/screenshots/list/image2.png)
+:::
 
 ```wxml
     <l-list title="购物车" icon="cart" is-link="{{false}}"/>
@@ -79,7 +83,9 @@ title: 列表 List
 
 ### 示例代码
 
-![center height=200](/screenshots/list/image3.png)
+:::img
+![height=200](/screenshots/list/image3.png)
+:::
 
 ```wxml
   <l-list title="购物车" icon="cart" tag-content="购物车" />
@@ -99,7 +105,9 @@ title: 列表 List
 
 ### 示例代码
 
-![center height=100](/screenshots/list/image4.png)
+:::img
+![height=100](/screenshots/list/image4.png)
+:::
 
 ```wxml
   <l-list title="生成我的海报" dot-badge="{{true}}" />
@@ -114,7 +122,9 @@ title: 列表 List
 
 ### 示例代码
 
-![center height=100](/screenshots/list/image5.png)
+:::img
+![height=100](/screenshots/list/image5.png)
+:::
 
 ```wxml
  <l-list right-desc="生成我的海报">
