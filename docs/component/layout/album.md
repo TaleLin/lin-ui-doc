@@ -72,7 +72,9 @@ data:{
 当 `urls` 长度为 1 时，为单图展示情景。组件将所传图片等比压缩，长边压缩/拉伸至 360rpx。
 > 组件只包含图片部分，其他部分代码为展示用。
 
-![center height=300](/screenshots/album/image1.jpeg)
+:::img
+![height=300](/screenshots/album/image1.jpeg)
+:::
 
 ### 示例代码
 
@@ -143,7 +145,9 @@ data:{
 
 多图情景下，图片展示为边长`158rpx`的正方形图片。
 
-![center height=300](/screenshots/album/image2.jpeg)
+:::img
+![height=300](/screenshots/album/image2.jpeg)
+:::
 
 ### 示例代码
 
@@ -223,7 +227,9 @@ data:{
 2.	多图  
 属性`multiple-mode`可以更改多图展示时图片的裁剪、缩放模式，默认值`aspectFill`。
 
-![center height=300](/screenshots/album/image3.jpeg)
+:::img
+![height=300](/screenshots/album/image3.jpeg)
+:::
 
 ### 示例代码
 
