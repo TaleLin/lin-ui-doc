@@ -33,7 +33,7 @@ title: 按钮 Button
 
 
 <img-wrapper>
-<img src="/screenshots/button/size.jpg" height="200" alt="按钮尺寸"/>
+![按钮尺寸](/screenshots/button/size.jpg)
 </img-wrapper>
 
 
