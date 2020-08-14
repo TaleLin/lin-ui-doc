@@ -6,10 +6,9 @@ title: 图片选择器 ImagePicker
 
 > 用于选择需要上传的图片，可自定义需要上传的图片数量。
 
-
-<img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEdlTDVlKzRGNzZDZDQrWUw1N1UwVE1UdUtoMEVmVjdYYTRvWmZQUjZIMEJnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
-</img-wrapper>
+:::img
+![height=200](/screenshots/image-picker/image1.jpg)
+:::
 
 
 ## 设置最大值
@@ -31,10 +30,9 @@ title: 图片选择器 ImagePicker
 ```wxml
 <l-image-picker size="4" bind:linchange="onChangeTap" />
 ```
-
-<img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEdlTDVlKzRGNzZDVTNJS2N1cXlhcDAwQVA5ZzBMWVZ1eGRNSmlBVGptQlNnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
-</img-wrapper>
+:::img
+![height=100](/screenshots/image-picker/image2.jpg)
+:::
 
 ## 设置选择图片的质量
 
@@ -63,9 +61,9 @@ title: 图片选择器 ImagePicker
   </view>
 </l-image-picker>
 ```
-<img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEdlTDVlKzRGNzZDWjVuQ05EOFNiQVlmaWJXRWVJTFlZNUdxNnBrKzR2WmtnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
-</img-wrapper>
+:::img
+![height=150](/screenshots/image-picker/image3.jpg)
+:::
 
 ## 自定义图片的样式
 
