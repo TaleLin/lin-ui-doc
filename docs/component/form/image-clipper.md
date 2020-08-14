@@ -17,10 +17,9 @@ title: 图片裁剪 ImageClipper
 - `ToolsContent`—— Tools区域：在此区域，**您可以任意定制您想要的功能**，如图所示，可以放一些功能性的按钮，**当然，您也可以随意放其他内容，随心所欲**，我们会默认内置一些功能，此区域部分功能需引用子组件 `ImageClipperTools` 
 
 以上三个名词分别对应的部分如下图所示：、
-
-<img-wrapper>
-<img src="/screenshots/image-clipper/image-clipper.png" height="500"/>
-</img-wrapper>
+:::img
+![height=500](/screenshots/image-clipper/image-clipper.png)
+:::
 
 ## 基础使用
 
@@ -31,10 +30,9 @@ title: 图片裁剪 ImageClipper
   <l-image-clipper-tools />
 </l-image-clipper>
 ```
-
-<img-wrapper>
-<img  src="/screenshots/image-clipper/demo1.png" height="500"/>
-</img-wrapper>
+:::img
+![height=500](/screenshots/image-clipper/demo1.png)
+:::
 
 ## 页面内选择图片
 
@@ -79,10 +77,9 @@ Page({
   }
 });
 ```
-
-<img-wrapper>
-<img  src="/screenshots/image-clipper/demo2.png" height="500"/>
-</img-wrapper>
+:::img
+![height=500](/screenshots/image-clipper/demo2.png)
+:::
 
 ## 自定义工具栏
 
@@ -104,10 +101,9 @@ Page({
   />
 </l-image-clipper>
 ```
-
-<img-wrapper>
-<img  src="/screenshots/image-clipper/demo3.png" height="500"/>
-</img-wrapper>
+:::img
+![height=500](/screenshots/image-clipper/demo3.png)
+:::
 
 ## 组件完整使用说明
 - 组件会监听 `image-url` 参数的变化，当属性有内容时，组件会调用 [`wx.getImageInfo()`](https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.getImageInfo.html) API，当请求成功后，组件会触发 `linimageready` 事件，表示图片已加载完成，该事件会返回：
