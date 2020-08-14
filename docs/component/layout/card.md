@@ -24,11 +24,11 @@ title: 卡片 Card
 `card`仅设置了组件的宽度，高度由卡片容器内的内容撑开。
 :::
 
-![center height=200](/screenshots/card/image1.png)
-
-![center height=200](/screenshots/card/image2.png)
-
-![center height=200](/screenshots/card/image3.png)
+:::img
+![height=150](/screenshots/card/image1.png)
+![height=150](/screenshots/card/image2.png)
+![height=150](/screenshots/card/image3.png)
+:::
 
 
 ### 示例代码
@@ -87,7 +87,9 @@ title: 卡片 Card
 
 可通过`position`属性设置图片的卡片中的位置。默认值为`left`。
 
+:::img
 ![center height=200](/screenshots/card/image4.png)
+:::
 
 ### 示例代码
 
@@ -116,7 +118,9 @@ title: 卡片 Card
 
 可通过`plaintext`属性设置图片的卡片中的位置。默认值为`false`。
 
+:::img
 ![center height=200](/screenshots/card/image5.png)
+:::
 
 ### 示例代码
 
@@ -135,7 +139,9 @@ title: 卡片 Card
 
 可通过`full`属性设置卡片为通栏卡片。默认值为`false`。
 
+:::img
 ![center height=200](/screenshots/card/image6.png)
+:::
 
 ### 示例代码
 
