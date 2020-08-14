@@ -173,31 +173,32 @@ data:{
 
 ## 表单项属性（Input Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
+| 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
-| label | 表单标题（label）的文本 | String |  |  | 
+| label | 表单标题（label）的文本 | String |  |  |
 | hide-label | 隐藏表单标题（label）的文本 | Boollen | true/false |false|
-| width | 表单的宽,单位是rpx | Number |  | 750 | 
-| required | 是否必选 | Boolean | true/false | false | 
-| type | 输入框类型，可选值为 text，idcard，digit，password，number | String | text/idcard/digit/password/number | text | 
-| value | 输入框的值 | String |  |  | 
-| placeholder | 占位文本 | String |  |  | 
-| colon | 是否需要冒号 | Boolean | true/false | false | 
-| focus | 获取焦点 | Boolean | true/false | false | 
-| clear | 是否显示清除按钮 | Boolean | true/false | false | 
-| maxlength | 最大输入长度，设置为 -1 的时候不限制最大长度 | Number | | 140 | 
-| rules | 输入内容的校验规则| Object |  |    | 
-| label-width | 表单项标题部分的宽度，单位rpx | Number |   |  200 | 
+| width | 表单的宽,单位是rpx | Number |  | 750 |
+| required | 是否必选 | Boolean | true/false | false |
+| type | 输入框类型，可选值为 text，idcard，digit，password，number | String | text/idcard/digit/password/number | text |
+| value | 输入框的值 | String |  |  |
+| placeholder | 占位文本 | String |  |  |
+| colon | 是否需要冒号 | Boolean | true/false | false |
+| focus | 获取焦点 | Boolean | true/false | false |
+| clear | 是否显示清除按钮 | Boolean | true/false | false |
+| maxlength | 最大输入长度，设置为 -1 的时候不限制最大长度 | Number | | 140 |
+| rules | 输入内容的校验规则| Object |  |    |
+| label-width | 表单项标题部分的宽度，单位rpx | Number |   |  200 |
 | disabled   | 设置是否禁用 | Boolean | true/false | false |
 | label-layout  | 设置表单标题的显示位置 | String | left/right | left |
-| placeholder-style   | 设置输入框占位文本的内联样式 | String |  |  
+| placeholder-style   | 设置输入框占位文本的内联样式 | String |  |
 | tip-type          | 校验错误提醒方式                                                                           | String  | toast/message/text | -      |
 
 ## 表单项外部样式类（Input ExternalClasses）
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
-| l-class   | 设置表单项的外部样式类 |  | 
+| l-class   | 设置表单项的外部样式类 |  |
 | l-error-text-class| tipType 为 text 时，错误提示信息外部样式类                                             | 取代l-error-text|
+| l-row-class | 覆盖 input 下方横线样式 | |
 
 ## 已经弃用的外部样式类
 
@@ -206,7 +207,7 @@ data:{
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 |l-error-text |tipType 为 text 时，错误提示信息外部样式类  | 请使用l-error-text-class替代 |
-                              
+
  
 
 ## 表单项事件 (表单项 Events）
