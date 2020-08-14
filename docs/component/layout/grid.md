@@ -16,7 +16,9 @@ title: 宫格 Grid
 
 ### 示例代码
 
-![center height=100](/screenshots/grid/image1.png)
+:::img
+![height=100](/screenshots/grid/image1.png)
+:::
 
 ```wxml
 <l-grid>
@@ -49,7 +51,9 @@ title: 宫格 Grid
 
 ### 示例代码
 
-![center height=300](/screenshots/grid/image2.png)
+:::img
+![height=300](/screenshots/grid/image2.png)
+:::
 
 ```wxml
 <l-grid l-class="grid" show-border="{{true}}">
@@ -67,7 +71,9 @@ title: 宫格 Grid
 
 ### 示例代码
 
-![center height=200](/screenshots/grid/image3.png)
+:::img
+![height=200](/screenshots/grid/image3.png)
+:::
 
 ```wxml
 <l-grid l-class="grid" row-num="4" show-col-border="{{true}}">
