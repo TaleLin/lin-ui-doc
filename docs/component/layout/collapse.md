@@ -11,7 +11,9 @@ title: 折叠面板 Collapse
 ## 普通模式
 折叠面板默认为普通模式。普通模式下，多个`collapse-item`可以同时展开。
 
-<img style="width:50%;" :src="$withBase('/screenshots/collapse/collapse-base-case.gif')" alt="普通模式" />
+:::img
+![height=200](/screenshots/collapse/collapse-base-case.gif)
+:::
 
 ### 示例代码
 ```wxml
@@ -31,7 +33,9 @@ title: 折叠面板 Collapse
 ## 手风琴模式
 通过`type='accordion'`指定折叠面板为手风琴模式。手风琴模式下多个`collapse-item`只能同时展开一个。
 
-<img style="width:50%;" :src="$withBase('/screenshots/collapse/collapse-accordion-case.gif')" alt="手风琴模式" />
+:::img
+![height=200](/screenshots/collapse/collapse-accordion-case.gif)
+:::
 
 ### 示例代码
 ```wxml
@@ -52,7 +56,9 @@ title: 折叠面板 Collapse
 ## 自定义标题
 如果需要更复杂的布局，可以使用slot注入自定义标题
 
-<img style="width:50%;" :src="$withBase('/screenshots/collapse/collapse-custom-title.jpg')" alt="自定义标题" />
+:::img
+![center height=200](/screenshots/collapse/collapse-custom-title.jpg)
+:::
 
 ```wxml
 <l-collapse>

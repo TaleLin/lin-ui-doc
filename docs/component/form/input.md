@@ -19,8 +19,9 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 <l-input label="用户名"  placeholder="请输入用户名"  />
 <l-input label="密码"  placeholder="请输入密码"  />
 ```
-
-![基础案例](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEdHL0kxOXVOSW1DdG43elFmeVl4eVlJTkZua2o1RnNmUWJXVGdDNnZrWGRnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=150](/screenshots/input/image1.png)
+:::
 
 ## 对齐方式
 
@@ -38,8 +39,9 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 
 <l-input label="名称" label-layout="right" label-width="170"  />
 ```
-
-![位置](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEdHL0kxOXVOSW1DZzkrOHY4cU5TZ1Q5dngzZ0tFR2ExdkY3RUJzYW9Oa3F3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/input/image2.png)
+:::
 
 ## 隐藏表单标题
 
@@ -52,9 +54,9 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 
 <l-input placeholder="这里隐藏了标题" hide-label="{{true}}"  />
 ```
-
-![隐藏label](http://imglf6.nosdn0.126.net/img/YXcvYzgxMzh2bmV6dEs1b1drdE1RaG90L2FJeC9aMW12SWNkaDhHcGFJRk14dzJRcVdsNk5nPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
-
+:::img
+![height=100](/screenshots/input/image3.png)
+:::
 ## 输入框类型
 
 输入框类型的可选值有 `text` 、`idcard` 、`password` 、`number`、`digit` ，可根据不同的场景选择。
@@ -64,7 +66,9 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 ```wxml
 <l-input label="数字" type="number" placeholder="请输入数字" />
 ```
-![类型](http://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEdHL0kxOXVOSW1Da1BkR3ZLcUw3ODdhZWI0STk0TFJjNHVEcTJKalljcEhnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=300](/screenshots/input/image4.png)
+:::
 
 
 ## 清除按钮
@@ -76,7 +80,10 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 ```wxml
 <l-input label="清除按钮" clear="{{true}}" />
 ```
-![清除按钮](http://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEdHL0kxOXVOSW1DbHhFbVgrUTNjNzdoMHdWRy9ZcFhNdERBL2JKL1FhR1BnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+
+:::img
+![height=50](/screenshots/input/image5.png)
+:::
 
 
 ## 设置必选项
@@ -88,9 +95,10 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 ```wxml
 <l-input label="必填" placeholder="这里是必填项" required="{{true}}" />
 ```
+:::img
+![height=50](/screenshots/input/image6.png)
+:::
 
-
-![input](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEdHL0kxOXVOSW1DbHVRdmdjOXBoL25iZTloRmM3Wk04SHM2bjFVb04wbGdBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ## 设置校验规则
 
@@ -127,8 +135,9 @@ data:{
 ```wxml
 <l-input label="禁用"  disabled="{{true}}"  placeholder="禁止输入" />
 ```
-
-![disabled](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEdHL0kxOXVOSW1DaVNsV3Z2dkNadFU1N2FObm1oNnFsY2dSOFEycnFUV0xBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=50](/screenshots/input/image7.png)
+:::
 
 ## 自定义Input组件右边部分
 
@@ -142,8 +151,9 @@ data:{
 </l-input>
 ```
 
-
-![自定义](http://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEdHL0kxOXVOSW1DcFhHeE1mVlZ4M2p2Qjhjejcrb3ZNQ2pyRGRVMU1YeTZBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=50](/screenshots/input/image8.png)
+:::
 
 ## 自定义Input组件左边(label)部分
 
@@ -163,31 +173,32 @@ data:{
 
 ## 表单项属性（Input Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
+| 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
-| label | 表单标题（label）的文本 | String |  |  | 
+| label | 表单标题（label）的文本 | String |  |  |
 | hide-label | 隐藏表单标题（label）的文本 | Boollen | true/false |false|
-| width | 表单的宽,单位是rpx | Number |  | 750 | 
-| required | 是否必选 | Boolean | true/false | false | 
-| type | 输入框类型，可选值为 text，idcard，digit，password，number | String | text/idcard/digit/password/number | text | 
-| value | 输入框的值 | String |  |  | 
-| placeholder | 占位文本 | String |  |  | 
-| colon | 是否需要冒号 | Boolean | true/false | false | 
-| focus | 获取焦点 | Boolean | true/false | false | 
-| clear | 是否显示清除按钮 | Boolean | true/false | false | 
-| maxlength | 最大输入长度，设置为 -1 的时候不限制最大长度 | Number | | 140 | 
-| rules | 输入内容的校验规则| Object |  |    | 
-| label-width | 表单项标题部分的宽度，单位rpx | Number |   |  200 | 
+| width | 表单的宽,单位是rpx | Number |  | 750 |
+| required | 是否必选 | Boolean | true/false | false |
+| type | 输入框类型，可选值为 text，idcard，digit，password，number | String | text/idcard/digit/password/number | text |
+| value | 输入框的值 | String |  |  |
+| placeholder | 占位文本 | String |  |  |
+| colon | 是否需要冒号 | Boolean | true/false | false |
+| focus | 获取焦点 | Boolean | true/false | false |
+| clear | 是否显示清除按钮 | Boolean | true/false | false |
+| maxlength | 最大输入长度，设置为 -1 的时候不限制最大长度 | Number | | 140 |
+| rules | 输入内容的校验规则| Object |  |    |
+| label-width | 表单项标题部分的宽度，单位rpx | Number |   |  200 |
 | disabled   | 设置是否禁用 | Boolean | true/false | false |
 | label-layout  | 设置表单标题的显示位置 | String | left/right | left |
-| placeholder-style   | 设置输入框占位文本的内联样式 | String |  |  
+| placeholder-style   | 设置输入框占位文本的内联样式 | String |  |
 | tip-type          | 校验错误提醒方式                                                                           | String  | toast/message/text | -      |
 
 ## 表单项外部样式类（Input ExternalClasses）
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
-| l-class   | 设置表单项的外部样式类 |  | 
+| l-class   | 设置表单项的外部样式类 |  |
 | l-error-text-class| tipType 为 text 时，错误提示信息外部样式类                                             | 取代l-error-text|
+| l-row-class | 覆盖 input 下方横线样式 | |
 
 ## 已经弃用的外部样式类
 
@@ -196,7 +207,7 @@ data:{
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 |l-error-text |tipType 为 text 时，错误提示信息外部样式类  | 请使用l-error-text-class替代 |
-                              
+
  
 
 ## 表单项事件 (表单项 Events）

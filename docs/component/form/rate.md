@@ -11,10 +11,9 @@ title: 评分 Rate
 支持图片和图标两种资源格式，默认为图标资源
 
 ### 示例代码
-
-<img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/VVpkaDA0b3BNODZXRC9WQlpUWEk2ZVBhdUNiTFBuNGNMOTgvNEJ1UFdWWVdxUW5YREwxU0pnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper>
+:::img
+![](/screenshots/rate/image1.png)
+:::
 
 ```wxml
 <l-rate/>
@@ -26,10 +25,10 @@ title: 评分 Rate
 
 ### 示例代码
 
-<img-wrapper>
- <img src="http://imglf5.nosdn0.126.net/img/VVpkaDA0b3BNODZXRC9WQlpUWEk2ZVZmWFRBQlFZN0o3WFlHcEhtcy83a3RWVFJ6OTNtUHpBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-  <img src="http://imglf5.nosdn0.126.net/img/VVpkaDA0b3BNODZXRC9WQlpUWEk2U0hMQWx6aWlXWnhJNmFncEkrVFBpQThvZmlyeGNyc3lnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper>
+:::img
+![height=100](/screenshots/rate/image2.png)
+![height=100](/screenshots/rate/image3.png)
+:::
 
 ```wxml
     <l-rate score="3" />
@@ -45,10 +44,9 @@ title: 评分 Rate
 通过 `size` 属性设置组件元素的大小，传入数值单位为：`rpx`
 
 #### 示例代码
-
-<img-wrapper>
- <img src="http://imglf3.nosdn0.126.net/img/VVpkaDA0b3BNODZXRC9WQlpUWEk2VmZWWDc4bUlzVGVCWG9zL2F1QnpaaHJJM3RPNkprU0RRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper>
+:::img
+![height=50](/screenshots/rate/image4.png)
+:::
 
 ```wxml
     <l-rate size="56" />
@@ -61,9 +59,9 @@ title: 评分 Rate
 
 #### 示例代码
 
-<img-wrapper>
- <img src="http://imglf5.nosdn0.126.net/img/VVpkaDA0b3BNODZXRC9WQlpUWEk2ZmNQVFZLaGdnRitxdzNmbmwydEcrSHRFU0ZUdHdVc2dnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper>
+:::img
+![height=50](/screenshots/rate/image5.png)
+:::
 
 ```wxml
     <l-rate active-color="#FFDD55" inActive-color="#FFF5CE" />
@@ -83,9 +81,9 @@ title: 评分 Rate
 - 设置带有`content`属性 `class` 为 `l-icon-name`格式，`name`值与在`rate`组件上设置的`name`属性值保持一致；
 #### 示例代码
 
-<img-wrapper>
- <img src="http://imglf3.nosdn0.126.net/img/VVpkaDA0b3BNODZXRC9WQlpUWEk2Y2Z0aWdNZVlPcklHTDNrcjVucVN5dkYzME5ZMmNucXJnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper>
+:::img
+![height=100](/screenshots/rate/image6.png)
+:::
 
 ```wxss
 @font-face {font-family: "iconfont";
@@ -119,9 +117,9 @@ title: 评分 Rate
 
 默认图片宽高为`80rpx`,可通过外部样式类 `l-image-class`自定义样式。
 
-<img-wrapper>
- <img src="http://imglf6.nosdn.127.net/img/VVpkaDA0b3BNODZ6RmJSRGR2R1I0Z2J3amNmY1F4TzNDNEtlbHVYUVg2Yy9iN1FHWW1KaUxnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
-</img-wrapper>
+:::img
+![height=50](/screenshots/rate/image7.png)
+:::
 
 
 ```wxml
@@ -138,9 +136,9 @@ title: 评分 Rate
 
 ### 示例代码
 
-<img-wrapper>
- <img src="http://imglf6.nosdn0.126.net/img/VVpkaDA0b3BNODZXRC9WQlpUWEk2Y0NrM3hZTlFFaWhXN1Q0QndGMGdUd1BGYllSTXJBRnJnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper>
+:::img
+![height=50](/screenshots/rate/image8.png)
+:::
 
 ```wxml
     <l-rate score="3" count="10" bind:linChange="changeScore" />

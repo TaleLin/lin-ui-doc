@@ -22,11 +22,10 @@ title: 索引列表 IndexList
 - `Tip`——提示，指滑动侧栏时，在屏幕上显示的提示
 
 以上四个名词分别对应的部分如下图所示：
-<img-wrapper>
-<a data-fancybox href="/screenshots/index-list/basic-concept.png">
-<img style="height: 300px;" src="/screenshots/index-list/basic-concept.png"/>
-</a>
-</img-wrapper>
+
+:::img
+![height=300](/screenshots/index-list/basic-concept.png)
+:::
 
 ## 基本用法
 

@@ -24,17 +24,12 @@ title: 卡片 Card
 `card`仅设置了组件的宽度，高度由卡片容器内的内容撑开。
 :::
 
-<img-wrapper>
-  <img src="http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmd6czcvZ05iT2ltL2M4cXBEMkc4SHI5OTZZN3dJNE9NMmJFVDl4bjE0SXpBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper> 
+:::img
+![height=150](/screenshots/card/image1.png)
+![height=150](/screenshots/card/image2.png)
+![height=150](/screenshots/card/image3.png)
+:::
 
-<img-wrapper>
-  <img src="http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmpsaFZoeVhQYnQ4MFZxY0xhWlFTek9WOVZ1SkNTanJqSmNqcTQxbEZFWGhBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper> 
-
-<img-wrapper>
-  <img src="http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmpsaFZoeVhQYnQ4eDQ3eG8rQS80VDVFZm51czA5enR2bkp1TWxuaHV6dWNBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper> 
 
 ### 示例代码
 
@@ -92,9 +87,9 @@ title: 卡片 Card
 
 可通过`position`属性设置图片的卡片中的位置。默认值为`left`。
 
-<img-wrapper>
-  <img src="http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmd6czcvZ05iT2ltNEJZbG5PRVdGeHd1MXBQRWlncjVuTUR0L3pTc0ZpUkFBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper> 
+:::img
+![center height=200](/screenshots/card/image4.png)
+:::
 
 ### 示例代码
 
@@ -123,9 +118,9 @@ title: 卡片 Card
 
 可通过`plaintext`属性设置图片的卡片中的位置。默认值为`false`。
 
-<img-wrapper>
-  <img src="http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmd6czcvZ05iT2ltejBOdWxhcFFzMVNBRjBKWTN1Y1cwd2tsMDNVeFJuSUhnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper> 
+:::img
+![center height=200](/screenshots/card/image5.png)
+:::
 
 ### 示例代码
 
@@ -144,9 +139,9 @@ title: 卡片 Card
 
 可通过`full`属性设置卡片为通栏卡片。默认值为`false`。
 
-<img-wrapper>
-  <img src="http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmd6czcvZ05iT2ltOFhGUjdRQXo4ejdtRjF0NVZKSkRmYWZoQ2YvVm14WWlnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
-</img-wrapper> 
+:::img
+![center height=200](/screenshots/card/image6.png)
+:::
 
 ### 示例代码
 

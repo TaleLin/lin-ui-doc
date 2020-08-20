@@ -78,6 +78,7 @@ title: 数量选择器 Counter
 | bind:lintap | 点击加（减）号及数字输入框失去焦点触发的事件 | {count,type} | type值为`reduce`、`add`和`blur` |
 | bind:linout | 数字超出可选范围触发的事件 | {type,way} | type值为`overflow_min`、`overflow_max`,way值为`icon`、`input`、`parameter`|
 | bind:linchange | 数字改变时触发的事件 | {count} | |
+| bind:lininput | 输入数字时触发的事件 | {value, cursor, keyCode} | 该事件在 linchange 之前触发 |
 
 ::: tip
 way值介绍：
