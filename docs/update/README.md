@@ -1,8 +1,29 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.7`
+最新版本：`0.8.8`
 
-## [0.8.7](https://github.com/TaleLin/lin-ui/compare/0.8.6...0.8.7) (2020-08-06)
+## [v0.8.8](https://github.com/TaleLin/lin-ui/compare/0.8.7...0.8.8) (2020-08-20)
+
+
+### Features
+
+* **Counter:** 新增 lininput 事件 ([d5cf6e8](https://github.com/TaleLin/lin-ui/commit/d5cf6e8a3bac3e56fe33b4a7eb297822266cf858)), closes [#1004](https://github.com/TaleLin/lin-ui/issues/1004)
+* **Input:** 新增 l-row-class 外部样式类 ([48808a5](https://github.com/TaleLin/lin-ui/commit/48808a52494b5967162fe203aa5c2af463f65cbf)), closes [#1018](https://github.com/TaleLin/lin-ui/issues/1018)
+
+
+### Bug Fixes
+
+* **Form:** 修复提交与重置按钮无效问题 ([38b19e3](https://github.com/TaleLin/lin-ui/commit/38b19e30fe7265e2857fc33ef10ea1fdf54a2c8f)), closes [#1028](https://github.com/TaleLin/lin-ui/issues/1028)
+* **ImagePicker:** 修复无法进行图片预览问题 ([9f87ff9](https://github.com/TaleLin/lin-ui/commit/9f87ff9d40fad210b0b9ca2857db41646fc4068e)), closes [#1021](https://github.com/TaleLin/lin-ui/issues/1021)
+
+
+### Performance Improvements
+
+* **Segment:** 开启惯性滚动以优化性能 ([f217a1a](https://github.com/TaleLin/lin-ui/commit/f217a1a0c1a04d43fb7511a112dce40a83fa06f4)), closes [#1012](https://github.com/TaleLin/lin-ui/issues/1012)
+
+
+
+## [v0.8.7](https://github.com/TaleLin/lin-ui/compare/0.8.6...0.8.7) (2020-08-06)
 
 ### ⚠ BREAKING CHANGES
 
