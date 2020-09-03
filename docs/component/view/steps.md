@@ -133,7 +133,7 @@ title: 步骤条 Steps
 ![aaa](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmdLamV5S09COXkyYVpEOFppb1lPNWtOU3lQWE5oZUZjWkJ5dFo1dmVEbVl3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ```wxml
-<l-steps color="48a7e3">
+<l-steps color="#48a7e3">
   <l-step icon="cart" title="已支付" describe="11:30"></l-step>
   <l-step title="备餐中" describe="11:30"></l-step>
   <l-step title="已出餐" describe="11:30"></l-step>
