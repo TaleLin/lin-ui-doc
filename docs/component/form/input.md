@@ -186,6 +186,7 @@ data:{
 | focus | 获取焦点 | Boolean | true/false | false |
 | clear | 是否显示清除按钮 | Boolean | true/false | false |
 | maxlength | 最大输入长度，设置为 -1 的时候不限制最大长度 | Number | | 140 |
+| showRow | 是否显示input下方横线样式| Boolean |  |  true  |
 | rules | 输入内容的校验规则| Object |  |    |
 | label-width | 表单项标题部分的宽度，单位rpx | Number |   |  200 |
 | disabled   | 设置是否禁用 | Boolean | true/false | false |
