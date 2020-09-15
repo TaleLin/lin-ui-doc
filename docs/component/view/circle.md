@@ -23,7 +23,7 @@ title: 圆型进度条 Circle
 示例代码
 
 ```wxml
-<l-circle percent='50' out-diameter='150'></l-circle>
+<l-circle percent='50' outer-diameter='150'></l-circle>
 ```
 
 ## 内圆直径
