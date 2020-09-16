@@ -1,6 +1,38 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.8`
+最新版本：`0.8.9`
+
+## [v0.8.9](https://github.com/TaleLin/lin-ui/compare/0.8.7...0.8.9) (2020-09-16)
+
+### ⚠ BREAKING CHANGES
+
+* **Grid:** Grid 组件 .grid-item 样式增加 padding 属性，默认值为 padding: 32rpx 16rpx;
+
+### Features
+
+* **Counter:** 新增 lininput 事件 ([d5cf6e8](https://github.com/TaleLin/lin-ui/commit/d5cf6e8a3bac3e56fe33b4a7eb297822266cf858)), closes [#1004](https://github.com/TaleLin/lin-ui/issues/1004)
+* **Input:** 新增 l-row-class 外部样式类 ([48808a5](https://github.com/TaleLin/lin-ui/commit/48808a52494b5967162fe203aa5c2af463f65cbf)), closes [#1018](https://github.com/TaleLin/lin-ui/issues/1018)
+
+
+### Bug Fixes
+
+* **Avatar:** 修复使用 Icon 属性时容器宽高不正确问题 ([0966a85](https://github.com/TaleLin/lin-ui/commit/0966a850fb2f6137f7802adda02677612079c3ec)), closes [#1043](https://github.com/TaleLin/lin-ui/issues/1043)
+* **Form:** 修复提交与重置按钮无效问题 ([38b19e3](https://github.com/TaleLin/lin-ui/commit/38b19e30fe7265e2857fc33ef10ea1fdf54a2c8f)), closes [#1028](https://github.com/TaleLin/lin-ui/issues/1028)
+* **Grid:** 修复 l-grid-item 样式改动导致 grid 组件不能居中 ([0a1874b](https://github.com/TaleLin/lin-ui/commit/0a1874b36b3a6d39b228db4474910dc7307db67a)), closes [#1052](https://github.com/TaleLin/lin-ui/issues/1052)
+* **Grid:** 修复组件 lintap 事件不会触发问题 ([1b832b2](https://github.com/TaleLin/lin-ui/commit/1b832b2280bc9c0ea419c96e4af355de86942dc4)), closes [#1059](https://github.com/TaleLin/lin-ui/issues/1059)
+* **Grid:** 修复组件体验问题 ([b6ecc3b](https://github.com/TaleLin/lin-ui/commit/b6ecc3b5545f024ab2f34ba0e3014b96c79d385c))
+* **ImagePicker:** 修复无法进行图片预览问题 ([9f87ff9](https://github.com/TaleLin/lin-ui/commit/9f87ff9d40fad210b0b9ca2857db41646fc4068e)), closes [#1021](https://github.com/TaleLin/lin-ui/issues/1021)
+
+
+### Performance Improvements
+
+* **Segment:** 开启惯性滚动以优化性能 ([f217a1a](https://github.com/TaleLin/lin-ui/commit/f217a1a0c1a04d43fb7511a112dce40a83fa06f4)), closes [#1012](https://github.com/TaleLin/lin-ui/issues/1012)
+
+
+### Code Refactoring
+
+* **Grid:** .grid-item 样式增加 padding 属性 ([4bca523](https://github.com/TaleLin/lin-ui/commit/4bca5230a588204d0ac56b4b794aa626080dbdbd)), closes [#1038](https://github.com/TaleLin/lin-ui/issues/1038)
+
 
 ## [v0.8.8](https://github.com/TaleLin/lin-ui/compare/0.8.7...0.8.8) (2020-08-20)
 
