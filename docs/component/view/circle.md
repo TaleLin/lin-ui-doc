@@ -106,7 +106,7 @@ title: 圆型进度条 Circle
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  版本|
 |:----|:----|:----|:----|:----|:----|
 | percent	| 百分比	| Number | 0~100 | 0 | 0.8.5|
-| out-diameter	| 外圆直径  |	number/string | - | 220,单位`rpx` | 0.8.5|
+| outer-diameter	| 外圆直径  |	number/string | - | 220,单位`rpx` | 0.8.5|
 |inner-diameter| 内圆直径| number/string|-|170,单位`rpx`| 0.8.5|
 | active-color	| 已选择的进度条的颜色 | String | -| 主题色 |0.8.5 |
 | background-color	| 未选择的进度条的颜色 |	String	| - |#EBEBEB| 0.8.5|
