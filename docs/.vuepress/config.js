@@ -73,6 +73,10 @@ module.exports = {
         link: '/function/'
       },
       {
+        text: '脚手架',
+        link: '/cli/'
+      },
+      {
         text: '慕课课程',
         link: '/imooc/'
       },
@@ -195,6 +199,16 @@ module.exports = {
           children: [
             '/function/',
             '/function/px2rpx'
+          ]
+        }
+      ],
+      '/cli/': [
+        {
+          title: '脚手架',
+          collapsable: false,
+          children: [
+            '/cli/',
+            '/cli/introduce'
           ]
         }
       ],
