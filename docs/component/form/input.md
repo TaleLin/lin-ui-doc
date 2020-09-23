@@ -200,6 +200,8 @@ data:{
 | l-class   | 设置表单项的外部样式类 |  |
 | l-error-text-class| tipType 为 text 时，错误提示信息外部样式类                                             | 取代l-error-text|
 | l-row-class | 覆盖 input 下方横线样式 | |
+| l-label-class | 覆盖 label 样式| |
+| l-input-class | 覆盖 input 样式 | |
 
 ## 已经弃用的外部样式类
 
