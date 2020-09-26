@@ -21,11 +21,11 @@ title: 标签页 Tabs
 
 ## 等宽标签
 
-默认为等宽标签，在 `tabs` 上设置 `equal-width="{{false}}"` 时，取消等宽标签，此时宽度为 `文本内容 + 左右各20rpx的padding`;
+默认为等宽标签，在 `tabs` 上设置 `equal-width` 为 `false` 时，取消等宽标签，此时宽度为 `文本内容 + 左右各20rpx的padding`;
 
 默认激活的是第一个标签页，通过`tabs`组件上设置`active-key="{\{key}}"`配置初始状态时激活的选项卡。
 
-当标签数过多时可在 `tabs` 上设置 `scrollable="{{true}}"` 开启滚动标签栏。
+当标签数过多时可在 `tabs` 上设置 `scrollable` 为 `true` 时开启滚动标签栏。
 
 必须在 `tabpanel` 组件中传入 `tab` 、 `key` 、 `slot` 属性，其中：
 
@@ -65,12 +65,12 @@ title: 标签页 Tabs
 
 ## 标签动画
 
-在 `tabs` 上设置 `animated="{{true}}"` 开启标签页切换动画，默认不开启。
+在 `tabs` 上设置 `animated` 为 `true` 时开启标签页切换动画，默认不开启。
 
 
 ## 滑动切换标签
 
-在` tabs` 设置`swipeable="{{true}}"` 时，支持滑动内容部分切换标签。
+在` tabs` 设置`swipeable` 为 `true` 时，支持滑动内容部分切换标签。
 
 
 ::: tip 注意事项
