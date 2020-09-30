@@ -132,6 +132,7 @@ title: 标签页 Tabs
 |l-header-line-class|外部样式类，覆盖标签栏装饰线的样式|替代l-class-header-line |
 | l-tabimage-class | 外部样式类，覆盖标签图片的样式 | 替代l-class-tabimage |
 | l-content-class | 外部样式类，覆盖标签内容样式 | 替代l-class-content|
+| l-tabpanel-class | 外部样式类，覆盖面板内容样式 | -|
 
 ## 已经弃用的外部样式类
 
