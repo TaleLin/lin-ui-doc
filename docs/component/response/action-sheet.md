@@ -124,7 +124,7 @@ itemList: [
     操作
 </l-button>
 
-<l-action-sheet open-api="{{false}}" show-cancel item-list="{{itemList}}" show="{{false}}"   
+<l-action-sheet open-api="{{false}}" show-cancel item-list="{{itemList}}" show="{{show}}"   
   bind:linitemtap="linItemtap" bind:lincancel="lincancel"/>
 
 ```
