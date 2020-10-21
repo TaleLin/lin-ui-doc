@@ -1,8 +1,23 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.9`
+最新版本：`0.8.10`
 
-## [v0.8.9](https://github.com/TaleLin/lin-ui/compare/0.8.7...0.8.9) (2020-09-16)
+## [v0.8.10](https://github.com/TaleLin/lin-ui/compare/0.8.9...0.8.10) (2020-10-21)
+
+
+### Features
+
+* **Tabs:** 新增 l-tabpanel-class 外部样式类 ([2300db9](https://github.com/TaleLin/lin-ui/commit/2300db951447ec79d7941cb8b1dba749d9da9b95)), closes [#1080](https://github.com/TaleLin/lin-ui/issues/1080)
+
+
+### Bug Fixes
+
+* **ImagePicker:** 修复 urls 属性更新以后，图片不显示 ([01dcbb7](https://github.com/TaleLin/lin-ui/commit/01dcbb774c8264eab665b7157197ed573211339a)), closes [#1075](https://github.com/TaleLin/lin-ui/issues/1075)
+* **ImagePicker:** 修复组件样式问题 ([ddcddb9](https://github.com/TaleLin/lin-ui/commit/ddcddb98c3a3dc3fbf5aba1fea241a8a9ec63d3d)), closes [#1085](https://github.com/TaleLin/lin-ui/issues/1085)
+* **Input:** 修复组件切换显隐密码在 ios 下会清空问题 ([84bf37a](https://github.com/TaleLin/lin-ui/commit/84bf37a5f3b5d52baa2464bee8c4b15d79c6c990)), closes [#1079](https://github.com/TaleLin/lin-ui/issues/1079)
+
+
+## [v0.8.9](https://github.com/TaleLin/lin-ui/compare/0.8.8...0.8.9) (2020-09-16)
 
 ### ⚠ BREAKING CHANGES
 
