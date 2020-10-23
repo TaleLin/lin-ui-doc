@@ -148,8 +148,8 @@
 
 ### Features
 
-* **ArcPopup:** 新增 ArcPop 组件，[文档地址](http://doc.mini.talelin.com/component/view/arc-popup.html) ([18c515e](https://github.com/TaleLin/lin-ui/commit/18c515e9bee46d59032b482bbbbfb2ec836f29e0))
-* **CapsuleBar:** 新增 CapsuleBar 组件，[文档地址](http://doc.mini.talelin.com/component/nav/capsule-bar.html) ([4ec3708](https://github.com/TaleLin/lin-ui/commit/4ec3708f89d16af22f7258cf1b429726596582d7))
+* **ArcPopup:** 新增 ArcPop 组件，[文档地址](https://doc.mini.talelin.com/component/view/arc-popup.html) ([18c515e](https://github.com/TaleLin/lin-ui/commit/18c515e9bee46d59032b482bbbbfb2ec836f29e0))
+* **CapsuleBar:** 新增 CapsuleBar 组件，[文档地址](https://doc.mini.talelin.com/component/nav/capsule-bar.html) ([4ec3708](https://github.com/TaleLin/lin-ui/commit/4ec3708f89d16af22f7258cf1b429726596582d7))
 * **Input:** 新增 show-eye 属性 ([df35556](https://github.com/TaleLin/lin-ui/commit/df35556eab064e6ca8d0fcbe9f69a6adeb5c96c7)), closes [#531](https://github.com/TaleLin/lin-ui/issues/531)
 * **Input:** 新增外部样式类 l-input-class ([969f1d0](https://github.com/TaleLin/lin-ui/commit/969f1d029e32ec49e9f7881e79db865da7c95047)), closes [#137](https://github.com/TaleLin/lin-ui/issues/137)
 * **Textarea:** 新增 cursor-spacing 属性 ([319e66d](https://github.com/TaleLin/lin-ui/commit/319e66d50cfdd518b8bc27437cdd247c9bd6d8fd)), closes [#250](https://github.com/TaleLin/lin-ui/issues/250)

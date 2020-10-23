@@ -39,7 +39,7 @@ show() {
 接着就能查看到页面出现了 `创建成功~` 的`Toast`提示了
 
 <img-wrapper>
-  <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEU3eDlFZy9Vc3FRSmE0d0poTzRldFVrcWl3aHJZakYwa2Y0UzlwK2V4RzdBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
+  <img src="https://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEU3eDlFZy9Vc3FRSmE0d0poTzRldFVrcWl3aHJZakYwa2Y0UzlwK2V4RzdBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
 </img-wrapper> 
 
 ### 关闭toast
@@ -68,7 +68,7 @@ show() {
 如下图：
 
 <img-wrapper>
- <img src="http://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEhlS2R1Y2tEUE5DUE1CV2VYNHh5aWdWeFlubUdmeW5BR0RFdk1DSitTMjdRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
+ <img src="https://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEhlS2R1Y2tEUE5DUE1CV2VYNHh5aWdWeFlubUdmeW5BR0RFdk1DSitTMjdRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 
@@ -93,7 +93,7 @@ show() {
 />
 ```
 <img-wrapper>
- <img src="http://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEdEQUxENm5RRXoxVk1TYXQvRm42NTVxZzg5bzRSOEc4UWpnaUNWY0krT0F3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
+ <img src="https://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEdEQUxENm5RRXoxVk1TYXQvRm42NTVxZzg5bzRSOEc4UWpnaUNWY0krT0F3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ## 自定义图片的提示框
@@ -115,7 +115,7 @@ show() {
 ```
 
 <img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVtNTBFQndmb0JodFlTbm54bFNDUDNlN2p6akJoOWVOYWNwSUs5WTEvdXRRPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg">
+ <img src="https://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVtNTBFQndmb0JodFlTbm54bFNDUDNlN2p6akJoOWVOYWNwSUs5WTEvdXRRPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg">
 </img-wrapper>
 
 
@@ -138,7 +138,7 @@ show() {
 />
 ```
 <img-wrapper>
- <img src="http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEZMSTg0Uzl2cENhaG92d3A0R2xsZWkvWi9QbFJLWFdSYnJHTmJIdlZJMGlBPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg">
+ <img src="https://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEZMSTg0Uzl2cENhaG92d3A0R2xsZWkvWi9QbFJLWFdSYnJHTmJIdlZJMGlBPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg">
 </img-wrapper>
 
 
@@ -183,7 +183,7 @@ show() {
 | other | 参考[icon组件][1]支持的范围 | String | 
 
 
-  [1]: http://doc.mini.talelin.com/component/basic/icon.html
+  [1]: https://doc.mini.talelin.com/component/basic/icon.html
 
 
 <RightMenu />

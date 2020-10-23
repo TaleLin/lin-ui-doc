@@ -19,7 +19,7 @@ title: 骨架屏 Skeleton
 
 加载完成后展示的内容需放在插槽中，通过设置 `loading` 属性为 `true` 时，显示骨架屏占位图；反之则直接展示插槽内容。默认值为 `true` 。
 
-![a](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmpnTHNjNjRPeWdqZzNvOTZMQzJRRVZYSlEvUUUyRzBqbDhsYXVTcm1mcTFnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![a](https://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmpnTHNjNjRPeWdqZzNvOTZMQzJRRVZYSlEvUUUyRzBqbDhsYXVTcm1mcTFnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -59,7 +59,7 @@ title: 骨架屏 Skeleton
 
 `rows-width` 和 `rows-height` 属性可接收数组和字符串。若为数组时则为对应的每行宽度和高度，反之则是最后一行的宽度和高度。
 
-![a](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmpDOXAvTmZhRXFZOWZUT1pvNFNYT3FkNmRxdXM0dnlpbm9SQXhkd21WU29nPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![a](https://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmpDOXAvTmZhRXFZOWZUT1pvNFNYT3FkNmRxdXM0dnlpbm9SQXhkd21WU29nPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -82,7 +82,7 @@ title: 骨架屏 Skeleton
 
 通过 `avatar-shape` 和 `avatar-size` 属性可设置头像占位图的形状和大小。
 
-![a](http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmpnTHNjNjRPeWdqaWdSc09mMmQ3SkxHb3huK3RCYkR4UXhsNjEzQm9KSXl3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![a](https://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmpnTHNjNjRPeWdqaWdSc09mMmQ3SkxHb3huK3RCYkR4UXhsNjEzQm9KSXl3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 

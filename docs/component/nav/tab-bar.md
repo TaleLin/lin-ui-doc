@@ -9,7 +9,7 @@ title: 底部导航栏 Tabbar
 自定义 tabBar 可以让开发者更加灵活地设置 tabBar 样式，以满足更多个性化的场景。<br/>
 本组件提供封装好的接口方便使用，同时满足了一些微信原生`tabBar`完成不了的特殊样式。
 <img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEhEQnl2anJINXM0c254S3JRbEJkWGtnSzdtdFRscFhlaWJ4Z1VDTzdVSExnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="https://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEhEQnl2anJINXM0c254S3JRbEJkWGtnSzdtdFRscFhlaWJ4Z1VDTzdVSExnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ::: tip 注意事项
@@ -24,26 +24,26 @@ title: 底部导航栏 Tabbar
 ## 基本案例
 自定义tabbar的参数设置和微信原生的tabbar参数基本一致，可以参考文末的**底部菜单栏属性**部分来学习。当我们在list里写入了对应页面的参数后，就能生成的tabbar了。
 <img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlERDRWS01jbzhBcnhmQjIvTGUwaDQ0cmlQRm9nZ0dxZFB3PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="https://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlERDRWS01jbzhBcnhmQjIvTGUwaDQ0cmlQRm9nZ0dxZFB3PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 
 ## 设置尺寸和背景色
 lin-ui的自定义tabbar可以通过`backgroundColor`和 `iconSize`设置背景色和icon的大小。
 <img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlERXpMQi81cGhyelpwOUgxYW5UaVZpQVFLMHBFTlQ5ckxBPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="https://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlERXpMQi81cGhyelpwOUgxYW5UaVZpQVFLMHBFTlQ5ckxBPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ## 只有icon的TabBar
 TabBar的当前tab项可以只设置图片的路径`iconPath`和 `iconSize`，这样我们可以做到更定制化的效果。
 <img-wrapper>
- <img src="http://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlET1p5UDkzZWdxQWhwRWRlOTBPeXovMVB4TmZic0Q2cThBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
+ <img src="https://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlET1p5UDkzZWdxQWhwRWRlOTBPeXovMVB4TmZic0Q2cThBPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
 </img-wrapper>
 
 ## 顶部带半圆的TabBar
 lin-ui的自定义tabbar的`list`可以生成不同的tab项，每一项里都有对应的属性来设置更具特色的tab项，当设置  `style`为`circle`时。当前tab项的顶部出现半圆。
 <img-wrapper>
- <img src="http://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlESThPYkJlVnRiNE83Tnd1NTk0S3VCUzZPVFk0eHJaOXpRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="https://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlESThPYkJlVnRiNE83Tnd1NTk0S3VCUzZPVFk0eHJaOXpRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ## 带背景图片的TabBar
@@ -53,7 +53,7 @@ lin-ui的自定义tabbar的`list`可以生成不同的tab项，每一项里都�
 * 2，当我们使用背景图片时，最好不要再设置单个tab的顶部为半圆。
 :::
 <img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlER2w4WW1xVGhJQ2FOTXZYZjI4WSt0RUo5aDVJSUFqM1VnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="https://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEVib3phMVN5SHlER2w4WW1xVGhJQ2FOTXZYZjI4WSt0RUo5aDVJSUFqM1VnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ## 底部菜单栏属性（TabBar Attributes）
@@ -101,4 +101,4 @@ lin-ui的自定义tabbar的`list`可以生成不同的tab项，每一项里都�
 <RightMenu />
 
   [1]: https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html
-  [2]: http://doc.mini.talelin.com/start/component.html
+  [2]: https://doc.mini.talelin.com/start/component.html
