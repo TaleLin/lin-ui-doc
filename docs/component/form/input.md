@@ -102,7 +102,7 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 
 ## 设置校验规则
 
-设置表单校验是为了在防止用户犯错的前提下，尽可能让用户更早地发现并纠正错误，我们可以通过 `rules` 属性来设置相对应的校验规则。详细使用方法请查看[校验规则](http://doc.mini.talelin.com/component/form/rules.html) 
+设置表单校验是为了在防止用户犯错的前提下，尽可能让用户更早地发现并纠正错误，我们可以通过 `rules` 属性来设置相对应的校验规则。详细使用方法请查看[校验规则](https://doc.mini.talelin.com/component/form/rules.html) 
 
 
 ### 示例代码

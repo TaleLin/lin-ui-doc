@@ -187,5 +187,5 @@ title: 列表 List
 |:----|:----|:----|:----|
 | bind:lintap  | 当点击列表时触发   | ---------   | --------   | 
 
- [1]: http://doc.mini.talelin.com/component/basic/icon.html
+ [1]: https://doc.mini.talelin.com/component/basic/icon.html
 <RightMenu />

@@ -36,7 +36,7 @@ title: 圆型进度条 Circle
 
 ## 已选择的进度条颜色
 
-通过`active-color`属性可以设置已选择的进度条颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](http://doc.mini.talelin.com/start/#自定义配置)）
+通过`active-color`属性可以设置已选择的进度条颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](https://doc.mini.talelin.com/start/#自定义配置)）
 
 示例代码
 

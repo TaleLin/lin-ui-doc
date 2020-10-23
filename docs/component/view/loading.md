@@ -24,7 +24,7 @@ title: 加载中 Loading
 <l-loading show="{{true}}" type="rotate"></l-loading>
 ```
 
-![不同类型](http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEZwNGtaQTh4OG16dVh5aVZtdXYxek9sdkg0d1d1a3ZmbXRBdnB3VUMvZS9BPT0.png?imageView&thumbnail=1102y145&type=png&quality=96&stripmeta=0)
+![不同类型](https://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEZwNGtaQTh4OG16dVh5aVZtdXYxek9sdkg0d1d1a3ZmbXRBdnB3VUMvZS9BPT0.png?imageView&thumbnail=1102y145&type=png&quality=96&stripmeta=0)
 
 ## 加载动画大小
 
@@ -39,7 +39,7 @@ title: 加载中 Loading
 <l-loading show="{{true}}" size="large"></l-loading>
 ```
 
-![不同大小](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEZwNGtaQTh4OG16aXcwR05ibzNhMktQK3V5YmM0bmFXK0l2dHZoWlJDNDJBPT0.png?imageView&thumbnail=1102y145&type=png&quality=96&stripmeta=0)
+![不同大小](https://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEZwNGtaQTh4OG16aXcwR05ibzNhMktQK3V5YmM0bmFXK0l2dHZoWlJDNDJBPT0.png?imageView&thumbnail=1102y145&type=png&quality=96&stripmeta=0)
 
 
 ## 自定义加载动画颜色
@@ -52,7 +52,7 @@ title: 加载中 Loading
 <l-loading show="{{true}}" color="#666"></l-loading>
 ```
 
-![不同颜色](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEZwNGtaQTh4OG16dUY0MW5nSFBNRyt4U1c3dWZlRVJqWit3NmtnbkF2SjNRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![不同颜色](https://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEZwNGtaQTh4OG16dUY0MW5nSFBNRyt4U1c3dWZlRVJqWit3NmtnbkF2SjNRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 
 ## 自定义加载动画
@@ -73,7 +73,7 @@ title: 加载中 Loading
 </l-loading>
 ```
 
-![自定义加载动画](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEVEY3ZUSVgyc1ZuSEZCT2dYSjhkdVE3Z1VubDV6ZWloQzh0TjlGOVZCTE5BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![自定义加载动画](https://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEVEY3ZUSVgyc1ZuSEZCT2dYSjhkdVE3Z1VubDV6ZWloQzh0TjlGOVZCTE5BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ## 全屏状态下的Loading
 
@@ -101,7 +101,7 @@ title: 加载中 Loading
 </l-loading>
 ```
 
-![全屏幕自定义加载动画](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEVEY3ZUSVgyc1ZuTWN3MzU2aTZBdUdneWlOOE1YemVCUTgrZ2RNUk00SjJnPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg)
+![全屏幕自定义加载动画](https://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEVEY3ZUSVgyc1ZuTWN3MzU2aTZBdUdneWlOOE1YemVCUTgrZ2RNUk00SjJnPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg)
 
 ## 固定Loading区域
 ### 示例代码

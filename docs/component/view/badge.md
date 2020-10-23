@@ -59,7 +59,7 @@ title: 徽章 Badge
 * 设置`number-type`为`ellipsis`，超过`max-count`会显示为`...`。通过`max-count`属性修改数字最大值，`max-count`默认值为`99`。
 * 设置`number-type`为`limit`时数字大于1000显示为`${value/1000}k`。
 
-![数字显示方式](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmlUN01tNTlJaXhTVmFCS1krN1p5T3pPQ3FTSEVER05NYjRabWg5aTF5VnZ3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![数字显示方式](https://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmlUN01tNTlJaXhTVmFCS1krN1p5T3pPQ3FTSEVER05NYjRabWg5aTF5VnZ3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -109,7 +109,7 @@ module.exports = {
 `dot`属性权重大于`value`属性。
 :::
 
-![红点徽标](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmlUN01tNTlJaXhTYXF5ckNOMmR2VDg5TDhyamtISjhsTlpTQ2cwZkpQMTNBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
+![红点徽标](https://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmlUN01tNTlJaXhTYXF5ckNOMmR2VDg5TDhyamtISjhsTlpTQ2cwZkpQMTNBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
 
 ### 示例代码
 
@@ -149,6 +149,6 @@ module.exports = {
 |:----|:----|:----|:----|
 | bind:lintap   | 点击徽标时触发的事件   | ----   | --------   | 
 
-  [1]: http://doc.mini.talelin.com/start/
+  [1]: https://doc.mini.talelin.com/start/
 
 <RightMenu />
