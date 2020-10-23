@@ -183,7 +183,7 @@ show() {
 | other | 参考[icon组件][1]支持的范围 | String | 
 
 
-  [1]: http://doc.mini.7yue.pro/component/basic/icon.html
+  [1]: http://doc.mini.talelin.com/component/basic/icon.html
 
 
 <RightMenu />

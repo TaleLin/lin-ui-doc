@@ -58,7 +58,7 @@ showActionSheet(){
 - `image`：子菜单上的图片，显示在文字左侧。如果`icon`和`image`同时使用，则`image`的优先级高于`icon`；
 - `imageStyle`：子菜单的样式；
 - `color`：子菜单的文字颜色;
-- `openType`：子菜单的微信开放能力，参看[button](http://doc.mini.7yue.pro/component/basic/)
+- `openType`：子菜单的微信开放能力，参看[button](http://doc.mini.talelin.com/component/basic/)
 
 ### 示例代码
 

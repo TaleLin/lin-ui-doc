@@ -149,6 +149,6 @@ module.exports = {
 |:----|:----|:----|:----|
 | bind:lintap   | 点击徽标时触发的事件   | ----   | --------   | 
 
-  [1]: http://doc.mini.7yue.pro/start/
+  [1]: http://doc.mini.talelin.com/start/
 
 <RightMenu />

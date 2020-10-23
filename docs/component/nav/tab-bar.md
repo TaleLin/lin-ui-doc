@@ -101,4 +101,4 @@ lin-ui的自定义tabbar的`list`可以生成不同的tab项，每一项里都�
 <RightMenu />
 
   [1]: https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html
-  [2]: http://doc.mini.7yue.pro/start/component.html
+  [2]: http://doc.mini.talelin.com/start/component.html
