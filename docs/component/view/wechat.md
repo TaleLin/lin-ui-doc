@@ -17,7 +17,7 @@ Wechat组件支持两种模式，一种是单图模式，图片等比压缩；�
 
 示例代码
 
-![单图模式](https://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xRMEhTREVPZEU0OE1DdXZNbFg0TVUxYjNBVlhwWXY2YjJRPT0.jpeg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+![单图模式](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xRMEhTREVPZEU0OE1DdXZNbFg0TVUxYjNBVlhwWXY2YjJRPT0.jpeg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 ```wxml
 <view class='circle'>
@@ -46,7 +46,7 @@ Wechat组件支持两种模式，一种是单图模式，图片等比压缩；�
 
 ```js
 data: {
-	urls1_1: ['https://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg'],
+	urls1_1: ['http://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg'],
 	urls1_2: ['https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574071192918&di=82fae997a4b5434f2fd2b4ffadbf6a90&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2017-11-21%2F5a13dcd54ac3b.png'],
 }
 ```
@@ -96,7 +96,7 @@ data: {
 
 示例代码
 
-![多图模式](https://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xRMFcxMFl2L0thL0dkeUljdzNZVFFQckRHNElJaVVFRVFBPT0.jpeg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+![多图模式](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xRMFcxMFl2L0thL0dkeUljdzNZVFFQckRHNElJaVVFRVFBPT0.jpeg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 ```wxml
 <l-wechat l-class="image" urls='{{urls2}}'></l-wechat>
@@ -108,9 +108,9 @@ data: {
 
 ```js
 data: {
-	urls2: ['https://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574071192918&di=82fae997a4b5434f2fd2b4ffadbf6a90&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2017-11-21%2F5a13dcd54ac3b.png'],
-	urls3: ['https://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=823f17fce7f9734316e850196d079e88&imgtype=0&src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fblog%2F201404%2F22%2F20140422142715_8GtUk.thumb.600_0.jpeg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=f455bc4cf2b1ea0f42d25dd91ffe3625&imgtype=0&src=http%3A%2F%2Fpic4.zhimg.com%2Fv2-06273e88b28b75cc0cbe4cee51312cf7_b.jpg'],
-	urls9: ['https://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=823f17fce7f9734316e850196d079e88&imgtype=0&src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fblog%2F201404%2F22%2F20140422142715_8GtUk.thumb.600_0.jpeg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=f455bc4cf2b1ea0f42d25dd91ffe3625&imgtype=0&src=http%3A%2F%2Fpic4.zhimg.com%2Fv2-06273e88b28b75cc0cbe4cee51312cf7_b.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=665e0defb97634c13e971e8927d286f0&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2019-04-28%2F5cc56e6811585.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=5a66908ed0515c1653c384e986604976&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2019-06-05%2F5cf781125242e.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=9ae6074b6f502a61fb8bf98d0aec192e&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-08-16%2F5b75314b062e6.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=f54813a8680af71f2f35f4688bd475ff&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-09-13%2F5b99ccb60b6c8.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423862&di=2d0ddcec3f7c2e36d4ffb35a8d720e41&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-07-13%2F5b48396e092fa.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423862&di=03038c8dd907520d075927e15124eb20&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-01-18%2F5a60495640573.jpg']
+	urls2: ['http://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574071192918&di=82fae997a4b5434f2fd2b4ffadbf6a90&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2017-11-21%2F5a13dcd54ac3b.png'],
+	urls3: ['http://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=823f17fce7f9734316e850196d079e88&imgtype=0&src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fblog%2F201404%2F22%2F20140422142715_8GtUk.thumb.600_0.jpeg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=f455bc4cf2b1ea0f42d25dd91ffe3625&imgtype=0&src=http%3A%2F%2Fpic4.zhimg.com%2Fv2-06273e88b28b75cc0cbe4cee51312cf7_b.jpg'],
+	urls9: ['http://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=823f17fce7f9734316e850196d079e88&imgtype=0&src=http%3A%2F%2Fcdn.duitang.com%2Fuploads%2Fblog%2F201404%2F22%2F20140422142715_8GtUk.thumb.600_0.jpeg', 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573645417694&di=f455bc4cf2b1ea0f42d25dd91ffe3625&imgtype=0&src=http%3A%2F%2Fpic4.zhimg.com%2Fv2-06273e88b28b75cc0cbe4cee51312cf7_b.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=665e0defb97634c13e971e8927d286f0&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2019-04-28%2F5cc56e6811585.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=5a66908ed0515c1653c384e986604976&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2019-06-05%2F5cf781125242e.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=9ae6074b6f502a61fb8bf98d0aec192e&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-08-16%2F5b75314b062e6.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423863&di=f54813a8680af71f2f35f4688bd475ff&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-09-13%2F5b99ccb60b6c8.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423862&di=2d0ddcec3f7c2e36d4ffb35a8d720e41&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-07-13%2F5b48396e092fa.jpg','https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1574095423862&di=03038c8dd907520d075927e15124eb20&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fmobile%2F2018-01-18%2F5a60495640573.jpg']
 }
 ```
 
@@ -158,7 +158,7 @@ urls接收值可以有两种形式。
 
 ### 示例代码
 
-![图片大小](https://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xROXJ5RXdzOTMySkordDlFUDRkNXMyVVVnSHJYaTJwTzFRPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+![图片大小](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xROXJ5RXdzOTMySkordDlFUDRkNXMyVVVnSHJYaTJwTzFRPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 ```wxml
 <l-wechat l-class="image" urls='{{urls2}}'></l-wechat>
@@ -172,7 +172,7 @@ urls接收值可以有两种形式。
 data: {
 	urls2: [{
       key: 'key1',
-      url: 'https://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg',
+      url: 'http://i0.hdslb.com/bfs/article/b501b14e56fb373b34afcea2e5c398de39116bd2.jpg',
       status: 1
     }, {
       key: 'key2',
@@ -199,7 +199,7 @@ data: {
 
 ### 示例代码
 
-![图像间隔](https://imglf4.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xRK3VSTlFoK01oNUVsWTZETytvODRKUmxqd2pQZkpkZVd3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+![图像间隔](http://imglf4.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xRK3VSTlFoK01oNUVsWTZETytvODRKUmxqd2pQZkpkZVd3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 ```wxml
 <l-wechat l-class="image" urls='{{urls4}}'></l-wechat>
@@ -232,7 +232,7 @@ urls4: ['https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=157
 
 ### 示例代码
 
-![裁剪模式](https://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xReXNWV21RamUzaU0vNnZpNURETUFsWldaWXF5RDBHWHZRPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+![裁剪模式](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNvZTljZFIxN2xReXNWV21RamUzaU0vNnZpNURETUFsWldaWXF5RDBHWHZRPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 ```wxml
 <l-wechat l-class="image" urls='{{urls4}}'></l-wechat>

@@ -28,7 +28,7 @@ title: 选项卡 Segment
 ### 示例代码
 
 <img-wrapper>
- <img src="https://imglf4.nosdn.127.net/img/VVpkaDA0b3BNODVjZ2JNM1FDU3V1MTE1NjNqdWpKVUFVbndGbVZnZ2lIQXJMUUQ1TkxzTVNnPT0.jpeg?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="http://imglf4.nosdn.127.net/img/VVpkaDA0b3BNODVjZ2JNM1FDU3V1MTE1NjNqdWpKVUFVbndGbVZnZ2lIQXJMUUQ1TkxzTVNnPT0.jpeg?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ```wxml
@@ -69,7 +69,7 @@ title: 选项卡 Segment
 ### 示例代码
 
 <img-wrapper>
- <img src="https://imglf4.nosdn.127.net/img/VVpkaDA0b3BNODVjZ2JNM1FDU3V1NzcxZlIwMlZqVlZhclhmY29WenN3MGN5RVpyUjBjWS9BPT0.jpeg?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="http://imglf4.nosdn.127.net/img/VVpkaDA0b3BNODVjZ2JNM1FDU3V1NzcxZlIwMlZqVlZhclhmY29WenN3MGN5RVpyUjBjWS9BPT0.jpeg?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ```wxml
@@ -89,7 +89,7 @@ title: 选项卡 Segment
 ### 示例代码
 
 <img-wrapper>
- <img src="https://imglf4.nosdn.127.net/img/VVpkaDA0b3BNODVjZ2JNM1FDU3V1OC9WVzRraEFwclRrck5uV1FySFlTTlU3Wk1PNlV6SFJRPT0.jpeg?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
+ <img src="http://imglf4.nosdn.127.net/img/VVpkaDA0b3BNODVjZ2JNM1FDU3V1OC9WVzRraEFwclRrck5uV1FySFlTTlU3Wk1PNlV6SFJRPT0.jpeg?imageView&thumbnail=1680x0&quality=96&stripmeta=0">
 </img-wrapper>
 
 ```wxml

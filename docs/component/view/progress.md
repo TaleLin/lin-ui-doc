@@ -10,7 +10,7 @@ title: 进度条 Progress
 
 通过`percent`属性设置进度条当前进度，取值0~100，默认为0.
 
-![基本使用方法](https://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwaFVXMmZGaElxa1lpMzZzNHhGYzNzWC96TjhFY20zcUZnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![基本使用方法](http://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwaFVXMmZGaElxa1lpMzZzNHhGYzNzWC96TjhFY20zcUZnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 
@@ -23,7 +23,7 @@ title: 进度条 Progress
 
 通过`stroke-width`属性设置进度条的宽度。默认12，单位`rpx`.
 
-![宽度](https://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwaVBXaHZrVkM0MWNOVnp3elJ1OUI4TTg3RzFOc3Rsd2xnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![宽度](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwaVBXaHZrVkM0MWNOVnp3elJ1OUI4TTg3RzFOc3Rsd2xnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 
@@ -36,7 +36,7 @@ title: 进度条 Progress
 
 通过`border-radius`属性设置进度条的圆角数值，默认为6，单位`rpx`.
 
-![圆角](https://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwaFVXMmZGaElxa1lpMzZzNHhGYzNzWC96TjhFY20zcUZnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![圆角](http://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwaFVXMmZGaElxa1lpMzZzNHhGYzNzWC96TjhFY20zcUZnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 
@@ -47,9 +47,9 @@ title: 进度条 Progress
 
 ## 已选择的进度条颜色
 
-通过`active-color`属性可以设置已选择的进度条颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](https://doc.mini.talelin.com/start/#自定义配置)）
+通过`active-color`属性可以设置已选择的进度条颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](http://doc.mini.talelin.com/start/#自定义配置)）
 
-![已选进度条颜色](https://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3Ywdm1KWlRWMXVIUXJ4M2Y4SjRSc0xySmxFYmNvUDBtSUVnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![已选进度条颜色](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3Ywdm1KWlRWMXVIUXJ4M2Y4SjRSc0xySmxFYmNvUDBtSUVnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 
@@ -62,7 +62,7 @@ title: 进度条 Progress
 
 通过`background-color`属性可以设置未选择的进度条颜色，默认颜色`#EBEBEB`。
 
-![背景颜色](https://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwZ1dSSkphSVdMd0dKdm9yZ0M1OUlXanR5QS9ES2V1OEh3PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![背景颜色](http://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwZ1dSSkphSVdMd0dKdm9yZ0M1OUlXanR5QS9ES2V1OEh3PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 
@@ -82,7 +82,7 @@ title: 进度条 Progress
 
 通过`text-position`属性可以设置百分比数值的显示位置，可选值有"left","right"。默认为"right"。
 
-![文字位置](https://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwZzNKVG9zaHRlVmtDQ1JTTUw0cmRSNDZBRGlBM3gvNW53PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![文字位置](http://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwZzNKVG9zaHRlVmtDQ1JTTUw0cmRSNDZBRGlBM3gvNW53PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 
@@ -93,9 +93,9 @@ title: 进度条 Progress
 
 ## 文字颜色
 
-通过`text-color`属性，可以设置文字颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](https://doc.mini.talelin.com/start/#自定义配置)）
+通过`text-color`属性，可以设置文字颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](http://doc.mini.talelin.com/start/#自定义配置)）
 
-![文字颜色](https://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNibDV0YlNiZGVLNlJpSzBYemkvQjNtWkE0Z3VlK2xoYkJtandqMm5QbU5BPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![文字颜色](http://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNibDV0YlNiZGVLNlJpSzBYemkvQjNtWkE0Z3VlK2xoYkJtandqMm5QbU5BPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 
@@ -111,7 +111,7 @@ title: 进度条 Progress
 
 进度条头部的样式可通过slot自定义传入，通过传入slot="header"自定义进度条头部样式。
 
-![自定义header](https://imglf6.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwbHhiMFVIWnZvQ3lLcUtGSlFLL0QrdmFPbHEvYjJscCtRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
+![自定义header](http://imglf6.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3YwbHhiMFVIWnZvQ3lLcUtGSlFLL0QrdmFPbHEvYjJscCtRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
 示例代码
 

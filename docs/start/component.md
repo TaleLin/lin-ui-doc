@@ -34,7 +34,7 @@ title: 组件上手
 
 ## 组件的事件
 
-大部分的组件都有对应的事件，详细的内容请参阅每个组件的文档，以及统一的[事件说明](https://doc.mini.talelin.com/start/event.html)。
+大部分的组件都有对应的事件，详细的内容请参阅每个组件的文档，以及统一的[事件说明](http://doc.mini.talelin.com/start/event.html)。
 
 
 ## 全局自定义组件
