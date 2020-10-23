@@ -14,7 +14,7 @@ title: 标签 Tag
 
 通过`shape`属性设置标签形状为`square`（方形标签）或`circle`（半圆标签）。默认形状为`square`(默认)。
 
-![标签形状](http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoWGpLVTJnZk5Fa01yWXd4azEwK3BWL0JkWjBJQ1VyVE9BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
+![标签形状](https://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoWGpLVTJnZk5Fa01yWXd4azEwK3BWL0JkWjBJQ1VyVE9BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
 
 ### 示例代码
 
@@ -27,7 +27,7 @@ title: 标签 Tag
 
 通过`size`属性设置标签大小为`super-mini`(超小)、`mini`（小）、`medium`（中）、`large`（大）。默认值为`mini`(默认)。
 
-![标签大小](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoYjVZSGJIRFFINHIvWGl6amFFb0lPbmdnbDFmaklrc0V3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
+![标签大小](https://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoYjVZSGJIRFFINHIvWGl6amFFb0lPbmdnbDFmaklrc0V3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
 
 ### 示例代码
 
@@ -79,7 +79,7 @@ title: 标签 Tag
 
 通过`plain`属性设置标签是否为镂空标签。属性值为`true`时为镂空标签。默认值为`false`。
 
-![镂空标签](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoY0pEL0lJWUtiNFBocDhFcWdvdjZPbW50b0RDTStGVUVRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
+![镂空标签](https://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoY0pEL0lJWUtiNFBocDhFcWdvdjZPbW50b0RDTStGVUVRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
 
 ### 示例代码
 
@@ -97,7 +97,7 @@ title: 标签 Tag
 
 镂空标签`font-color`默认值为主题色（thmen-color）。
 
-![标签颜色](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmdQM0o2eUNYa2pzMDd1QXE3K1FuRlorRWtsRkxyUldTbEVFRFMwYUloZFRBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
+![标签颜色](https://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmdQM0o2eUNYa2pzMDd1QXE3K1FuRlorRWtsRkxyUldTbEVFRFMwYUloZFRBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
 
 ### 示例代码
 
@@ -110,13 +110,13 @@ title: 标签 Tag
 
 通过`icon`属性设置标签文字前的icon名称。
 
-通过`icon-size`和`icon-color`属性设置icon大小和颜色。其他关于icon用法可参考[icon组件文档](http://doc.mini.talelin.com/component/basic/icon.html)。
+通过`icon-size`和`icon-color`属性设置icon大小和颜色。其他关于icon用法可参考[icon组件文档](https://doc.mini.talelin.com/component/basic/icon.html)。
 
 通过`location`属性可设置icon的位置，默认值为`left`。
 
 通过`image`属性设置标签文字前的图片。`l-image-class`自定义设置图片样式。
 
-![图标标签](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoZDZRa0hvYi9LYUd3ZmhWMURMbGdqVWlNSTkrM2lMZ0VRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
+![图标标签](https://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmpaKzVLck4vOEdoZDZRa0hvYi9LYUd3ZmhWMURMbGdqVWlNSTkrM2lMZ0VRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
 
 ```wxml
 <l-tag icon-size="20" icon="warning">图标标签</l-tag>
