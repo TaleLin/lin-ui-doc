@@ -47,7 +47,7 @@ title: 进度条 Progress
 
 ## 已选择的进度条颜色
 
-通过`active-color`属性可以设置已选择的进度条颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](http://doc.mini.7yue.pro/start/#自定义配置)）
+通过`active-color`属性可以设置已选择的进度条颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](http://doc.mini.talelin.com/start/#自定义配置)）
 
 ![已选进度条颜色](http://imglf3.nosdn0.126.net/img/YXcvYzgxMzh2bmNkS3VxNURld3Ywdm1KWlRWMXVIUXJ4M2Y4SjRSc0xySmxFYmNvUDBtSUVnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 
@@ -93,7 +93,7 @@ title: 进度条 Progress
 
 ## 文字颜色
 
-通过`text-color`属性，可以设置文字颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](http://doc.mini.7yue.pro/start/#自定义配置)）
+通过`text-color`属性，可以设置文字颜色，默认为主题色。（关于主题色设置请阅读[入门介绍-主题色更改](http://doc.mini.talelin.com/start/#自定义配置)）
 
 ![文字颜色](http://imglf5.nosdn0.126.net/img/YXcvYzgxMzh2bmNibDV0YlNiZGVLNlJpSzBYemkvQjNtWkE0Z3VlK2xoYkJtandqMm5QbU5BPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0)
 

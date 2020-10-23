@@ -1,6 +1,5 @@
 /.idea
 /node_modules
-/package-lock.json
 /dist
 .DS_Store
 # npm debug日志
