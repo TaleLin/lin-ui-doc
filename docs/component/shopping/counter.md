@@ -14,7 +14,7 @@ title: 数量选择器 Counter
 
 通过`max`属性设置最大数量，默认值为`10000`。
 
-![基础用法](https://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmdGaExZNzgyOGJtOHVoVWpHclN2OTZDRHZ4QkliS3VuZzdZdldZUG9VanN3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![基础用法](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmdGaExZNzgyOGJtOHVoVWpHclN2OTZDRHZ4QkliS3VuZzdZdldZUG9VanN3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -26,7 +26,7 @@ title: 数量选择器 Counter
 
 通过`step`属性设置数量增减步长，默认值为`1`。
 
-![设置数量增减步长](https://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmdGaExZNzgyOGJtNE9OckM3b1dYUTlQRUl0UzNQc1dGVzRDWW1KbEIzNUV3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![设置数量增减步长](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmdGaExZNzgyOGJtNE9OckM3b1dYUTlQRUl0UzNQc1dGVzRDWW1KbEIzNUV3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -38,7 +38,7 @@ title: 数量选择器 Counter
 
 通过`disabled`属性设置数量选择器禁用状态。默认值为`false`。
 
-![设置禁用状态](https://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmdGaExZNzgyOGJtMU54QVh0TXJWYWYyWWVQMC9iTnN1SlJXa0x4WGJmanZ3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![设置禁用状态](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmdGaExZNzgyOGJtMU54QVh0TXJWYWYyWWVQMC9iTnN1SlJXa0x4WGJmanZ3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 

@@ -10,7 +10,7 @@ title: 通告栏 NoticeBar
 
 通过`show`属性设置是否显示通告栏。默认值为`true`。
 
-![通告栏](https://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmorVkllT2NXR2toQUUzZGswaEdxd0llbnV6MlgrVjI4cWRtNElhdDgwODJBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![通告栏](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmorVkllT2NXR2toQUUzZGswaEdxd0llbnV6MlgrVjI4cWRtNElhdDgwODJBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -24,7 +24,7 @@ title: 通告栏 NoticeBar
 
 当通告栏的类型为`swip`时，轮播的内容需通过`swip-arr`属性传入。
 
-![通告栏图标](https://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmorVkllT2NXR2toQnpIajA1VElGaU5rMUR3YnRFUERtUE56Ykl0Mk5QWHpnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![通告栏图标](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmorVkllT2NXR2toQnpIajA1VElGaU5rMUR3YnRFUERtUE56Ykl0Mk5QWHpnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -72,7 +72,7 @@ title: 通告栏 NoticeBar
 
 通过`end-icon-name`设置位于通告栏尾部的图标名称。`end-icon-size`和`end-icon-color`属性设置尾部图标的颜色和大小。
 
-![通告栏图标](https://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmorVkllT2NXR2toRG1rdk04ZTlKdjZmMHpKY2VJL2o4b1RVVjFTbTkwK2pnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![通告栏图标](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmorVkllT2NXR2toRG1rdk04ZTlKdjZmMHpKY2VJL2o4b1RVVjFTbTkwK2pnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 

@@ -14,7 +14,7 @@ title: 价格 Price
 
 通过`mode`属性设置价格类型，可选值为`number`、`text`，默认值为`number`。
 
-![价格及价格符号](https://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmlreHhiN2hqR1AvWFhjMzJFVnhtTFM5YmlRWmw3NTZoQmNreElnQmc0OGpBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+![价格及价格符号](http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmlreHhiN2hqR1AvWFhjMzJFVnhtTFM5YmlRWmw3NTZoQmNreElnQmc0OGpBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 ### 示例代码
 
@@ -30,7 +30,7 @@ title: 价格 Price
 
 通过`del-color`属性设置价格删除态的颜色。
 
-![是否为删除态价格](https://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmlreHhiN2hqR1AvWVRrandXYnRQN1BPMzY1S0pkc2M4WXBCKy9jdnkyTCtBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+![是否为删除态价格](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmlreHhiN2hqR1AvWVRrandXYnRQN1BPMzY1S0pkc2M4WXBCKy9jdnkyTCtBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
 
 ### 示例代码
 
@@ -78,7 +78,7 @@ title: 价格 Price
 `color`、`size`、`bold`可以被`unit-size`等属性覆盖。
 :::
 
-![价格颜色及大小](https://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmlreHhiN2hqR1AvWFhjMzJFVnhtTFM5YmlRWmw3NTZoQmNreElnQmc0OGpBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+![价格颜色及大小](http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmlreHhiN2hqR1AvWFhjMzJFVnhtTFM5YmlRWmw3NTZoQmNreElnQmc0OGpBPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
 
 ### 示例代码
 
