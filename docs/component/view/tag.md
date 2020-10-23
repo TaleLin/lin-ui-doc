@@ -110,7 +110,7 @@ title: 标签 Tag
 
 通过`icon`属性设置标签文字前的icon名称。
 
-通过`icon-size`和`icon-color`属性设置icon大小和颜色。其他关于icon用法可参考[icon组件文档](http://doc.mini.7yue.pro/component/basic/icon.html)。
+通过`icon-size`和`icon-color`属性设置icon大小和颜色。其他关于icon用法可参考[icon组件文档](http://doc.mini.talelin.com/component/basic/icon.html)。
 
 通过`location`属性可设置icon的位置，默认值为`left`。
 
