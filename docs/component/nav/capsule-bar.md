@@ -25,11 +25,10 @@ title: 胶囊栏 CapsuleBar
 - `Capsule`—— 胶囊，标题栏左侧胶囊
 
 以上三个名词分别对应的部分如下图所示：
-<img-wrapper>
-<a data-fancybox href="/screenshots/navigation-bar/basic-concept.png">
-<img  src="/screenshots/navigation-bar/basic-concept.png"/>
-</a>
-</img-wrapper>
+
+:::img
+![height=100](/screenshots/navigation-bar/1.png)
+:::
 
 ## 基本用法
 
