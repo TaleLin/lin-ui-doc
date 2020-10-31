@@ -20,7 +20,9 @@ title: 头像 Avatar
 
 示例代码
 
-![图标头像](http://imglf3.nosdn0.126.net/img/VVpkaDA0b3BNODdnM3dRMEJwS3JCOWhiQnZ3SUE3NFVTVFNpL1hOa3p3WmFhWW1YWXcydW5BPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/avatar/1.png)
+:::
 
 ```wxml
    <l-avatar size="80" icon="user" />
@@ -35,7 +37,9 @@ title: 头像 Avatar
 
 示例代码
 
-![图片资源头像](http://imglf4.nosdn0.126.net/img/VVpkaDA0b3BNODdnM3dRMEJwS3JCOG9ZQkUzM2xsWTEreHg1SE5aMC9jQnc2QVBKMzFpdnhBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/avatar/2.png)
+:::
 
 ```wxml
    <l-avatar src="/images/view/default-image.jpg" />
@@ -48,7 +52,9 @@ title: 头像 Avatar
 
 `open-data`接收数组，通过传入`userAvatarUrl`、`userNickName`控制显示用户头像和昵称。
 
-![open-data](http://imglf6.nosdn0.126.net/img/VVpkaDA0b3BNODdnM3dRMEJwS3JCNnJBV0FQSWpkRnZtek1Ba1FBWnRxYnZVVG56NjdwYVpRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/avatar/3.png)
+:::
 
 ```wxml
    <l-avatar open-data="{{['userAvatarUrl','userNickName']}}" />
@@ -61,7 +67,9 @@ title: 头像 Avatar
 
 ### 示例代码
 
-![头像形状](http://imglf5.nosdn0.126.net/img/VVpkaDA0b3BNODdnM3dRMEJwS3JCMy8xVHZnc0tNeDBlUFp3NnBxTUt0Y2l3YUNESTEvUndnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/avatar/4.png)
+:::
 
 ```wxml
     <l-avatar shape="circle" src="/images/view/default-image.jpg" />
@@ -74,7 +82,9 @@ title: 头像 Avatar
 
 ### 示例代码
 
-![头像尺寸](http://imglf4.nosdn0.126.net/img/VVpkaDA0b3BNODdnM3dRMEJwS3JCNEZxR1NwNW5VZ09QYm84cXVpZFB4NzRxeVBYWXBybWlnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/avatar/5.png)
+:::
 
 ```wxml
    <l-avatar size="80" src="/images/view/default-image.jpg" />
@@ -90,7 +100,9 @@ title: 头像 Avatar
 
 ### 示例代码
 
-![头像和文本](http://imglf4.nosdn0.126.net/img/VVpkaDA0b3BNODdnM3dRMEJwS3JCeHF1eGVvZ0xvS1NRdkJ0NFczMVdKYms0NmxNSVB2R053PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=200](/screenshots/avatar/6.png)
+:::
 
 ```wxml
   <l-avatar text="月野君" placement="bottom" src="/images/view/default-image.jpg" />
