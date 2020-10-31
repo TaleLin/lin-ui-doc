@@ -17,7 +17,9 @@ title: 遮罩层 Mask
 
 如下图：
 
-![基本案例](http://imglf3.nosdn0.126.net/img/YUdIR2E3ME5weEdxL2FiL01nOG1Gcm9JdGFuVDVMOElUc0dqcU1RVlczbWtKYzJMSjhFSmp3PT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=300](/screenshots/mask/1.jpg)
+:::
 
 ## 自定义透明度
 
@@ -56,7 +58,9 @@ Tips：
 
 ```
 
-![自定义子节点](http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEdxL2FiL01nOG1GclQzblFhYVFvUms2WC9YNGdpOVFLUU1mUEE0c3A3enBBPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg) 
+:::img
+![height=300](/screenshots/mask/2.jpg)
+:::
 
 
 ## 设置子节点是否居中
@@ -94,7 +98,9 @@ Tips：
 
 下面让我们来根据示例代码，实现多个子节点展示的效果。
 
-![多个子节点](http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEZCRDYzcGxuZXI2TkYweUhSbktuVGVweDdUUUJkblA0RXJHVnNoaUZYaFBRPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=300](/screenshots/mask/3.jpg)
+:::
 
 通过效果图，我们来分析下怎样去实现该案例，可以将过程分为两部分:
 
