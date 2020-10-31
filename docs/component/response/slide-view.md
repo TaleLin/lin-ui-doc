@@ -10,11 +10,15 @@ title: 滑动菜单 SlideView
 
 滑动菜单分为两个部分组成，一是在未滑动时看到的部分（如下图）
 
-![未滑动](http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEczWlN4T1ZicXVFWEpqVStuaUtJaUZ4QnVpeEhSMHhlbGZ5SWFCcStKc0lRPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=100](/screenshots/slide-view/1.jpg)
+:::
 
 二是在滑动时可见的部分（如下图的操作菜单部分）。
 
-![未滑动](http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEczWlN4T1ZicXVFZG9Sb2hUb1U1c1NaaC9XWk9FS1Y5MlFMclRZbENpVVp3PT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=100](/screenshots/slide-view/2.jpg)
+:::
 
 两者都是通过添加 `slot` 子节点来完成的。
 
@@ -46,8 +50,9 @@ title: 滑动菜单 SlideView
 ```
 
 如下图：
-![slideView](http://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEczWlN4T1ZicXVFUTFOeGtoUXl3RFNzcVo4OW4zV3ljeE1lTmgxWjhFNnhnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
-
+:::img
+![height=200](/screenshots/slide-view/3.jpg)
+:::
 
 ## 自定义阈值
 
