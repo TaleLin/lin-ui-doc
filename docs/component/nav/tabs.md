@@ -56,7 +56,9 @@ title: 标签页 Tabs
       </l-tabs>
 ```
 
-![默认](http://imglf3.nosdn.127.net/img/VVpkaDA0b3BNODZkZk9sS05xaEhzQnYxbGxOVm9PQ29MWHc3aG42RUU2MDllN2dWTDE3T2dBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=200](/screenshots/tabs/1.png)
+:::
 
 
 ## 标签页位置
