@@ -8,7 +8,9 @@ title: 图标 Icon
 
 ## 图标库
 
-![1](http://imglf3.nosdn.127.net/img/VVpkaDA0b3BNODdRS0xLc0NPekxEdTViN1FVZFFIWGpmVG4xZERSNG5xRFBJYmQ5b3Z2Vi9BPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=200](/screenshots/icon/1.png)
+:::
 
 > 更多图标请移步示例小程序中查看
 
@@ -26,7 +28,9 @@ title: 图标 Icon
 <l-icon name="add"/>
 ```
 
-![默认](http://imglf4.nosdn.127.net/img/VVpkaDA0b3BNODdRS0xLc0NPekxEdWNwankwZ1k1TlBiS01kemg0UUF3a3dxL05IYXZ5NDdnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=100](/screenshots/icon/2.png)
+:::
 
 ## 图标样式
 
@@ -42,7 +46,9 @@ title: 图标 Icon
 <l-icon name="setting" color="#FFE57F"/>
 ```
 
-![修改图标颜色](http://imglf6.nosdn.127.net/img/VVpkaDA0b3BNODdRS0xLc0NPekxEcjYweE1jLzkvZk5DYlpBNzc0TFBjZkY3aklNUlZsODFBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=150](/screenshots/icon/3.png)
+:::
 
 - 修改图标大小（单位：rpx）
 
@@ -52,7 +58,9 @@ title: 图标 Icon
 <l-icon name="user" size="50"/>
 ```
 
-![修改图标大小](http://imglf5.nosdn.127.net/img/VVpkaDA0b3BNODdRS0xLc0NPekxEa29ON28vWDI3dlJTbWdlK2d0YkJMVXNnUStndjA0ZzBRPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=150](/screenshots/icon/4.png)
+:::
 
 ## 自定义图标
 
