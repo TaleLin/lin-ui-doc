@@ -18,7 +18,7 @@ title: 图片裁剪 ImageClipper
 
 以上三个名词分别对应的部分如下图所示：、
 :::img
-![height=500](/screenshots/image-clipper/image-clipper.png)
+![height=300](/screenshots/image-clipper/image-clipper.png)
 :::
 
 ## 基础使用
@@ -31,7 +31,7 @@ title: 图片裁剪 ImageClipper
 </l-image-clipper>
 ```
 :::img
-![height=500](/screenshots/image-clipper/demo1.png)
+![height=300](/screenshots/image-clipper/demo1.png)
 :::
 
 ## 页面内选择图片
@@ -78,7 +78,7 @@ Page({
 });
 ```
 :::img
-![height=500](/screenshots/image-clipper/demo2.png)
+![height=300](/screenshots/image-clipper/demo2.png)
 :::
 
 ## 自定义工具栏
@@ -102,7 +102,7 @@ Page({
 </l-image-clipper>
 ```
 :::img
-![height=500](/screenshots/image-clipper/demo3.png)
+![height=300](/screenshots/image-clipper/demo3.png)
 :::
 
 ## 组件完整使用说明
