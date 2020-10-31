@@ -20,7 +20,7 @@ Input的标题部分是通过 `label` 属性来实现，你还可以通过`place
 <l-input label="密码"  placeholder="请输入密码"  />
 ```
 :::img
-![height=150](/screenshots/input/image1.png)
+![height=100](/screenshots/input/image1.png)
 :::
 
 ## 对齐方式

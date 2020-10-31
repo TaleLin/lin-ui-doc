@@ -12,7 +12,7 @@ title: 评分 Rate
 
 ### 示例代码
 :::img
-![](/screenshots/rate/image1.png)
+![height=50](/screenshots/rate/image1.png)
 :::
 
 ```wxml
@@ -26,8 +26,8 @@ title: 评分 Rate
 ### 示例代码
 
 :::img
-![height=100](/screenshots/rate/image2.png)
-![height=100](/screenshots/rate/image3.png)
+![height=50](/screenshots/rate/image2.png)
+![height=50](/screenshots/rate/image3.png)
 :::
 
 ```wxml
@@ -82,7 +82,7 @@ title: 评分 Rate
 #### 示例代码
 
 :::img
-![height=100](/screenshots/rate/image6.png)
+![height=50](/screenshots/rate/image6.png)
 :::
 
 ```wxss

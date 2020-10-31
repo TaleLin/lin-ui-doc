@@ -80,7 +80,9 @@ showMessage(){
 
 通过`content`属性设置消息提示的内容，此处文字建议不超过十个。
 
-![提示类型](http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmdSN2pYa0o3U0wwbDdRNkhuMFR6b0pGN2R0NldnWDM1ZXFqK3RibDdjM2Z3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=50](/screenshots/message/1.png)
+:::
 
 ### 示例代码
 
@@ -97,7 +99,9 @@ showMessage(){
 
 通过`type`属性设置为`primary`、`success`、`warning`、`error`创建不同类型的消息提示。默认值为`primary`。
 
-![提示类型](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmdSN2pYa0o3U0wwbWhGL2tYSlpwdHJOMms0eWpNQ0JaaUMyeXZVbWM3LzZBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=200](/screenshots/message/2.png)
+:::
 
 ### 示例代码
 
