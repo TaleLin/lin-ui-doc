@@ -12,7 +12,9 @@ title: 搜索栏 SearchBar
 
 通过`cancel-text`属性更改输入框后面的文字内容，默认值为`取消`。
 
-![搜索](http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmpFK1BBNFZiYjZadXVqT2ZmT1RRTTh3Y0I4MEE5ZnFqb3ZwSjJ1Yjlkd1RBPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/search-bar/1.png)
+:::
 
 ### 示例代码
 
@@ -26,7 +28,9 @@ title: 搜索栏 SearchBar
 
 通过`bg-color`属性设置搜索框背景颜色。
 
-![搜索](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmdEZUZ4aXNuTzhYRXNUcjVZVGRsUWFSVXJVOEpXR2g2SDNiQjlqV1Mzd0RnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg)
+:::img
+![height=100](/screenshots/search-bar/2.jpg)
+:::
 
 ### 示例代码
 
@@ -40,7 +44,9 @@ title: 搜索栏 SearchBar
 
 通过`front-text`属性设置搜索框前的地址。
 
-![搜索](http://imglf3.nosdn0.126.net/img/RW5CNXdoVFJDVmpFK1BBNFZiYjZaaDBOTERvYkNUVXdQZFg3Rk9qcWpPL0haMXlxZGRhcGJnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/search-bar/3.png)
+:::
 
 ```wxml
   <l-search-bar placeholder="搜索"
@@ -53,7 +59,9 @@ title: 搜索栏 SearchBar
 
 通过`show-cancel`属性设置是否显示取消文字。
 
-![搜索](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmpFK1BBNFZiYjZabFI2aTJmUEJHSHBrK0F2WEYwRmdHdUdJNGlweDNmcHhnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/search-bar/4.png)
+:::
 
 ### 示例代码
 
