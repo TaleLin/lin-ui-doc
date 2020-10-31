@@ -60,9 +60,9 @@ showMessage(){
   title="标题"
   content="这个是确认框" />
 ```
-<img-wrapper>
- <img src="http://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEdOUlNpekM4aEFMNzY0YWVBSFRIeVVHaGVqZXd4VlZFazJHbnFUVG02eXNnPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
-</img-wrapper>
+:::img
+![height=150](/screenshots/dialog/1.jpg)
+:::
 
 ## 无标题的模态弹框
 
@@ -86,9 +86,9 @@ showMessage(){
   title="标题"
   content="这个是无标题确认框" />
 ```
-<img-wrapper>
- <img src="http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEdOUlNpekM4aEFMNEFTbXhwZXBBdEgzSlAvNk1vV2Vhd0g5ckNRZC9XODZ3PT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg">
-</img-wrapper>
+:::img
+![height=150](/screenshots/dialog/2.jpg)
+:::
 
 ## 修改按钮文字和颜色
 
@@ -110,9 +110,9 @@ showMessage(){
   cancel-text="no~"
   cancel-color="#999" />
 ```
-<img-wrapper>
- <img src="http://imglf4.nosdn0.126.net/img/YUdIR2E3ME5weEdOUlNpekM4aEFMNyt3UHhTNitiaE5rRndPbWlZbXg5QnhtZ1RLOU4yZm9nPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg">
-</img-wrapper>
+:::img
+![height=150](/screenshots/dialog/3.jpg)
+:::
 
 ## 设置子节点
 
@@ -135,9 +135,9 @@ showMessage(){
 </l-dialog>
 
 ```
-<img-wrapper>
- <img src="http://imglf5.nosdn0.126.net/img/YUdIR2E3ME5weEdOUlNpekM4aEFMMUtPV201QVJ0MjcrdjZsdHFtK2xNVFlXcm01SzRmZDhBPT0.jpg?imageView&thumbnail=375x0&quality=96&stripmeta=0&type=jpg">
-</img-wrapper>
+:::img
+![height=200](/screenshots/dialog/4.jpg)
+:::
 
 ## 锁定
 
