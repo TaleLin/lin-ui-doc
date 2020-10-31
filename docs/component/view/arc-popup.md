@@ -20,9 +20,11 @@ title: 弧形滚动弹出层 ArcPopup
 ```wxml
 <l-arc-popup show="{{true}}">基础案例</l-arc-popup>
 ```
-<img-wrapper>
-<img src="/screenshots/arc-popup/1.png" height="500"/>
-</img-wrapper>
+
+:::img
+![height=300](/screenshots/arc-popup/1.png)
+:::
+
 ## 最大/小高度设置
 
 本组件默认最大高度 `600` ，单位为 `rpx` ，可自行更改 `max-height` 属性重置最大高度。  
@@ -39,9 +41,9 @@ title: 弧形滚动弹出层 ArcPopup
   </view>
 </l-arc-popup>
 ```
-<img-wrapper>
-<img src="/screenshots/arc-popup/2.png" height="500"/>
-</img-wrapper>
+:::img
+![height=300](/screenshots/arc-popup/2.png)
+:::
 
 ## 组件顶部弧度
 
@@ -53,9 +55,9 @@ title: 弧形滚动弹出层 ArcPopup
   设置组件弧度
 </l--arc-popup>
 ```
-<img-wrapper>
-<img src="/screenshots/arc-popup/3.png" height="500"/>
-</img-wrapper>
+:::img
+![height=300](/screenshots/arc-popup/3.png)
+:::
 
 ## 遮罩层区域透明度设置
 
@@ -66,9 +68,9 @@ title: 弧形滚动弹出层 ArcPopup
   设置遮罩区域透明度
 </l--arc-popup>
 ```
-<img-wrapper>
-<img src="/screenshots/arc-popup/4.png" height="500"/>
-</img-wrapper>
+:::img
+![height=300](/screenshots/arc-popup/4.png)
+:::
 
 ## 从上/下弹出
 
@@ -79,9 +81,9 @@ title: 弧形滚动弹出层 ArcPopup
   从上方弹出
 </l--arc-popup>
 ```
-<img-wrapper>
-<img src="/screenshots/arc-popup/5.png" height="500"/>
-</img-wrapper>
+:::img
+![height=300](/screenshots/arc-popup/5.png)
+:::
 
 ## 显示顶部内容（高级用法）
 
@@ -114,19 +116,19 @@ title: 弧形滚动弹出层 ArcPopup
   </view>
 </l--arc-popup>
 ```
-<img-wrapper>
-<img src="/screenshots/arc-popup/6.png" height="500"/>
-</img-wrapper>
+:::img
+![height=300](/screenshots/arc-popup/6.png)
+:::
 
 ## 案例演示
 ::: tip
 [详细源码](https://github.com/TaleLin/lin-ui/tree/develop/examples/pages/components/view/pages/arc-popup "详细源码")
 ::: 
 
-<img-wrapper>
-<img src="/screenshots/arc-popup/7.png" style="margin-right:20px;" height="500"/>
-<img src="/screenshots/arc-popup/8.png" height="500"/>
-</img-wrapper>
+:::img
+![height=300](/screenshots/arc-popup/7.png)
+![height=300](/screenshots/arc-popup/8.png)
+:::
 
 ## 组件属性（ArcPopup Attributes）
 
