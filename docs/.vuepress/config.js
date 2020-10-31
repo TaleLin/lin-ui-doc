@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         text: '组件',
-        link: '/component/'
+        link: '/component/basic/button'
       },
       {
         text: '过滤器',

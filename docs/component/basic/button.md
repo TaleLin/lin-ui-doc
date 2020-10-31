@@ -10,7 +10,9 @@ title: 按钮 Button
 
 通过设置`type`属性为`default`、`success`、`error`、`warning`来创建不同样式的Button，样式默认为`default`。
 
-![按钮类型](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmhVcnlhUWlHZmpxa0Z6UXlKNGEzYjVYRHRENXJzNkl5My9iaTVWM0g3Rll3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/button/1.png)
+:::
 
 ### 示例代码
 
@@ -30,7 +32,9 @@ title: 按钮 Button
 如需更改长和宽，请使用`height`和`width`属性进行更改。
 :::
 
-![按钮尺寸](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmc5L08wdmZoVXRRMnRNRlJxaHp4RkRKU3dDa2V2N2lESUZud2NteTBZUFZnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0) 
+:::img
+![height=200](/screenshots/button/2.png)
+:::
 
 ### 示例代码
 ```wxml
@@ -53,7 +57,9 @@ title: 按钮 Button
 
 通过`shape`属性更改按钮形状为`square`（直角）、`circle`（圆弧）或`semicircle`（半圆）。默认形状为`circle`(圆弧形)。
 
-![按钮形状](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmhVcnlhUWlHZmpxak90NEV1VGFDQkVscVFJaXhxYkZGNWE1ZG9xMGJncHFnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/button/3.png)
+:::
 
 ### 示例代码
 
@@ -67,7 +73,9 @@ title: 按钮 Button
 
 通过`plain`属性为`true`设置按钮为镂空按钮，默认值为`false`。
 
-![镂空按钮](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmhVcnlhUWlHZmpxaXhJVnBIZ1kvN1U5ZzBBMDh0ektLbjBtWkREa0lEbzVnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=200](/screenshots/button/4.png)
+:::
 
 ### 示例代码
 ```wxml
@@ -78,7 +86,9 @@ title: 按钮 Button
 
 通过`disabled`属性设置按钮的禁用状态。
 
-![禁用按钮](http://imglf4.nosdn0.126.net/img/RW5CNXdoVFJDVmhVcnlhUWlHZmpxdE1rb3hDMTR1VXlQUndGNjR6OFBTbjFCUHRkM29GRU5nPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/button/5.png)
+:::
 
 ### 示例代码
 ```wxml
@@ -88,7 +98,9 @@ title: 按钮 Button
 
 通过设置`loading`属性在按钮上显示加载状态。
 
-![加载状态](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmhVcnlhUWlHZmpxbWJlTWRveENsc2dOUC92b3FsNXhZT24zMmM5Nm8wTHlnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/button/6.png)
+:::
 
 ### 示例代码
 ```wxml
@@ -101,7 +113,9 @@ title: 按钮 Button
 
 设置`icon-size`和`icon-color`属性可更改图标大小和图标颜色。
 
-![图标按钮](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVmhWQ0lVRk9Wa3IyTDltRnVKZ0c3d0tKbW1EenlLRFpmUWpTUUd3eWdqSDd3PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=100](/screenshots/button/7.png)
+:::
 
 ### 示例代码
 
@@ -117,7 +131,9 @@ title: 按钮 Button
 
 自定义内容在组件slot插入即可。
 
-![开放能力特殊用法](http://imglf6.nosdn0.126.net/img/RW5CNXdoVFJDVmhVcnlhUWlHZmpxb3haYmRZZVllcHRwVUE2cjRRcG1rdUNkYXBId1pUN2FnPT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=200](/screenshots/button/2.png)
+:::
 
 ### 示例代码
 ```wxml
@@ -156,7 +172,9 @@ Lin-Mini的Button组件同样支持小程序原生Button的相关开放能力。
 
 下面我们来浏览一个在实际开发中较为常见的用户案例，案例实现效果图如下所示：
 
-![客服](http://imglf5.nosdn0.126.net/img/RW5CNXdoVFJDVml6YTNIWVJKbEFTN21haWdoMTFmaGFBUCtyVUxTMUExd09BWm4xbzhocW13PT0.png?imageView&thumbnail=500x0&quality=96&stripmeta=0)
+:::img
+![height=50](/screenshots/button/9.png)
+:::
 
 通过效果图，我们来分析下怎样去实现该案例。总体来讲可分为两部分:
 
