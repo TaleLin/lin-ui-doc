@@ -221,47 +221,48 @@ Lin-Mini的Button组件同样支持小程序原生Button的相关开放能力。
 
 <!-- form-type -->
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| size | 按钮尺寸 | String | medium/large/mini/long | medium | 
-| type | 按钮类型 | String | warning/success/error/default  | default | 
-| plain | 按钮是否镂空 | Boolean | ----- | false | 
-| disabled   | 按钮是否禁用 | Boolean | ----- | false | 
-| loading | 是否为加载中按钮 | Boolean | ----- | false | 
-| bg-color | 按钮背景颜色 | String | ----- | --- | 
-| height | 按钮高度 | Number | ----- | --- | 
-| width | 按钮宽度 | Number | ----- | --- | 
-| shape | 按钮形状 | String | square/circle/semicircle   | circle | 
-| icon | 按钮内icon图标 | String | -----   | ---|
-| icon-size | 按钮内icon大小 | Number | -----   | 20rpx |
-| icon-color | 按钮内icon颜色 | String | -----   | #fff | 
-| special   | 特殊按钮   | Boolean   | -----   | false   | 
-| open-type | 微信开放能力 | String | ----- | --- | 
+| 参数           | 说明             | 类型    | 可选值                        | 默认值  | 版本号 |
+| :------------- | :--------------- | :------ | :---------------------------- | :------ | :----- |
+| size           | 按钮尺寸         | String  | medium/large/mini/long        | medium  |
+| type           | 按钮类型         | String  | warning/success/error/default | default |
+| plain          | 按钮是否镂空     | Boolean | -----                         | false   |
+| disabled       | 按钮是否禁用     | Boolean | -----                         | false   |
+| loading        | 是否为加载中按钮 | Boolean | -----                         | false   |
+| bg-color       | 按钮背景颜色     | String  | -----                         | ---     |
+| height         | 按钮高度         | Number  | -----                         | ---     |
+| width          | 按钮宽度         | Number  | -----                         | ---     |
+| shape          | 按钮形状         | String  | square/circle/semicircle      | circle  |
+| icon           | 按钮内icon图标   | String  | -----                         | ---     |
+| icon-size      | 按钮内icon大小   | Number  | -----                         | 20rpx   |
+| icon-color     | 按钮内icon颜色   | String  | -----                         | #fff    |
+| special        | 特殊按钮         | Boolean | -----                         | false   |
+| open-type      | 微信开放能力     | String  | -----                         | ---     |
+| disabled-hover | 禁用 hover 效果  | Boolean | -----                         | false   | 0.8.12 |
 
 ## 按钮外部样式类（Button ExternalClasses）
-| 外部样式类名 | 说明 | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class | 覆盖按钮区域自定义外部样式类 |  如果在l-class中使用margin-left或margin-right，请使用该外部样式进行代替，其他的属性依旧使用l-class即可 | 
-| l-label-class | 覆盖按钮区域自定义外部样式类 |  --- | 
-| l-icon-class | 覆盖icon的自定义外部样式类 |  --- | 
-| l-hover-class | 自定义按钮点击态外部样式类 |  --- | 
+| 外部样式类名  | 说明                         | 备注                                                                                                  |
+| :------------ | :--------------------------- | :---------------------------------------------------------------------------------------------------- |
+| l-class       | 覆盖按钮区域自定义外部样式类 | 如果在l-class中使用margin-left或margin-right，请使用该外部样式进行代替，其他的属性依旧使用l-class即可 |
+| l-label-class | 覆盖按钮区域自定义外部样式类 | ---                                                                                                   |
+| l-icon-class  | 覆盖icon的自定义外部样式类   | ---                                                                                                   |
+| l-hover-class | 自定义按钮点击态外部样式类   | ---                                                                                                   |
 
 ## 按钮插槽（Button Solt）
 
-| 插槽名称   | 说明 | 备注   | 
-|:----|:----|:----|
-| -  | 自定义按钮显示内容  | --- |
+| 插槽名称 | 说明               | 备注 |
+| :------- | :----------------- | :--- |
+| -        | 自定义按钮显示内容 | ---  |
 
 ## 按钮事件（Button Events）
  
-| 事件名称   | 说明   | 返回值   | 备注   | 
-|:----|:----|:----|:----|
-| bind:lintap   | 按钮在非禁用状态下点击所触发的事件   | -----   | ---   | 
-| bind:contact   | 客服消息回调   | -----   | ---   | 
-| bind:getphonenumber   | 获取用户手机号回调   | -----   | ---   | 
-| bind:error   | 当使用开放能力时，发生错误的回调   | -----   | ---   | 
-| bind:opensetting   | 在打开授权设置页后回调   | -----   | ---   | 
-| bind:getuserinfo   | 用户点击该按钮时，会返回获取到的用户信息，回调的detail数据与[wx.getUserInfo](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html)返回的一致   | -----   | ---   | 
+| 事件名称            | 说明                                                                                                                                                                                | 返回值 | 备注 |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----- | :--- |
+| bind:lintap         | 按钮在非禁用状态下点击所触发的事件                                                                                                                                                  | -----  | ---  |
+| bind:contact        | 客服消息回调                                                                                                                                                                        | -----  | ---  |
+| bind:getphonenumber | 获取用户手机号回调                                                                                                                                                                  | -----  | ---  |
+| bind:error          | 当使用开放能力时，发生错误的回调                                                                                                                                                    | -----  | ---  |
+| bind:opensetting    | 在打开授权设置页后回调                                                                                                                                                              | -----  | ---  |
+| bind:getuserinfo    | 用户点击该按钮时，会返回获取到的用户信息，回调的detail数据与[wx.getUserInfo](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html)返回的一致 | -----  | ---  |
 
 
 [1]: https://developers.weixin.qq.com/miniprogram/dev/component/button.html
