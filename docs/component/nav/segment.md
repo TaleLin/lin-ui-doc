@@ -164,7 +164,7 @@ title: 选项卡 Segment
 | icon-size	| 设置选项卡图标的大小 | String |	- | 28 |
 | picPlacement | 设置图片、图标的相对于文字的位置 | String  | `top`/`left`/`right`/`bottom` | `top` |
 | image | 设置选项卡图片资源 | Object | `{activeImage,defaultImage}` | - |
-| badge-count-type |  数字的显示方式 | String | `overflow`/`limit`/`custom`| `overflow` |
+| badge-count-type |  数字的显示方式 | Number | `overflow`/`limit`/`custom`| `overflow` |
 | dot-badge | 显示圆点徽标 | Boolean | `false`/`true` | `false` |
 | badge-count | 徽标的数值 | String | - | - |
 | badge-max-count | 徽标数字最大值，超过最大值时显示${max-count}+ | Number   | -----   | 99   |
