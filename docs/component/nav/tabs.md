@@ -111,65 +111,70 @@ title: 标签页 Tabs
 
 ## 标签属性 (Tabs Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| active-key | 默认激活tabs的key | String | - | 默认为第一个 |
-| placement | 标签位置 | String | `top`/`left`/`right`/`bottom` | `top` |
-| animated  | 是否使用动画切换标签 | Boolean | `false` |
-| animated-for-line | 是否使用动画切换装饰线 | Boolean | `false` |
-| swipeable | 是否支持滑动切换标签 | Boolean | `false` |
-| scrollable | 是否滚动标签栏 | Boolean | `false` | - |
-| active-color | 设置激活状态标签的文本和图标颜色 | String | 表示颜色的是16进制 | - |
-| inactive-color | 设置未激活状态标签的文本和颜色 | String | 表示颜色的是16进制 | - |
-| has-line | 设置是否显示标签下的装饰线 | Boolean | - | `true` |
-| content-height | 内容区域高度 | Number | - | - |
+| 参数              | 说明                                          | 类型    | 可选值                        | 默认值       |
+| :---------------- | :-------------------------------------------- | :------ | :---------------------------- | :----------- |
+| active-key        | 默认激活tabs的key                             | String  | -                             | 默认为第一个 |
+| placement         | 标签位置                                      | String  | `top`/`left`/`right`/`bottom` | `top`        |
+| animated          | 是否使用动画切换标签                          | Boolean | `false`                       |
+| animated-for-line | 是否使用动画切换装饰线                        | Boolean | `false`                       |
+| swipeable         | 是否支持滑动切换标签                          | Boolean | `false`                       |
+| scrollable        | 是否滚动标签栏                                | Boolean | `false`                       | -            |
+| active-color      | 设置激活状态标签的文本和图标颜色              | String  | 表示颜色的是16进制            | -            |
+| inactive-color    | 设置未激活状态标签的文本和颜色                | String  | 表示颜色的是16进制            | -            |
+| has-line          | 设置是否显示标签下的装饰线                    | Boolean | -                             | `true`       |
+| content-height    | 内容区域高度                                  | Number  | -                             | -            |
+| badge-count-type  | 数字的显示方式                                | String  | `overflow`/`limit`/`custom`   | `overflow`   |
+| dot-badge         | 显示圆点徽标                                  | Boolean | `false`/`true`                | `false`      |
+| badge-count       | 徽标的数值                                    | String  | -                             | -            |
+| badge-max-count   | 徽标数字最大值，超过最大值时显示${max-count}+ | Number  | -----                         | 99           |
+
 
 ## 标签外部样式类（Tabs ExternalClasses）
-| 外部样式类名 | 说明 | 备注 |
-| :--------- | :----------------- | :----- |
-| l-header-class | 外部样式类，覆盖标签栏整体样式 | 替代l-class-header |
-| l-active-class | 外部样式类，覆盖标签激活状态样式 |  替代l-class-active |
-| l-inactive-class |外部样式类，覆盖标签默认状态样式 | 替代l-class-inactive |
-| l-line-class | 外部样式类，覆盖标签选中时装饰线的样式 | 替代l-class-line |
-|l-header-line-class|外部样式类，覆盖标签栏装饰线的样式|替代l-class-header-line |
-| l-tabimage-class | 外部样式类，覆盖标签图片的样式 | 替代l-class-tabimage |
-| l-content-class | 外部样式类，覆盖标签内容样式 | 替代l-class-content|
-| l-tabpanel-class | 外部样式类，覆盖面板内容样式 | -|
+| 外部样式类名        | 说明                                   | 备注                    |
+| :------------------ | :------------------------------------- | :---------------------- |
+| l-header-class      | 外部样式类，覆盖标签栏整体样式         | 替代l-class-header      |
+| l-active-class      | 外部样式类，覆盖标签激活状态样式       | 替代l-class-active      |
+| l-inactive-class    | 外部样式类，覆盖标签默认状态样式       | 替代l-class-inactive    |
+| l-line-class        | 外部样式类，覆盖标签选中时装饰线的样式 | 替代l-class-line        |
+| l-header-line-class | 外部样式类，覆盖标签栏装饰线的样式     | 替代l-class-header-line |
+| l-tabimage-class    | 外部样式类，覆盖标签图片的样式         | 替代l-class-tabimage    |
+| l-content-class     | 外部样式类，覆盖标签内容样式           | 替代l-class-content     |
+| l-tabpanel-class    | 外部样式类，覆盖面板内容样式           | -                       |
+| l-badge-class       | 覆盖徽标的样式                         | ---                     |
 
 ## 已经弃用的外部样式类
 
 以下这些外部样式类已经停止支持，将在未来的某个版本中去除，请使用上方的外部样式类替代。
 
-| 外部样式类名 | 说明 | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class-header | 外部样式类，覆盖标签栏整体样式 | 请使用l-header-class替代 |
-| l-class-active | 外部样式类，覆盖标签激活状态样式 |  请使用l-active-class替代 |
-| l-class-inactive |外部样式类，覆盖标签默认状态样式 | 请使用l-inactive-class替代 |
-| l-class-line | 外部样式类，覆盖标签选中时装饰线的样式 | 请使用l-line-class替代 |
-|l-class-header-line|外部样式类，覆盖标签栏装饰线的样式|请使用l-header-line-class替代 |
-| l-class-tabimage | 外部样式类，覆盖标签图片的样式 | 请使用l-tabimage-class替代 |
-| l-class-content | 外部样式类，覆盖标签内容样式 | 请使用l-content-class替代|
-
+| 外部样式类名        | 说明                                   | 备注                          |
+| :------------------ | :------------------------------------- | :---------------------------- |
+| l-class-header      | 外部样式类，覆盖标签栏整体样式         | 请使用l-header-class替代      |
+| l-class-active      | 外部样式类，覆盖标签激活状态样式       | 请使用l-active-class替代      |
+| l-class-inactive    | 外部样式类，覆盖标签默认状态样式       | 请使用l-inactive-class替代    |
+| l-class-line        | 外部样式类，覆盖标签选中时装饰线的样式 | 请使用l-line-class替代        |
+| l-class-header-line | 外部样式类，覆盖标签栏装饰线的样式     | 请使用l-header-line-class替代 |
+| l-class-tabimage    | 外部样式类，覆盖标签图片的样式         | 请使用l-tabimage-class替代    |
+| l-class-content     | 外部样式类，覆盖标签内容样式           | 请使用l-content-class替代     |
 
 ## 标签页属性 (tabpanel Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| key | 对应 `active-key`，必填 | String	| - | - |
-| tab | 选项卡头显示文字 | String| - | - |
-| sub-key |混合选项卡时，选项卡竖向key | String	| - | - |
-| sub-tab | 混合选项卡时，选项卡竖向显示文字 | String| - | - |
-| slot | `key`一致，有`sub-key`时则与`sub-key`保持一致，必填 | String| - | - |
-| icon	| 设置标签栏图标类型 | String |	- | - |
-| icon-size	| 设置标签栏图标的大小 | String |	- | 28 |
-| picPlacement | 设置图片、图标的相对于文字的位置 | String  | `top`/`left`/`right`/`bottom` | `top` |
-| image | 设置标签栏图片资源 |Object | `{activeImage,defaultImage}` | - |
+| 参数         | 说明                                                | 类型   | 可选值                        | 默认值 |
+| :----------- | :-------------------------------------------------- | :----- | :---------------------------- | :----- |
+| key          | 对应 `active-key`，必填                             | String | -                             | -      |
+| tab          | 选项卡头显示文字                                    | String | -                             | -      |
+| sub-key      | 混合选项卡时，选项卡竖向key                         | String | -                             | -      |
+| sub-tab      | 混合选项卡时，选项卡竖向显示文字                    | String | -                             | -      |
+| slot         | `key`一致，有`sub-key`时则与`sub-key`保持一致，必填 | String | -                             | -      |
+| icon         | 设置标签栏图标类型                                  | String | -                             | -      |
+| icon-size    | 设置标签栏图标的大小                                | String | -                             | 28     |
+| picPlacement | 设置图片、图标的相对于文字的位置                    | String | `top`/`left`/`right`/`bottom` | `top`  |
+| image        | 设置标签栏图片资源                                  | Object | `{activeImage,defaultImage}`  | -      |
 
 
 ## 标签页事件 (Tabs Events）
 
-| 事件名称   | 说明   | 返回值   |  备注   | 
-|:----|:----|:----|:----|
-| bind:linchange | `tab`切换的回调事件 | 当前激活标签页的`key` | - |
+| 事件名称       | 说明                | 返回值                | 备注 |
+| :------------- | :------------------ | :-------------------- | :--- |
+| bind:linchange | `tab`切换的回调事件 | 当前激活标签页的`key` | -    |
 
 <RightMenu />
