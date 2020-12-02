@@ -43,6 +43,17 @@ title: 选项卡 Segment
 
 默认选项卡位置在顶部，可通过在`segment`上设置`placement`属性切换选项卡位置，可选值有 `top`/`left`/`right`/`bottom`。
 
+**但此处修改的仅是选项卡相对于激活态横线的位置，并非选项卡在页面中的布局。**
+
+如果想要控制选项卡在页面中的布局，请自行在页面 CSS 样式中进行控制。具体效果如下：
+
+:::img
+![height=50](/screenshots/segment/top.png)
+![height=50](/screenshots/segment/bottom.png)
+![height=50](/screenshots/segment/left.png)
+![height=50](/screenshots/segment/right.png)
+:::
+
 
 ## 图标选项卡
 
@@ -134,7 +145,6 @@ title: 选项卡 Segment
 - 选项卡位置在顶部和底部时的默认高度为`80rpx`，宽度等分，开启`scrollable`时，最小宽度为`160rpx`;
 - 选项卡位置在左边或右边时，默认宽度为`160rpx`,高度等分,开启`scrollable`时，最小高度为`80rpx`;
 - 可通过`l-class`、`l-active-class`、`l-inactive-class`覆盖默认选项卡样式。
-
 
 ## 选项卡属性 (Segment Attributes）
 
