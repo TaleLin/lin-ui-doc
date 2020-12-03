@@ -136,6 +136,7 @@ Page({
 | home-page        | 主页面 url，点击右侧按钮时跳转             | String  | ---         | ---    | 0.8.3  |
 | title            | 胶囊栏标题                                 | String  | ---         | ---    | 0.8.3  |
 | has-padding      | 是否设置页面顶部内边距为 CapsuleBar 的高度 | Boolean | ---         | true   | 0.8.3  |
+| hidden-title     | 隐藏标题                                   | Boolean | ---         | false  | 0.8.12 |
 
 > 关于 has-padding 属性的说明：
 
