@@ -123,19 +123,20 @@ Page({
 
 > 下列属性以`color`结尾的，除可选值有特殊标注外，均可使用 **HEX/RGBA/CSS 颜色名** 作为值传入，表中不再单独说明。
 
-| 参数             | 说明                                       | 类型    | 可选值      | 默认值 | 版本号 |
-| ---------------- | ------------------------------------------ | ------- | ----------- | ------ | ------ |
-| bg-color         | `CapsuleBar`背景色                         | String  | ---         | white  | 0.8.3  |
-| status-bar-color | `StatusBar`背景色                          | String  | ---         | white  | 0.8.3  |
-| title-bar-color  | `TitleBar`背景色                           | String  | ---         | white  | 0.8.3  |
-| title-color      | 标题颜色                                   | String  | ---         | black  | 0.8.3  |
-| capsule-color    | 左侧胶囊按钮颜色                           | String  | white/black | white  | 0.8.3  |
-| disable-back     | 禁用左侧按钮返回上一级页面                 | Boolean | ---         | false  | 0.8.3  |
-| disable-home     | 禁用右侧按钮返回主页                       | Boolean | ---         | false  | 0.8.3  |
-| hidden-capsule   | 隐藏胶囊按钮                               | Boolean | ---         | false  | 0.8.3  |
-| home-page        | 主页面 url，点击右侧按钮时跳转             | String  | ---         | ---    | 0.8.3  |
-| title            | 胶囊栏标题                                 | String  | ---         | ---    | 0.8.3  |
-| has-padding      | 是否设置页面顶部内边距为 CapsuleBar 的高度 | Boolean | ---         | true   | 0.8.3  |
+| 参数             | 说明                                               | 类型    | 可选值      | 默认值 | 版本号 |
+| ---------------- | -------------------------------------------------- | ------- | ----------- | ------ | ------ |
+| bg-color         | `CapsuleBar`背景色                                 | String  | ---         | white  | 0.8.3  |
+| status-bar-color | `StatusBar`背景色                                  | String  | ---         | white  | 0.8.3  |
+| title-bar-color  | `TitleBar`背景色                                   | String  | ---         | white  | 0.8.3  |
+| title-color      | 标题颜色                                           | String  | ---         | black  | 0.8.3  |
+| capsule-color    | 左侧胶囊按钮颜色                                   | String  | white/black | white  | 0.8.3  |
+| disable-back     | 禁用左侧按钮返回上一级页面                         | Boolean | ---         | false  | 0.8.3  |
+| disable-home     | 禁用右侧按钮返回主页                               | Boolean | ---         | false  | 0.8.3  |
+| hidden-capsule   | 隐藏左侧胶囊按钮，右侧胶囊按钮为原生组件，无法隐藏 | Boolean | ---         | false  | 0.8.3  |
+| home-page        | 主页面 url，点击右侧按钮时跳转                     | String  | ---         | ---    | 0.8.3  |
+| title            | 胶囊栏标题                                         | String  | ---         | ---    | 0.8.3  |
+| has-padding      | 是否设置页面顶部内边距为 CapsuleBar 的高度         | Boolean | ---         | true   | 0.8.3  |
+| hidden-title     | 隐藏标题                                           | Boolean | ---         | false  | 0.8.12 |
 
 > 关于 has-padding 属性的说明：
 
@@ -159,8 +160,9 @@ Page({
 
 ## 胶囊栏插槽（CapsuleBar Slot）
 
-| Slot 名称 | 说明         | 备注 | 版本号 |
-| --------- | ------------ | ---- | ------ |
-| 默认 slot | 页面内容区域 | ---  | 0.8.3  |
+| Slot 名称 | 说明                                                         | 备注 | 版本号 |
+| --------- | ------------------------------------------------------------ | ---- | ------ |
+| 默认 slot | 页面内容区域                                                 | ---  | 0.8.3  |
+| title     | 标题栏区域，建议搭配 hidden-capsule 和 hidden-title 属性使用 | ---  | 0.8.12 |
 
 <RightMenu/>

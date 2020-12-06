@@ -43,6 +43,17 @@ title: 选项卡 Segment
 
 默认选项卡位置在顶部，可通过在`segment`上设置`placement`属性切换选项卡位置，可选值有 `top`/`left`/`right`/`bottom`。
 
+**但此处修改的仅是选项卡相对于激活态横线的位置，并非选项卡在页面中的布局。**
+
+如果想要控制选项卡在页面中的布局，请自行在页面 CSS 样式中进行控制。具体效果如下：
+
+:::img
+![height=50](/screenshots/segment/top.png)
+![height=50](/screenshots/segment/bottom.png)
+![height=50](/screenshots/segment/left.png)
+![height=50](/screenshots/segment/right.png)
+:::
+
 
 ## 图标选项卡
 
@@ -135,7 +146,6 @@ title: 选项卡 Segment
 - 选项卡位置在左边或右边时，默认宽度为`160rpx`,高度等分,开启`scrollable`时，最小高度为`80rpx`;
 - 可通过`l-class`、`l-active-class`、`l-inactive-class`覆盖默认选项卡样式。
 
-
 ## 选项卡属性 (Segment Attributes）
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |
@@ -164,7 +174,7 @@ title: 选项卡 Segment
 | icon-size	| 设置选项卡图标的大小 | String |	- | 28 |
 | picPlacement | 设置图片、图标的相对于文字的位置 | String  | `top`/`left`/`right`/`bottom` | `top` |
 | image | 设置选项卡图片资源 | Object | `{activeImage,defaultImage}` | - |
-| badge-count-type |  数字的显示方式 | String | `overflow`/`limit`/`custom`| `overflow` |
+| badge-count-type |  数字的显示方式 | Number | `overflow`/`limit`/`custom`| `overflow` |
 | dot-badge | 显示圆点徽标 | Boolean | `false`/`true` | `false` |
 | badge-count | 徽标的数值 | String | - | - |
 | badge-max-count | 徽标数字最大值，超过最大值时显示${max-count}+ | Number   | -----   | 99   |

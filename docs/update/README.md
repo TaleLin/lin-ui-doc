@@ -1,6 +1,30 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.11`
+最新版本：`0.8.12`
+
+## [v0.8.12](https://github.com/TaleLin/lin-ui/compare/0.8.11...0.8.12) (2020-12-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* **FormItem:** label-width 默认值由 200 px 改为 auto
+
+### Features
+
+* **Button:** 新增 disabled-hover 属性 ([6df11d7](https://github.com/TaleLin/lin-ui/commit/6df11d714bcf9687d24ec7aad13f5a4c37d004a9)), closes [#1112](https://github.com/TaleLin/lin-ui/issues/1112)
+* **CapsuleBar:** 新增 hidden-title 属性 ([68d6339](https://github.com/TaleLin/lin-ui/commit/68d63390b31e72d227ff00869dc79d6c8bce0517))
+* **CapsuleBar:** 新增标题栏 Slot ([d98f2a1](https://github.com/TaleLin/lin-ui/commit/d98f2a160c07190c88723ead35408b29e2ef4e19)), closes [#1140](https://github.com/TaleLin/lin-ui/issues/1140)
+* **TabBar:** 新增 TabBar 导航栏组件 ([40f1cce](https://github.com/TaleLin/lin-ui/commit/40f1cce37f601950748e4f4a6860ec551c13d52b))
+* **Tabs:** 新增支持徽标功能 ([d753153](https://github.com/TaleLin/lin-ui/commit/d7531531fd44deeb6e4506231ebeadf8c59b125c)), closes [#1070](https://github.com/TaleLin/lin-ui/issues/1070)
+
+
+### Bug Fixes
+
+* **FormItem:** 修复 label-placement 为 column 时未左对齐的问题 ([4e47c96](https://github.com/TaleLin/lin-ui/commit/4e47c9688bad079120712a9f03ba593e479cabc7)), closes [#1120](https://github.com/TaleLin/lin-ui/issues/1120)
+* **ImageClipper:** 修复拖动裁剪框时有几率报错 ([6c59c2e](https://github.com/TaleLin/lin-ui/commit/6c59c2e4cc49050f1d78181ec956f06abd565417)), closes [#1129](https://github.com/TaleLin/lin-ui/issues/1129) [#1129](https://github.com/TaleLin/lin-ui/issues/1129)
+* **ImageClipper:** 修复组件异常警告 ([652a62f](https://github.com/TaleLin/lin-ui/commit/652a62f8f7c52c9c6d10ec843b8f54db3ec92766)), closes [#1129](https://github.com/TaleLin/lin-ui/issues/1129)
+* **Segment:** 修复 mut-bind 导致的添加徽标后大范围无法点击问题 ([7df7c06](https://github.com/TaleLin/lin-ui/commit/7df7c0630bd8b536de58ff83428b508204b5ae31)), closes [#1136](https://github.com/TaleLin/lin-ui/issues/1136)
+* **Steps:** 修复历史 commit 造成的 reverse 功能丢失 ([22d61b0](https://github.com/TaleLin/lin-ui/commit/22d61b04e14e2d13d1864695bc0e3a8d7e943cd0)), closes [#1111](https://github.com/TaleLin/lin-ui/issues/1111)
 
 ## [v0.8.11](https://github.com/TaleLin/lin-ui/compare/0.8.10...0.8.11) (2020-11-22)
 
