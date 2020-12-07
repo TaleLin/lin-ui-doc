@@ -1,6 +1,13 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.12`
+最新版本：`0.8.13`
+
+## [v0.8.13](https://github.com/TaleLin/lin-ui/compare/0.8.12...0.8.13) (2020-12-07)
+
+
+### Bug Fixes
+
+* **ImageClipper:** 修复 canvas 2d 导致的无法绘制图片问题 ([4d310b0](https://github.com/TaleLin/lin-ui/commit/4d310b0e36c921f602ea316c46f9ebe478ae4224)), closes [#1156](https://github.com/TaleLin/lin-ui/issues/1156)
 
 ## [v0.8.12](https://github.com/TaleLin/lin-ui/compare/0.8.11...0.8.12) (2020-12-06)
 
