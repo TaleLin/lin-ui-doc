@@ -4,54 +4,33 @@ title: 快速开始
 
 # <H2Icon />快速上手
 
-Lin UI 致力于给小程序开发者提供愉悦的开发体验。
-> 在开始之前，推荐先学习微信官方的[小程序开发文档][1]，并正确安装和配置了 Node.js v8或以上。 同时，我们假设你已了解关于 HTML、CSS 和 JavaScript 的初级知识，并且已经熟悉并阅读了[小程序自定义组件][3]。
+> 在开始之前，推荐先学习微信官方的[小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)，并正确安装和配置了 Node.js v8 及以上版本。 同时，我们假设你已了解关于 HTML、CSS 和 JavaScript 的初级知识，并且已经熟悉并阅读了[小程序自定义组件](https://developers.weixin.qq.com/miniprogram/dev/component/)文档。
 
 ## 安装
 
-Lin UI提供两种安装方法，满足不同开发者的需求。如果您需要使用`npm`安装，请确保您已经在本机安装了`npm`。
+Lin UI 提供三种安装方式，满足你不同的开发需求。如果你的电脑上未安装 [NPM](https://www.npmjs.com/)，那么你仅能使用方式三安装 Lin UI。
 
-### 方式一： 使用 LinUI 脚手架安装 （推荐）
+### 方式一：使用 Lin UI CLI 安装（推荐）
+`Lin UI CLI` 是 Lin UI 官方出品的一款小程序脚手架，可提供**组件按需加载**等诸多扩展功能，我们推荐你使用本脚手架创建你的项目。
 
-执行以下命令可以快速创建一个基于 Lin UI CLI 的项目：
-
-```bash
+首先执行以下命令创建一个项目，注意将 `lin-ui-demo` 替换为你自己的项目名称：
+```
 npx lin-ui-cli create lin-ui-demo
 ```
-创建命令时会有如下选项：
-
-
-1. `name` 、 `version` 、 `description` ：生成 package.json 文件内对应字段
-
-2. `是否开启按需加载` ：输入 `yes`
-
-当进行完以上操作后，即可等待项目创建完成。
-
-当项目创建完成后，会返回如下提示语句：
-
+在执行过程中，会要求你输入一些项目基础信息，请按需填写即可。等看到如下语句后，代表你的项目已经创建成功：
 ```
-Successfully created project lin-ui-demo, directory name is lin-ui-demo
-Next: Please run cd lin-ui-demo && npm install or yarn
+Successfully created project
 ```
-
-创建项目截图：
-
-:::img
-![height=100](https://cdn.talelin.com/20201217174617.png)
+最后，要能正常使用 Lin UI CLI，还需进行以下配置：
+:::warning 配置
+- 使用微信开发者工具构建 NPM 模块（[参考链接](/cli/#微信开发者工具设置)）
+- 启用微信开发者工具的**自定义处理命令**（[参考链接](/cli/#微信开发者工具设置)）
 :::
+至此，Lin UI 已经完美的安装到了你的项目中。
 
-接下来，执行一下命令进入项目目录安装所需依赖：
+当你每次**手动点击微信开发者工具的编译按钮**时，Lin UI CLI 会自动将你没有使用到的 Lin UI 组件排除出去，以此控制你的项目体积。关于 Lin UI CLI 的更多介绍，请点击[此处链接](/cli)了解。
 
-```bash
-cd lin-ui-demo
-npm install
-```
-
-:::tip
-**项目创建完成后需要一些针对于微信开发者工具的设置，请务必[点此查看详细操作](/cli/#微信开发者工具设置)**
-:::
-
-### 方式二： 使用npm安装
+### 方式二：使用 NPM 安装
 
 打开小程序的项目根目录，执行下面的命令（如果使用了云开发，需要进入miniprogram文件夹下执行下面的命令）。
 
