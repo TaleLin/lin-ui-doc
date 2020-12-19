@@ -11,7 +11,47 @@ Lin UI 致力于给小程序开发者提供愉悦的开发体验。
 
 Lin UI提供两种安装方法，满足不同开发者的需求。如果您需要使用`npm`安装，请确保您已经在本机安装了`npm`。
 
-### 方式一： 使用npm安装 （推荐）
+### 方式一： 使用 LinUI 脚手架安装 （推荐）
+
+执行以下命令可以快速创建一个基于 Lin UI CLI 的项目：
+
+```bash
+npx lin-ui-cli create lin-ui-demo
+```
+创建命令时会有如下选项：
+
+
+1. `name` 、 `version` 、 `description` ：生成 package.json 文件内对应字段
+
+2. `是否开启按需加载` ：输入 `yes`
+
+当进行完以上操作后，即可等待项目创建完成。
+
+当项目创建完成后，会返回如下提示语句：
+
+```
+Successfully created project lin-ui-demo, directory name is lin-ui-demo
+Next: Please run cd lin-ui-demo && npm install or yarn
+```
+
+创建项目截图：
+
+:::img
+![height=100](https://cdn.talelin.com/20201217174617.png)
+:::
+
+接下来，执行一下命令进入项目目录安装所需依赖：
+
+```bash
+cd lin-ui-demo
+npm install
+```
+
+:::tip
+**项目创建完成后需要一些针对于微信开发者工具的设置，请务必[点此查看详细操作](/cli/#微信开发者工具设置)**
+:::
+
+### 方式二： 使用npm安装
 
 打开小程序的项目根目录，执行下面的命令（如果使用了云开发，需要进入miniprogram文件夹下执行下面的命令）。
 
@@ -42,7 +82,7 @@ npm install lin-ui
   <img src="/screenshots/start/YUdIR2E3ME5weEVCVEZMbkRGRHZaRWdTWE9UMzd1Y3ZkN2dHUjBHY2xSS1daZjl0QTkvOVVBPT0.png">
 </img-wrapper>
 
-### 方式二：下载代码
+### 方式三：下载代码
 
 直接通过git下载  `Lin UI`  源代码，并将 `dist` 目录（Lin-UI 组件库）拷贝到自己的项目中。
 
