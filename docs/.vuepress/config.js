@@ -209,7 +209,9 @@ module.exports = {
           collapsable: false,
           children: [
             '/cli/',
-            '/cli/introduce'
+            '/cli/old',
+            '/cli/config',
+            '/cli/introduce',
           ]
         }
       ],

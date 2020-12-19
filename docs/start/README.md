@@ -11,7 +11,7 @@ Lin UI 致力于给小程序开发者提供愉悦的开发体验。
 
 Lin UI提供两种安装方法，满足不同开发者的需求。如果您需要使用`npm`安装，请确保您已经在本机安装了`npm`。
 
-### 方式一： 使用npm安装 （推荐）
+### 方式一： 使用npm安装
 
 打开小程序的项目根目录，执行下面的命令（如果使用了云开发，需要进入miniprogram文件夹下执行下面的命令）。
 
@@ -42,7 +42,54 @@ npm install lin-ui
   <img src="/screenshots/start/YUdIR2E3ME5weEVCVEZMbkRGRHZaRWdTWE9UMzd1Y3ZkN2dHUjBHY2xSS1daZjl0QTkvOVVBPT0.png">
 </img-wrapper>
 
-### 方式二：下载代码
+### 方式二： 使用 LinUI 脚手架安装
+
+执行以下命令可以快速创建一个基于 Lin UI CLI 的项目：
+
+```bash
+# 推荐
+npm install lin-ui-cli -g
+lin-ui-cli create lin-ui-demo
+```
+or
+```bash
+npx lin-ui-cli create lin-ui-demo
+```
+创建命令时会有如下选项：
+
+1. `name` 
+2. `version`
+3. `description`
+4. `是否开启按需加载` （默认为 **yes**）
+5. `请输入需要安装的 LinUI 版本`（默认为最新版）
+
+当进行完以上操作后，即可等待项目创建完成。
+
+当项目创建完成后，会返回如下提示语句：
+
+```
+Successfully created project lin-ui-demo, directory name is lin-ui-demo
+```
+
+创建项目截图：
+
+:::img
+![height=300](https://cdn.talelin.com/20201222080936.png)
+:::
+
+项目工程截图：
+:::img
+![height=300](https://cdn.talelin.com/20201222081114.png)
+:::
+
+:::tip
+- **项目创建完成后会自动安装依赖，以及自动构建 `LinUI` 的 npm 依赖，无需任何手动操作。**  
+- **如果您想实现自动按需加载，还需进行[下一步操作](/cli/#微信开发者工具设置 )。**  
+- **当然，您也可以手动执行按需加载命令，在项目根目录运行 `npx lin-ui-cli load` 命令即可。**
+:::
+
+
+### 方式三：下载代码
 
 直接通过git下载  `Lin UI`  源代码，并将 `dist` 目录（Lin-UI 组件库）拷贝到自己的项目中。
 

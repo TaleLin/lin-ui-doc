@@ -1,7 +1,7 @@
 ---
-title: 详细介绍
+title: 命令介绍
 ---
-# <H2Icon /> Lin UI CLI 详细介绍
+# <H2Icon /> Lin UI CLI 命令介绍
    
 ## create 命令介绍
 
@@ -13,11 +13,12 @@ title: 详细介绍
 
    ```json
    "scripts": {
-     "beforeUpload": "npm run load"
+     "beforeCompile": "npm run load"
    }
    ```
 
    此代码的主要是利用微信小程序自定义处理命令功能实现 **自动按需加载**
+3. `请输入需要安装的 LinUI 版本`：输入您期望安装的 LinUI 版本号，默认为最新版
 
 当进行完以上操作后，即可等待项目创建完成。
 
@@ -42,7 +43,7 @@ title: 详细介绍
 ```
 
 ## load 命令介绍
-Lin UI CLI 是通过微信开发者工具配置文件 **project.config.json** 中 `packOptions.ignore` 与 `script` 字段中 `beforeUpload` 的特点来实现 **按需加载** ，脚手架会获取用户使用的 `pages` 中与所有 **自定义组件** 中的 Lin UI 组件，然后进行 **按需加载** 。
+Lin UI CLI 是通过微信开发者工具配置文件 **project.config.json** 中 `packOptions.ignore` 与 `script` 字段中 `beforeCompile` 的特点来实现 **按需加载** ，脚手架会获取用户使用的 `pages` 中与所有 **自定义组件** 中的 Lin UI 组件，然后进行 **按需加载** 。
 
 步骤：
 1. 首先，CLI 会扫描用户所有的文件（会忽略掉 node_modules 与 miniprogram_npm 文件夹）
