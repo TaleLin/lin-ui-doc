@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "12"
       - name: 安装 NPM 依赖
-        run: npm i
+        run: npm ci
       - name: 开始编译
         run: npm run build
       - name: 部署上传
@@ -40,7 +40,7 @@ jobs:
         with:
           node-version: "12"
       - name: 安装 NPM 依赖
-        run: npm i
+        run: npm ci
       - name: 修改编译路径
         run: |
           sed -i "s#base: '/',#base: '/lin-ui-doc/',#" docs/.vuepress/config.js
@@ -64,7 +64,7 @@ jobs:
         with:
           node-version: "12"
       - name: 安装 NPM 依赖
-        run: npm i
+        run: npm ci
       - name: 开始编译
         run: npm run build
       - name: 部署 master 分支
