@@ -9,11 +9,6 @@ module.exports = {
   dest: './dist',
   plugins: [
     'vuepress-plugin-medium-zoom',
-    ['vuepress-plugin-code-copy', {
-      align: "bottom",
-      color: "#3963bc",
-      successText: "复制成功~"
-    }],
     ['vuepress-plugin-container', {
       type: 'img',
       before: info => `<div class="l-img">`,
