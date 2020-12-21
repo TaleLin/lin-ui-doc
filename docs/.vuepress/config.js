@@ -180,7 +180,8 @@ module.exports = {
             'form/rules',
             'form/rate',
             'form/form',
-            'form/image-clipper'
+            'form/image-clipper',
+            'form/calendar'
           ]
         },
         {
