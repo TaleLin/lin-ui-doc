@@ -87,7 +87,7 @@ title: 按钮 Button
 通过`disabled`属性设置按钮的禁用状态。
 
 :::img
-![height=100](/screenshots/button/5.png)
+![width=500](https://cdn.talelin.com/WX20201214-204446@2x.png)
 :::
 
 ### 示例代码

@@ -9,15 +9,14 @@ module.exports = {
   dest: './dist',
   plugins: [
     'vuepress-plugin-medium-zoom',
-    ['vuepress-plugin-code-copy', {
-      align: "bottom",
-      color: "#3963bc",
-      successText: "复制成功~"
-    }],
     ['vuepress-plugin-container', {
       type: 'img',
       before: info => `<div class="l-img">`,
       after: '</div>'
+    }],['@vuepress/last-updated',{
+      dateOptions:{
+        hour12:false
+      }
     }]
   ],
   head: [
@@ -181,7 +180,8 @@ module.exports = {
             'form/rules',
             'form/rate',
             'form/form',
-            'form/image-clipper'
+            'form/image-clipper',
+            'form/calendar'
           ]
         },
         {
