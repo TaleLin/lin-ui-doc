@@ -1,8 +1,8 @@
 ---
-title: 日历 Calendar（开发中）
+title: 日历 Calendar
 ---
 
-# <H2Icon /> 日历 Calendar（开发中）
+# <H2Icon /> 日历 Calendar
 
 > 用于选择年月日，可自定义需要选择的时间范围。
 
