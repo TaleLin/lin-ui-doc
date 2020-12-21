@@ -1,6 +1,14 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.9.0`
+最新版本：`0.9.1`
+
+
+## [v0.9.1](https://github.com/TaleLin/lin-ui/compare/0.9.0...0.9.1) (2020-12-21)
+
+### Bug Fixes
+
+* **npm:** 修复 npm 包编译文件不全的问题 ([f87458e](https://github.com/TaleLin/lin-ui/commit/f87458e0b506b468fb262f84e5b59e0553dfb5aa))
+
 
 ## [v0.9.0](https://github.com/TaleLin/lin-ui/compare/0.8.13...0.9.0) (2020-12-21)
 
