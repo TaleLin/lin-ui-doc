@@ -1,6 +1,23 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.8.13`
+最新版本：`0.9.0`
+
+## [v0.9.0](https://github.com/TaleLin/lin-ui/compare/0.8.13...0.9.0) (2020-12-21)
+
+
+### Features
+
+* **Calendar:** 新增日历组件 ([d288161](https://github.com/TaleLin/lin-ui/commit/d288161a81c83777ce5b806747ed4a461e3f2f65))
+* **Rate:** 新增 item-gap 属性 ([10e1693](https://github.com/TaleLin/lin-ui/commit/10e1693edbe47b7bdda804027dc535441fb7c652))
+
+
+### Bug Fixes
+
+* **Album:** 修复在页面 JS 中设置传入 urls 无效的问题 ([e674c2b](https://github.com/TaleLin/lin-ui/commit/e674c2b9dc3ba2288e9d71c5bed3050f8e73d7cf)), closes [#1172](https://github.com/TaleLin/lin-ui/issues/1172)
+* **DynamicBuild:** 修复按需编译未复制 core 文件夹的问题 ([724d092](https://github.com/TaleLin/lin-ui/commit/724d0922b85489a7c1fbe54cd9ad217fbf7f9eeb)), closes [#1146](https://github.com/TaleLin/lin-ui/issues/1146)
+* **Rate:** 修复星星图片尺寸过小时错位的问题 ([ed52dc1](https://github.com/TaleLin/lin-ui/commit/ed52dc1696f957b8177166606ac2a1f7990d565a)), closes [#1165](https://github.com/TaleLin/lin-ui/issues/1165)
+* **Tabs:** 修复添加徽标后点击事件无法触发的问题 ([aba842d](https://github.com/TaleLin/lin-ui/commit/aba842df5d25e5cca38477087a059193d6a0b466)), closes [#1070](https://github.com/TaleLin/lin-ui/issues/1070)
+
 
 ## [v0.8.13](https://github.com/TaleLin/lin-ui/compare/0.8.12...0.8.13) (2020-12-07)
 
