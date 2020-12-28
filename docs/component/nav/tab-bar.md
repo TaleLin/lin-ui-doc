@@ -44,7 +44,7 @@ title: 导航栏 TabBar
               {
                   pagePath:"/pages/index/index",
                   text:"首页",
-                  unselectedIconPath:"/icons/tab-bar/index.png",
+                  iconPath:"/icons/tab-bar/index.png",
                   selectedIconPath:"/icons/tab-bar/index-selected.png"
               }
               ...
@@ -92,7 +92,7 @@ redDot 支持传入`Boolean/Number`的值。**当 redDot 为 false 时，不显�
 | ------------------ | ------------------ | -------------- | ------------------- | ---- | ------- | ------ |
 | pagePath           | 标签对应页面路径   | String         | -                   | 是   | -       | 0.8.12 |
 | text               | 标签文字           | String         | -                   | 是   | -       | 0.8.12 |
-| unselectedIconPath | 未选中状态图标路径 | String         | -                   | 是   | -       | 0.8.12 |
+| iconPath | 未选中状态图标路径 | String         | -                   | 是   | -       | 0.8.12 |
 | selectedIconPath   | 选中状态图标路径   | String         | -                   | 是   | -       | 0.8.12 |
 | redDot             | 是否显示红点       | Boolean/Number | `true`/`false`/数字 | 否   | `false` | 0.8.12 |
 
