@@ -497,8 +497,8 @@ data: {
 | enum    | 枚举类型，值必须存在 enum 中 |
 | date    | 日期                         |
 | url     | 网址                         |
-| email   | 邮箱                          |
-| hex     | 16进制                        |
+| email   | 邮箱                         |
+| hex     | 16进制                       |
 
 
 ## 手动提交或重置表单
@@ -512,49 +512,60 @@ data: {
 
 ## 表单容器组件属性 (Form Attributes）
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  版本号 |
-|:----|:----|:----|:----|:----|----- | ---|
-| name | 表单的name | String | ---  | --- | ---|
-| is-submit-validate | 提交时是否校验 | Boolean | true/false  | true | ---|
+| 参数 | 说明 | 类型 | 可选值 | 默认值 | 版本号 |
+| :--- | :--- | :--- | :----- | :----- | ------ ||
+| name               | 表单的name     | String  | ---        | ---    | ---    |
+| is-submit-validate | 提交时是否校验 | Boolean | true/false | true   | ---    |
 
 ## 表单容器组件外部样式类（Form ExternalClasses）
 | 外部样式类名 | 说明 | 备注 | 版本号 |
-| :--------- | :----------------- |----- | :----- | ---|
-| l-form-container-class| form的外部样式类 | --- |---|
-| l-form-btn-class| 按钮容器的外部样式类 | --- |---|
-| l-form-submit-class| 提交按钮的外部样式类 | --- |---|
-| l-form-reset-class| 重置按钮外部样式类 | --- |---|
+| :----------- | :--- | ---- | :----- ||
+| l-form-container-class | form的外部样式类     | ---  | ---    |
+| l-form-btn-class       | 按钮容器的外部样式类 | ---  | ---    |
+| l-form-submit-class    | 提交按钮的外部样式类 | ---  | ---    |
+| l-form-reset-class     | 重置按钮外部样式类   | ---  | ---    |
                               
 
 ## 表单容器组件事件 (Form Events）
 
-| 事件名称        | 说明                      | 返回值          |    备注    |    版本号    |
-| :------------- | :-----------------| :-------------- | :-------- |-------|--|
-| bind:linsubmit | 点击提交按钮时触发    | 点击提交时触发 `linsubmit` 事件，event.detail = {values: 整个表单项的value, errors: 表单内各字段的校验结果，isValidate: 表单是否验证通过} | -    |---|
-| bind:linreset | 点击重置按钮时触发  | --  |-    |-|
+| 事件名称 | 说明 | 返回值 | 备注 | 版本号 |
+| :------- | :--- | :----- | :--- | ------ ||
+| bind:linsubmit | 点击提交按钮时触发 | 点击提交时触发 `linsubmit` 事件，event.detail = {values: 整个表单项的value, errors: 表单内各字段的校验结果，isValidate: 表单是否验证通过} | -    | ---    |
+| bind:linreset  | 点击重置按钮时触发 | --                                                                                                                                        | -    | -      |
 
 
 
 ## 表单项组件属性（Form-Item Attributes）
 
-| 参数  | 说明 | 类型 | 可选值 | 默认值 | 版本号 |
-| :----| :---- | :---- | :---- |----- | :---- |-- |
-| label | form-item 的文字内容 | String | -- | -- |-- |
-| label-placement | 文字内容所在区域 | String | row/column | row |-- |
-| align-items | 文字对齐方式 | String| start/end/center | start |-- |
-| label-width | 文字内容的宽度 | String | --- | 200rpx |-- |
-| label-slot | 是否开启文字内容插槽 | Boolean | true/false | false |-- |
-| name | name | String | -- | -- |-- |
-| rules | 表单项的验证规则 | Object/Array | -- |-- |
-| tip-type |验证提示类型 |String | text/toast/message | text |-- |
+| 参数 | 说明 | 类型 | 可选值 | 默认值 | 版本号 |
+| :--- | :--- | :--- | :----- | ------ | :----- ||
+| label           | form-item 的文字内容 | String       | --                 | --     | --     |
+| label-placement | 文字内容所在区域     | String       | row/column         | row    | --     |
+| align-items     | 文字对齐方式         | String       | start/end/center   | start  | --     |
+| label-width     | 文字内容的宽度       | String       | ---                | 200rpx | --     |
+| label-slot      | 是否开启文字内容插槽 | Boolean      | true/false         | false  | --     |
+| name            | name                 | String       | --                 | --     | --     |
+| rules           | 表单项的验证规则     | Object/Array | --                 | --     |
+| tip-type        | 验证提示类型         | String       | text/toast/message | text   | --     |
 
 
 ## 表单项组件外部样式类（Form-Item ExternalClasses）
 | 外部样式类名 | 说明 | 备注 | 版本号 |
-| :--------- | :----------------- | ----- | :------|-- |
-| l-form-item-class   | form-item的外部样式类 |  |  -- |
-| l-form-label-class   | form-item文字区域的外部样式类 |  | -- |
-| l-form-content-class   | form-item内容区域的外部样式类 |  | -- |
-| l-error-text-class   | form-item校验错误提示的外部样式类 | 当 tip-type 为 text 时有效 | -- |
+| :----------- | :--- | ---- | :----- ||
+| l-form-item-class    | form-item的外部样式类             |                            | --     |
+| l-form-label-class   | form-item文字区域的外部样式类     |                            | --     |
+| l-form-content-class | form-item内容区域的外部样式类     |                            | --     |
+| l-error-text-class   | form-item校验错误提示的外部样式类 | 当 tip-type 为 text 时有效 | --     |
+
+## 插槽 (Form Slot)
+
+| 插槽名       | 说明               |
+| :----------- | :----------------- |
+| submit       | 提交按钮           |
+| reset        | 重置按钮           |
+| submit-front | 提交按钮之前的区域 |
+| reset-front  | 重置按钮之前的区域 |
+| reset-behind | 重置按钮之后的区   |
+
 
 <RightMenu />
