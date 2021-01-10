@@ -1,9 +1,15 @@
 # <H2Icon /> 更新日志
 
-最新版本：`0.9.1`
+最新版本：`0.9.2`
+
+## [v0.9.2](https://github.com/TaleLin/lin-ui/compare/0.9.1...0.9.1) (2020-12-22)
+### Bug Fixes
+
+* **Calendar:** 修复引入其他组件路径错误 ([0945966](https://github.com/TaleLin/lin-ui/commit/0945966feab1b0a3e7958a1949ab67c20fbca3e4))
 
 
-## [v0.9.1](https://github.com/TaleLin/lin-ui/compare/0.9.0...0.9.1) (2020-12-21)
+
+## [v0.9.1](https://github.com/TaleLin/lin-ui/compare/0.9.0...0.9.2) (2020-12-21)
 
 ### Bug Fixes
 
