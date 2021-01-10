@@ -92,12 +92,12 @@ title: 圆型进度条 Circle
 
 ## 自定义背景
 
-通过传入slot="background"自定义中间背景图案。
+通过默认插槽自定义中间背景图案。
 注：自定义背景和文字显示不能同时设置。
 
 ```wxml
 <l-circle percent='50'>
-    <image src="timg.jpeg" slot='background' style="width:90rpx;height:90rpx;border-radius:50%;display:block;" />
+    <image src="timg.jpeg" style="width:90rpx;height:90rpx;border-radius:50%;display:block;" />
 </l-circle>
 ```
 
@@ -128,6 +128,6 @@ title: 圆型进度条 Circle
 
 | 插槽名   | 说明 | 备注| 版本 |  
 |:----|:----|:----|:----|
-|background | 自定义中间的背景图案| | 0.8.5|
+|默认插槽 | 自定义中间的背景图案| | 0.8.5|
 
 <RightMenu />
