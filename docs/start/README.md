@@ -53,32 +53,29 @@ git clone https://github.com/TaleLin/lin-ui.git
 ## 使用组件
 > 下文会简单介绍一个`Lin UI` 组件的引入和使用。
 
-使用前，确保该组件已经在你的项目目录结构里。
-<br />
-以icon组件为例，只需要在使用页面的json文件中引入icon对应的自定义组件即可。
-<br />
-组件路径：`path/to/${组件名称}/index`
-::: tip
-例如：
-<br/>
-npm安装：`/miniprogram_npm/lin-ui/icon/index`
-<br />
-源码安装：`/dist/icon/index`
-:::
+1. 配置微信开发者工具
 
-```json
-{
-  "usingComponents": {
-    "l-icon": "path/to/icon/index"
-  }
-}
-```
+     - 要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 和 `增强编译` 选项勾选上
 
-然后在wxml中直接使用该组件。
-```wxml
-<l-icon name="add"> </l-icon>
-```
+       > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
 
+     - **将基础库版本设置到 `>=2.8.2`**
+
+2. 在页面中引入
+   ```json
+   {
+     "usingComponents":{
+       "l-button":"/miniprogram_npm/lin-ui/button/index"
+     }
+   }
+   ```
+3. 在页面中使用
+   ```html
+    <l-button type="default">默认按钮</l-button>
+   ```
+   > 我们建议你在引入 Lin UI 组件时，都统一命名为 `l-{组件名}` 格式，遵循此规范将使你的项目代码更加清晰
+
+   **至此，Lin UI 已成功引入至你的项目中了！**
 ## 自定义配置
 
 > 考虑到开发者在面临不同到项目时，需求和行业的不同。Lin UI 设计规范上支持一定程度上的样式定制，以满足业务和品牌上多样化的视觉需求。
