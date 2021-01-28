@@ -65,37 +65,20 @@ Page({
 
 CapsuleBar 的亮点除了构造了一个胶囊外，更加强大的是**支持图片背景**，这是微信小程序原生导航栏所无法实现的。
 
-要支持图片背景，只需将`navigation-bar-color`设置为`transparent`即可，然后你便可以在`l-capsule-bar`标签内随意布局你的图片了
+要支持图片背景，只需将`bg-color`设置为`transparent`，然后将 `image` 标签修饰为 `fixed` 布局即可，详细代码请参考以下代码片段。
+
+**背景图片示例代码片段：[https://developers.weixin.qq.com/s/yX1BqHmY7vn8](https://developers.weixin.qq.com/s/yX1BqHmY7vn8)**
 
 ```wxml
 <!-- CapsuleBar 图片背景 -->
-<l-capsule-bar
-  navigation-bar-color="transparent"
-  capsule-button-color="white"
-  title-color="white"
-  home-page='/pages/navigator/index/index'
-  title="林间有风">
-
-  <view class="container">
-  	<!-- CapsuleBar 背景图片 -->
-    <image
-      style="height:{{CapsuleBarHeight}}px;"
-      class="navigation-bar-image"
-      src="https://img.juzibiji.top/20200523214628.png">
-    </image>
-
-    <!-- 以下部分放置页面内容 -->
-    <view>这里是你的页面内容</view>
-  </view>
+<l-capsule-bar capsule-color="white" bg-color="transparent">
+  <image class="capsule-bar-bg" style="height:{{capsuleBarHeight}}rpx;" src="https://cdn.talelin.com/20210128161254.png" />
+  <view class="intro">欢迎使用代码片段，可在控制台查看代码片段的说明和文档</view>
 </l-capsule-bar>
 ```
 
 ```wxss
-.container{
-  width:100%;
-}
-
-.navigation-bar-image{
+.capsule-bar-bg {
   width:100%;
   position:fixed;
   top:0;
@@ -104,12 +87,13 @@ CapsuleBar 的亮点除了构造了一个胶囊外，更加强大的是**支持�
 ```
 
 ```js
-import deviceUtil from "/miniprogram_npm/lin-ui/utils/device-util"
+// 注意此处相对路径要修改为正确的路径
+import deviceUtil from "../miniprogram_npm/lin-ui/utils/device-util"
 
 Page({
   data: {
-    capsuleBarHeight: deviceUtil.getNavigationBarHeight(),
-  },
+    capsuleBarHeight: deviceUtil.getNavigationBarHeight()
+  }
 })
 ```
 
