@@ -62,7 +62,7 @@ title: 头像 Avatar
 
 ## 头像形状
 
-通过在`<l-avatar/>`设置`shape`属性来指定头像形状，有两种形状可选，分别为`circle`和`squre`, 默认值为`circle`。
+通过在`<l-avatar/>`设置`shape`属性来指定头像形状，有两种形状可选，分别为`circle`和`square`, 默认值为`circle`。
 同时，支持通过外部样式类`l-class`修改头像的样式。
 
 ### 示例代码
