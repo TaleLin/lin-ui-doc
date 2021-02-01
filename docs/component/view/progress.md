@@ -144,7 +144,7 @@ title: 进度条 Progress
 slot传递的组件，需要标注display:block;属性
 :::
 
-## 进度条属性（Progress Attributes）
+## 进度条属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  版本|
 |:----|:----|:----|:----|:----|:----|
@@ -160,7 +160,7 @@ slot传递的组件，需要标注display:block;属性
 |active | 进度条从左往右的动画  | Boolean |  |  false| 0.8.0|
 | duration| 进度增加1%所需毫秒数 |Number | |  30，单位毫秒| 0.8.0|
 
-## 外部样式类（Progress ExternalClasses）
+## 外部样式类
 
 | 外部样式类   | 说明 | 备注| 版本 |  
 |:----|:----|:----|:----|
@@ -169,7 +169,7 @@ slot传递的组件，需要标注display:block;属性
 |l-active-class|覆盖已选择进度的外部样式类|||
 |l-background-class|覆盖背景进度条的外部样式类|||
 
-## 插槽 （Progress Slots）
+## 插槽
 
 | 插槽名   | 说明 | 备注|  
 |:----|:----|:----|

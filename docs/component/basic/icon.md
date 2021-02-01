@@ -114,7 +114,7 @@ title: 图标 Icon
 <l-icon name='duihao' l-class='iconfont' />
 ```
 
-## 图标属性（Icon Attributes）
+## 图标属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -122,7 +122,7 @@ title: 图标 Icon
 | color|    图标的颜色      |  String  | - | 默认为主题色 |
 | size |	图标的大小（单位：rpx）| Number | - | `40rpx` |
 
-## 图标外部样式类 (Icon ExternalClasses)
+## 图标外部样式类
 
 | 外部样式类名    | 说明    | 备注 |
 | :--------- | :----------------- | :----- |

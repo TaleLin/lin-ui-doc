@@ -111,7 +111,7 @@ title: 头像 Avatar
   <l-avatar text="月野君" placement="left" src="/images/view/default-image.jpg" />
 ```
 
-## 头像属性（Avatar Attributes）
+## 头像属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -126,7 +126,7 @@ title: 头像 Avatar
 | text |  设置显示文本的内容 | String | - | - |
 | placement | 文本的显示位置 | String | `left`/`right`/`top`/`bottom`| `right` |
 
-## 头像外部样式类（Avatar ExternalClasses）
+## 头像外部样式类
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 | l-class | 覆盖头像组件的头像区域样式 | String |- |
@@ -139,7 +139,7 @@ title: 头像 Avatar
 | :--------- | :----------------- | :----- |
 | l-class-text | 覆盖头像组件中文本的样式 | 请用l-text-class替代 |
 
-## 头像事件（Avatar Events）
+## 头像事件
 
 | 事件名称   | 说明   | 返回值   | 备注   | 
 |:----|:----|:----|:----|

@@ -44,7 +44,7 @@ title: 混合标签 Combined Tabs
 - 可通过`l-header-class`、`l-active-class`、`l-inactive-class`覆盖默认标签栏样式。
 
 
-## 混合标签属性 (Combined Tabs Attributes）
+## 混合标签属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -56,7 +56,7 @@ title: 混合标签 Combined Tabs
 | has-line | 设置是否显示标签下的装饰线 | Boolean | - | `true` |
 
 
-## 混合标签外部样式类（Combined Tabs ExternalClasses）
+## 混合标签外部样式类
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 | l-header-class | 外部样式类，覆盖标签头部整体样式 | 取代l-class-header |
@@ -77,7 +77,7 @@ title: 混合标签 Combined Tabs
 | l-class-line | 外部样式类，覆盖标签选中时装饰线的样式 |  请使用l-line-class替代 |
 
 
-## 标签页属性 (tabpanel Attributes）
+## 标签页属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -88,7 +88,7 @@ title: 混合标签 Combined Tabs
 | slot | `key`一致，有`sub-key`时则与`sub-key`保持一致，必填 | String| - | - |
 
 
-## 混合标签事件 (Combined Tabs Events）
+## 混合标签事件
 
 | 事件名称   | 说明   | 返回值   |  备注   | 
 |:----|:----|:----|:----|
