@@ -13,10 +13,6 @@ module.exports = {
       type: 'img',
       before: info => `<div class="l-img">`,
       after: '</div>'
-    }],['@vuepress/last-updated',{
-      dateOptions:{
-        hour12:false
-      }
     }]
   ],
   head: [
@@ -49,7 +45,6 @@ module.exports = {
     docsRepo: "TaleLin/lin-ui-doc",
     docsBranch: 'develop',
     logo: '/images/left-logo.png',
-    lastUpdated: '上次更新',
     nav: [
       {
         text: '介绍',
