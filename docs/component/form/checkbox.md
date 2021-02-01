@@ -148,7 +148,7 @@ title: 复选框 Checkbox
   
 ```
 
-## 复选框组件属性（Checkbox Attributes）
+## 复选框组件属性
 
 | 参数  | 说明 | 类型 | 可选值 | 默认值 |
 | :----| :---- | :---- | :---- | :---- |
@@ -164,19 +164,19 @@ title: 复选框 Checkbox
 | checked | 当前checkbox是否选中| Boolean | true/false | false |                                                                          | String  | toast/message/text | -      |
 
 
-## 复选框组件外部样式类（Checkbox ExternalClasses）
+## 复选框组件外部样式类
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 | l-class   | 设置checkbox的外部样式类 |  |  
 | l-disabled-class   | 设置checkbox禁用时的外部样式类 |  | 
 
-## 复选框组组件外部样式类（CheckboxGroup ExternalClasses）
+## 复选框组组件外部样式类
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- | 
 | l-class| checkbox-group的外部样式类 | --- |
                               
 
-## 复选框容器组件属性 (Checkbox-Group Attributes）
+## 复选框容器组件属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -185,7 +185,7 @@ title: 复选框 Checkbox
 | max-selected | 最多选中个数 | Number | ---  | --- | 
 
 
-## 复选框组件事件 (Checkbox-Group Events）
+## 复选框组件事件
 
 | 事件名称        | 说明                                              | 返回值          | 备注 |
 | :------------- | :------------------------------------------------ | :-------------- | :--- |

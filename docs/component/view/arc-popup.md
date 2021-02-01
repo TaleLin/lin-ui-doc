@@ -130,7 +130,7 @@ title: 弧形滚动弹出层 ArcPopup
 ![height=300](/screenshots/arc-popup/8.png)
 :::
 
-## 组件属性（ArcPopup Attributes）
+## 组件属性
 
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -150,7 +150,7 @@ title: 弧形滚动弹出层 ArcPopup
   `z-index` `locked` `transition` 属性继承与 `Popup` 组件内属性，与 `Popup` 属性功能相同。
 :::
 
-## 组件外部样式类（ArcPopup ExternalClasses）
+## 组件外部样式类
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 | l-panel-class   | 覆盖内容面板区域的自定义外部样式类   |  ---   | 
@@ -164,14 +164,14 @@ title: 弧形滚动弹出层 ArcPopup
  `l-class` 与 `l-bg-class` 样式类继承于 `Popup` ，与 `Popup` 样式类功能相同。
 :::
 
-## 组件事件（ArcPopup Events)
+## 组件事件
 
 | 事件名称 | 说明 | 返回值	 | 备注 |
 |:----|:----|:----|:----|:----|
 | bind:linshow	| 组件展示后触发（ `show` 属性为 `true` 时）	| - | - | 
 | bind:linclose	| 组件关闭后触发（ `show` 属性为 `false` 时）	| - | - | 
 
-## 插槽 （ArcPopup Slots）
+## 插槽
 
 | 插槽名   | 说明 | 备注|  
 |:----|:----|:----|

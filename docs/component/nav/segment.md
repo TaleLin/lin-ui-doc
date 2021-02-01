@@ -146,7 +146,7 @@ title: 选项卡 Segment
 - 选项卡位置在左边或右边时，默认宽度为`160rpx`,高度等分,开启`scrollable`时，最小高度为`80rpx`;
 - 可通过`l-class`、`l-active-class`、`l-inactive-class`覆盖默认选项卡样式。
 
-## 选项卡属性 (Segment Attributes）
+## 选项卡属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
@@ -163,7 +163,7 @@ title: 选项卡 Segment
 | item-width | 设置选项卡子项的宽度 | Number ，单位`rpx` | - | - |
 | item-height | 设置选项卡子项的高度 | Number ，单位`rpx` | - | - |
 
-## 选项卡子项属性 (Segment-item Attributes）
+## 选项卡子项属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
@@ -179,7 +179,7 @@ title: 选项卡 Segment
 | badge-count | 徽标的数值 | String | - | - |
 | badge-max-count | 徽标数字最大值，超过最大值时显示${max-count}+ | Number   | -----   | 99   |
 
-## 选项卡外部样式类 (Segment ExternalClasses)
+## 选项卡外部样式类
 
 | 外部样式类名    | 说明    | 备注 |
 | :--------- | :----------------- | :----- |
@@ -208,7 +208,7 @@ title: 选项卡 Segment
 
 
 
-## 选项卡事件 (Segment Events）
+## 选项卡事件
 
 | 事件名称   | 说明   | 返回值   |  备注   |
 |:----|:----|:----|:----|

@@ -158,7 +158,7 @@ showMessage(){
 
 
 
-## 模态框参数 （Dialog Attributes）
+## 模态框参数
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -176,7 +176,7 @@ showMessage(){
 | is-hover | 是否显示hover效果 | Boolean | --- | true |
 
 
-## 模态框外部样式类 (Dialog ExternalClasses)
+## 模态框外部样式类
 
 | 外部样式类名    | 说明    | 备注 |
 | :--------- | :----------------- | :----- |
@@ -189,7 +189,7 @@ showMessage(){
 
 <!-- 'l-class', 'l-title-class', 'l-content-class', 'l-confirm-class', 'l-cancel-class', 'l-bg-class' -->
 
-## 模态框事件 （Dialog Events）
+## 模态框事件
 
 | 事件名称   | 说明   | 返回值   | 备注   | 
 |:----|:----|:----|:----|

@@ -120,7 +120,7 @@ l-radio必须与l-radio-group搭配使用，且每个l-radio必须指定一个`k
 ```
 
 
-## 单选组件属性（Radio Attributes）
+## 单选组件属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -132,13 +132,13 @@ l-radio必须与l-radio-group搭配使用，且每个l-radio必须指定一个`k
 | disabled   | 设置是否禁用 | Boolean | --- | false |
 
 
-## 单选组件外部样式类（Radio ExternalClasses）
+## 单选组件外部样式类
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
 | l-class   | 设置radio的外部样式类 |--- | 
 | l-disabled-class   | 设置radio禁用时的外部样式类 |  --- | 
 
-## 单项选择器组件属性（Radio-Group  Attributes）
+## 单项选择器组件属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -146,7 +146,7 @@ l-radio必须与l-radio-group搭配使用，且每个l-radio必须指定一个`k
 | placement | 更改radio-group的布局方式 | String | row/column  | column | 
 | none-checked | 为true时允许全部单选项都不选中，否则至少选择一项 | Boolean | true/false | true |
 
-## 单项选择器事件 (Radio-Group Events）
+## 单项选择器事件
 
 | 事件名称        | 说明                                              | 返回值          | 备注 |
 | :-------------- | :------------------------------------------------ | :-------------- | :--- |

@@ -97,35 +97,35 @@ title: 价格 Price
   ></l-price>
 ```
 
-## 价格属性（Price Attributes）
+## 价格属性
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| unit | 设置价格单位 | String | --- | ￥ |
-| value | 设置价格内容 | String | --- | --- |
-| mode | 设置价格内容类型 | String | number/text | text |
-| deleted | 价格是否为删除态 | Boolean | --- | false |
-| reserve-digit | 设置价格小数保留位数 | Number | --- | 2 |
-| color | 设置价格整体颜色 | String | --- | --- |
-| size | 设置价格整体字体大小 | String | --- | --- |
-| bold | 设置价格整体字体粗细  | String | --- | ’500‘ |
-| autofix | 是否开启自动补零 | Boolean | --- | false |
-| del-color | 删除态价格删除线颜色 | String | --- | --- |
-| value-color | 设置价格数字颜色 | String | --- | --- |
-| unit-color | 设置价格单位颜色 | String | --- | --- |
-| value-size | 设置价格数字大小（单位rpx） | Number | --- | 28 |
-| unit-size | 设置价格单位大小（单位rpx） | Number | --- | 28 |
-| unit-bold | 设置价格单位字体粗细 | Number/String | --- | -- |
-| value-bold | 设置价格字体粗细 | Number/String | --- | -- |
+| 参数          | 说明                        | 类型          | 可选值      | 默认值 |
+| :------------ | :-------------------------- | :------------ | :---------- | :----- |
+| unit          | 设置价格单位                | String        | ---         | ￥      |
+| value         | 设置价格内容                | String        | ---         | ---    |
+| mode          | 设置价格内容类型            | String        | number/text | text   |
+| deleted       | 价格是否为删除态            | Boolean       | ---         | false  |
+| reserve-digit | 设置价格小数保留位数        | Number        | ---         | 2      |
+| color         | 设置价格整体颜色            | String        | ---         | ---    |
+| size          | 设置价格整体字体大小        | String        | ---         | ---    |
+| bold          | 设置价格整体字体粗细        | String        | ---         | ’500‘  |
+| autofix       | 是否开启自动补零            | Boolean       | ---         | false  |
+| del-color     | 删除态价格删除线颜色        | String        | ---         | ---    |
+| value-color   | 设置价格数字颜色            | String        | ---         | ---    |
+| unit-color    | 设置价格单位颜色            | String        | ---         | ---    |
+| value-size    | 设置价格数字大小（单位rpx） | Number        | ---         | 28     |
+| unit-size     | 设置价格单位大小（单位rpx） | Number        | ---         | 28     |
+| unit-bold     | 设置价格单位字体粗细        | Number/String | ---         | --     |
+| value-bold    | 设置价格字体粗细            | Number/String | ---         | --     |
 
-## 价格外部样式类 (Price ExternalClasses)
+## 价格外部样式类
 
-| 外部样式类名    | 说明    | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class | 覆盖价格部分的外部样式类 | --- |
-| l-unit-class | 覆盖价格单位的外部样式类 | --- |
-| l-value-class | 覆盖价格数字部分的外部样式类 | --- |
-| l-decimal-class | 覆盖价格小数部分的外部样式类 | --- |
-| l-dot-class | 覆盖价格小数点的外部样式类 | --- |
+| 外部样式类名    | 说明                         | 备注 |
+| :-------------- | :--------------------------- | :--- |
+| l-class         | 覆盖价格部分的外部样式类     | ---  |
+| l-unit-class    | 覆盖价格单位的外部样式类     | ---  |
+| l-value-class   | 覆盖价格数字部分的外部样式类 | ---  |
+| l-decimal-class | 覆盖价格小数部分的外部样式类 | ---  |
+| l-dot-class     | 覆盖价格小数点的外部样式类   | ---  |
 
 <RightMenu />

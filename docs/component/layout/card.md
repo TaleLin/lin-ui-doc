@@ -161,7 +161,7 @@ title: 卡片 Card
  `position`、`plaintext`属性仅在`type`为`primary`时生效。
 :::
 
-## 卡片属性 (Card Attributes）
+## 卡片属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -174,7 +174,7 @@ title: 卡片 Card
 | plaintext | 卡片是否为纯文字卡片 | Boolean | --- | false |
 | full | 卡片是否为通栏卡片 | Boolean | --- | false |
 
-## 卡片外部样式类 (Card ExternalClasses)
+## 卡片外部样式类
 
 | 外部样式类名    | 说明    | 备注 |
 | :--------- | :----------------- | :----- |
