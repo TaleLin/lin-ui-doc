@@ -72,7 +72,7 @@ title: 状态展示页 StatusShow
 </l-status-show>
 ```
 
-## 状态展示页属性（StatusShow Attributes）
+## 状态展示页属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -85,7 +85,7 @@ title: 状态展示页 StatusShow
 | custom | 自定义状态展示页 | Boolean | ---- | false |
 | bg-color | 自定义状态展示页背景色 | String | ---- | #fff |
 
-## 状态展示页外部样式类（StatusShow ExternalClasses）
+## 状态展示页外部样式类
 
 | 外部样式类名 | 说明 | 备注 |
 | :--------- | :----------------- | :----- |
@@ -94,7 +94,7 @@ title: 状态展示页 StatusShow
 | l-describe-class | 覆盖文案描述部分的外部样式类 |  --- |
 | l-button-class | 覆盖按钮部分的外部样式类 |  --- |
 
-## 状态展示页事件（StatusShow Events）
+## 状态展示页事件
  
 | 事件名称   | 说明   | 返回值   | 备注   | 
 |:----|:----|:----|:----|

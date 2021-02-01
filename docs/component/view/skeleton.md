@@ -127,7 +127,7 @@ title: 骨架屏 Skeleton
 </l-skeleton>
 ```
 
-## 骨架屏属性 (Skeleton Attributes)
+## 骨架屏属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  版本号 |
 |:----|:----|:----|:----|:----|:----|
@@ -143,7 +143,7 @@ title: 骨架屏 Skeleton
 | avatar-size | 设置头像占位图大小 | String |  ---  | 32rpx  |0.7.2 |
 | avatar-shape | 设置头像占位图形状 | String |  circle/square  | circle  |0.7.2 |
 
-## 骨架屏外部样式类 (Skeleton ExternalClasses)
+## 骨架屏外部样式类
 
 | 外部样式类名 | 说明 | 备注 | 版本号 |
 | :--------- | :----------------- | :----- | :----- |

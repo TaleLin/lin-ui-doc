@@ -52,7 +52,7 @@ title: 数量选择器 Counter
 <l-counter count="1" min="1" max="10" disabled="{{true}}"/>
 ```
 
-## 数量选择器属性（Counter Attributes）
+## 数量选择器属性
 
 :::tip
 1. 如果需通过`l-count-class`或者`l-class`修改`height`,请同时设置`line-height`和`min-height`并与`height`大小保持一致。
@@ -68,7 +68,7 @@ title: 数量选择器 Counter
 | disabled | 设置禁用状态 | Boolean | --- | false |
 | is-hover | 是否显示hover效果 | Boolean | --- | true |
 
-## 数量选择器外部样式类 (Counter ExternalClasses)
+## 数量选择器外部样式类
 
 | 外部样式类名    | 说明    | 备注 |
 | :--------- | :----------------- | :----- |
@@ -77,7 +77,7 @@ title: 数量选择器 Counter
 | l-disabled-class | 设置数量选择器数字容器禁用状态的外部样式类 | --- |
 | l-count-class | 设置数量选择器数字容器的外部样式类 | --- |
 
-## 数量选择器事件（Counter Events）
+## 数量选择器事件
 
 | 事件名称        | 说明               | 返回值          | 备注 |
 | :--------- | :----------------- | :----- | :--------------- |

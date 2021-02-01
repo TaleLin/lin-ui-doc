@@ -181,45 +181,45 @@ Page({
   }
 ```
 
-## 标签属性（Tag Attributes）
+## 标签属性
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| size | 标签尺寸 | String | large/medium/mini/super-mini | medium |
-| shape | 标签形状 | String | square/circle | square |
-| type | 标签类型 | String | reading/touch | touch |
-| disable | 标签是否禁用 | Boolean | ----- | false |
-| plain | 标签是否镂空 | Boolean | ----- | false | 
-| bg-color | 实心标签背景颜色 | String | ----- | --- | 
-| font-color | 镂空标签字体颜色 | String | ----- | --- | 
-| name | 标签标识 | String | ----- | --- | 
-| cell | 标签标识 | Object | ----- | --- | 
-| select | 标签是否可选中 | Boolean | ----- | false | 
-| icon | icon名称 | String | ----- | --- | 
-| icon-size | icon大小 | Number | ----- | --- |
-| icon-color | icon颜色 | String | ----- | --- |
-| image | 图片路径 | String | ----- | --- | 
-| location | 图标位置 | String | left/right | left  |   
+| 参数       | 说明             | 类型    | 可选值                       | 默认值 |
+| :--------- | :--------------- | :------ | :--------------------------- | :----- |
+| size       | 标签尺寸         | String  | large/medium/mini/super-mini | medium |
+| shape      | 标签形状         | String  | square/circle                | square |
+| type       | 标签类型         | String  | reading/touch                | touch  |
+| disable    | 标签是否禁用     | Boolean | -----                        | false  |
+| plain      | 标签是否镂空     | Boolean | -----                        | false  |
+| bg-color   | 实心标签背景颜色 | String  | -----                        | ---    |
+| font-color | 镂空标签字体颜色 | String  | -----                        | ---    |
+| name       | 标签标识         | String  | -----                        | ---    |
+| cell       | 标签标识         | Object  | -----                        | ---    |
+| select     | 标签是否可选中   | Boolean | -----                        | false  |
+| icon       | icon名称         | String  | -----                        | ---    |
+| icon-size  | icon大小         | Number  | -----                        | ---    |
+| icon-color | icon颜色         | String  | -----                        | ---    |
+| image      | 图片路径         | String  | -----                        | ---    |
+| location   | 图标位置         | String  | left/right                   | left   |
 
 
-## 标签外部样式类 (Tag ExternalClasses)
+## 标签外部样式类
 
-| 外部样式类名    | 说明    | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class | 覆盖未选中标签区域的外部样式类 | ---  |   
-| l-select-class | 覆盖已选中标签区域的外部样式类 | ---  |   
-| l-image-class | 覆盖自定义图片区域的外部样式类 | ---  |  
+| 外部样式类名   | 说明                           | 备注 |
+| :------------- | :----------------------------- | :--- |
+| l-class        | 覆盖未选中标签区域的外部样式类 | ---  |
+| l-select-class | 覆盖已选中标签区域的外部样式类 | ---  |
+| l-image-class  | 覆盖自定义图片区域的外部样式类 | ---  |
 
-## 标签插槽（Tag Solt）
+## 标签插槽
 
-| 插槽名称   | 说明 | 备注   | 
-|:----|:----|:----|
-| -  | 自定义标签显示内容  | --- |
+| 插槽名称 | 说明               | 备注 |
+| :------- | :----------------- | :--- |
+| -        | 自定义标签显示内容 | ---  |
 
-## 标签事件（Tag Events）
+## 标签事件
 
-| 事件名称   | 说明   | 返回值   | 备注   | 
-|:----|:----|:----|:----|
-| bind:lintap   | 点击标签时触发的事件,返回当前标签的标示和选中状态   | {name,cell,select}   | --------   | 
+| 事件名称    | 说明                                              | 返回值             | 备注     |
+| :---------- | :------------------------------------------------ | :----------------- | :------- |
+| bind:lintap | 点击标签时触发的事件,返回当前标签的标示和选中状态 | {name,cell,select} | -------- |
 
 <RightMenu />

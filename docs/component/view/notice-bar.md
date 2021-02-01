@@ -105,34 +105,34 @@ title: 通告栏 NoticeBar
 ```
 
 
-## 通告栏属性（NoticeBar Attributes）
+## 通告栏属性
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| show | 是否显示通告栏 | Boolean | ---- | true |
-| type | 通告栏类型 | String | still/swip/roll | still |
-| speed | 轮播（滚动）速度 | Number | ---- | 1500 |
-| swip-arr | 轮播内容 | Array | --- | --- |
-| close | 可关闭通告栏 | Boolean | --- | false |
-| front-icon-name | 通告栏头部图标名称 | String | --- | --- |
-| front-icon-size | 通告栏头部图标大小 | Number | --- | --- |
-| front-icon-color | 通告栏头部图标颜色 | String | --- | --- |
-| end-icon-name | 通告栏尾部图标名称 | String | --- | --- |
-| end-icon-size | 通告栏尾部图标大小 | Number | --- | --- |
-| end-icon-color | 通告栏尾部图标颜色 | String | --- | --- |
+| 参数             | 说明               | 类型    | 可选值          | 默认值 |
+| :--------------- | :----------------- | :------ | :-------------- | :----- |
+| show             | 是否显示通告栏     | Boolean | ----            | true   |
+| type             | 通告栏类型         | String  | still/swip/roll | still  |
+| speed            | 轮播（滚动）速度   | Number  | ----            | 1500   |
+| swip-arr         | 轮播内容           | Array   | ---             | ---    |
+| close            | 可关闭通告栏       | Boolean | ---             | false  |
+| front-icon-name  | 通告栏头部图标名称 | String  | ---             | ---    |
+| front-icon-size  | 通告栏头部图标大小 | Number  | ---             | ---    |
+| front-icon-color | 通告栏头部图标颜色 | String  | ---             | ---    |
+| end-icon-name    | 通告栏尾部图标名称 | String  | ---             | ---    |
+| end-icon-size    | 通告栏尾部图标大小 | Number  | ---             | ---    |
+| end-icon-color   | 通告栏尾部图标颜色 | String  | ---             | ---    |
 
-## 通告栏外部样式类 (NoticeBar ExternalClasses)
+## 通告栏外部样式类
 
-| 外部样式类名    | 说明    | 备注 |
-|:----|:----|:----|
-| l-class | 覆盖通告栏区域的自定义外部样式类 | --- | 
-| l-icon-class | 覆盖通告栏图标的自定义外部样式类 | --- | 
+| 外部样式类名 | 说明                             | 备注 |
+| :----------- | :------------------------------- | :--- |
+| l-class      | 覆盖通告栏区域的自定义外部样式类 | ---  |
+| l-icon-class | 覆盖通告栏图标的自定义外部样式类 | ---  |
 
-## 通告栏事件（NoticeBar Events）
+## 通告栏事件
  
-| 事件名称   | 说明   | 返回值   | 备注   | 
-|:----|:----|:----|:----|
-| bind:lintap | 点击通告栏信息触发的事件 | e.detail.index | 在`type`为`swip`时有返回值 |
-| bind:linicontap | 点击通告栏文字后的图标触发的事件 | --- | --- |
+| 事件名称        | 说明                             | 返回值         | 备注                       |
+| :-------------- | :------------------------------- | :------------- | :------------------------- |
+| bind:lintap     | 点击通告栏信息触发的事件         | e.detail.index | 在`type`为`swip`时有返回值 |
+| bind:linicontap | 点击通告栏文字后的图标触发的事件 | ---            | ---                        |
 
 <RightMenu />

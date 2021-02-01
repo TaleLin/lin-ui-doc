@@ -70,7 +70,7 @@ title: 滑动菜单 SlideView
  2. 设置 `close` 为 `true` 时，组件会主动关闭。
 :::
 
-## 滑动菜单属性（SlideView Attributes）
+## 滑动菜单属性
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
@@ -82,7 +82,7 @@ title: 滑动菜单 SlideView
 | auto-close   | 设置点击菜单栏后是否自动关闭 | Boolean | true/false | false 
 | close   | 设置是否主动关闭菜单栏 | Boolean | true/false | false 
 
-## 滑动菜单事件 (SlideView Events）
+## 滑动菜单事件
 
 | 事件名称   | 说明   | 返回值   |  备注   | 
 |:----|:----|:----|:----|

@@ -118,35 +118,34 @@ data: {
 
 ```
 
-## 气泡框属性（Popover Attributes）
+## 气泡框属性
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| show | 控制气泡框的显示 | Boolean | true/false | false | 
-| bgColor | 控制气泡框的背景色 | String |  | rgba(0,0,0, .5) | 
-| type | 控制气泡框的类型 | String | text/list | text | 
-| text | 渲染气泡框的内容 | String |  |  | 
-| list | 渲染气泡框的内容(列表) | Array |  |  | 
-| placement | 设置气泡框出现的位置 | String |  top、left、right、bottom、topLeft、topRight、bottomLeft、bottomRight、leftTop、leftBottom、rightTop、rightBottom | top | 
-| locked   | 气泡框是否设定为锁定态 | Boolean | true/false | false 
+| 参数      | 说明                   | 类型    | 可选值                                                                                                           | 默认值          |
+| :-------- | :--------------------- | :------ | :--------------------------------------------------------------------------------------------------------------- | :-------------- |
+| show      | 控制气泡框的显示       | Boolean | true/false                                                                                                       | false           |
+| bgColor   | 控制气泡框的背景色     | String  |                                                                                                                  | rgba(0,0,0, .5) |
+| type      | 控制气泡框的类型       | String  | text/list                                                                                                        | text            |
+| text      | 渲染气泡框的内容       | String  |                                                                                                                  |                 |
+| list      | 渲染气泡框的内容(列表) | Array   |                                                                                                                  |                 |
+| placement | 设置气泡框出现的位置   | String  | top、left、right、bottom、topLeft、topRight、bottomLeft、bottomRight、leftTop、leftBottom、rightTop、rightBottom | top             |
+| locked    | 气泡框是否设定为锁定态 | Boolean | true/false                                                                                                       | false           |
 
 ::: tip 注意事项
  Popover组件使用cover-view来绘制，层级最高，可以覆盖微信的一些原生组件。
 :::
 
-## 气泡框外部样式类（Popover ExternalClasses）
-| 外部样式类名 | 说明 | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class   | 设置气泡框的根节点样式 |   | 
-| l-item-class   | 设置气泡框里的list列表的item样式 |  | 
+## 气泡框外部样式类
+| 外部样式类名 | 说明                             | 备注 |
+| :----------- | :------------------------------- | :--- |
+| l-class      | 设置气泡框的根节点样式           |      |
+| l-item-class | 设置气泡框里的list列表的item样式 |      |
 
 
-## 气泡框事件（Popover Events）
+## 气泡框事件
 
-| 事件名称   | 说明   | 返回值   | 备注   | 
-|:----|:----|:----|:----|
-| bind:lintap   | 当点击气泡框时触发   |  如果是list类型，会返回当前的下标  | --------   | 
-|  |    |   |  | 
+| 事件名称    | 说明               | 返回值                           | 备注     |
+| :---------- | :----------------- | :------------------------------- | :------- |
+| bind:lintap | 当点击气泡框时触发 | 如果是list类型，会返回当前的下标 | -------- |
 
 
 <RightMenu />
