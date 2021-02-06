@@ -1,50 +1,14 @@
 ---
 title: 轻提示 Toast
 ---
+<RightMenu />
 
 # <H2Icon /> 轻提示 Toast
-
-> toast组件常用于在页面中展示重要的提示信息。
-
-我们提供了`Toast`组件的两种调用方法，一种是最基本的组件调用方式，通过`show`属性来控制显示与隐藏，另一种是更接近于微信原生的调用方法，通过`wx.lin.showToast()` 这个方法来进行调用。
-
-## 通过Api调用
-
-### 显示 toast
-
-在项目中，**showToast**这个操作可能会在一些函数的回调中被使用，那么通过Api去调用，是一种更好的体验。下面会通过一些代码示例来帮助理解。
-
-首先需要在json文件中引入`Toast`组件，其次在wxml文件中使用它。
-```wxml
-<l-toast />
-
-<view bindtap="show">触发</view>
-```
-之后在js里写下调用方法
-```js
-show() {
-  wx.lin.showToast({
-    title: '创建成功~',
-    icon: 'success',
-    success: (res) => {
-      console.log(res)
-    },
-    complete: (res) => {
-      console.log(res)
-    }
-  })
-}
-
-```
-接着就能查看到页面出现了 `创建成功~` 的`Toast`提示了
-
-:::img
-![height=150](/screenshots/toast/1.jpg)
+:::tip 组件特性
+- 支持[开放函数](#开放函数)
 :::
 
-### 关闭toast
-有一些情况，需要手动关闭toast，可以通过调用wx.lin.hideToast()主动关闭toast的显示。
-
+Toast 组件常用于在页面中展示重要的提示信息。
 ##  无文字基本类型
 
 提示框可通过设置`show `属性为`true`、`false` 来控制显示和隐藏，并且在不设置`image` 和 `icon` 的情况下，只会显示文本内容。
@@ -140,48 +104,48 @@ show() {
 :::
 
 
-### 提示框属性
+## 提示框属性
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| show | 控制提示框的显示 | Boolean | true/false | false | 
-| title | 提示框的文本内容 | String |   |  | 
-| icon | icon图标的名字| String |  参考[icon组件][1]支持的范围|   | 
-| icon-size | icon图标的大小| String |  --- |  60 | 
-| icon-color | icon图标的颜色 | String |  --- |  #fff | 
-| image | 图片的有效路径，支持本地路径和网络路径 | String |   |   | 
-| placement   | 文字的显示方位 | String | top/left/right/bottom  | bottom 
-| duration   | 提示框显示的时长 | Number |  | 1500 
-| zIndex   | 控制提示框的z-index层级 | Number |  | 999
-| mask   | 是否显示透明蒙层，防止触摸穿透 | Boolean | true/false | false 
-| offsetX | 设置提示框向右的偏移量 | Number | -  | 0 |
-| offsetY | 设置提示框向下的偏移量 | Number | -  | 0 |
+| 参数       | 说明                                   | 类型    | 可选值                                                                    | 默认值 |
+| :--------- | :------------------------------------- | :------ | :------------------------------------------------------------------------ | :----- |
+| show       | 控制提示框的显示                       | Boolean | true/false                                                                | false  |
+| title      | 提示框的文本内容                       | String  |                                                                           |        |
+| icon       | icon图标的名字                         | String  | 参见 [Icon](http://doc.mini.talelin.com/component/basic/icon.html) 可选值 |        |
+| icon-size  | icon图标的大小                         | String  | ---                                                                       | 60     |
+| icon-color | icon图标的颜色                         | String  | ---                                                                       | #fff   |
+| image      | 图片的有效路径，支持本地路径和网络路径 | String  |                                                                           |        |
+| placement  | 文字的显示方位                         | String  | top/left/right/bottom                                                     | bottom |
+| duration   | 提示框显示的时长                       | Number  |                                                                           | 1500   |
+| zIndex     | 控制提示框的z-index层级                | Number  |                                                                           | 999    |
+| mask       | 是否显示透明蒙层，防止触摸穿透         | Boolean | true/false                                                                | false  |
+| offsetX    | 设置提示框向右的偏移量                 | Number  | -                                                                         | 0      |
+| offsetY    | 设置提示框向下的偏移量                 | Number  | -                                                                         | 0      |
 
 ::: tip 注意事项 
 * `image` 的权重大于 `icon` ，当设置`image`时， `icon`不生效
 * `center` 设置为`false`的时候，提示框偏底部显示，默认居中显示。
 :::
 
-### 提示框外部样式类
+## 提示框外部样式类
 
-| 参数   | 说明 | 备注 |  
-|:----|:----|:----|
-| l-class | 覆盖toast整体的外部样式类 | --- | 
-| l-bg-class | 覆盖背景部分的外部样式类 | --- | 
-| l-image-class | 覆盖toast图片部分的外部样式类 | --- | 
-| l-icon-class | 覆盖toast图标部分的外部样式类 | --- | 
+| 参数          | 说明                          | 备注 |
+| :------------ | :---------------------------- | :--- |
+| l-class       | 覆盖toast整体的外部样式类     | ---  |
+| l-bg-class    | 覆盖背景部分的外部样式类      | ---  |
+| l-image-class | 覆盖toast图片部分的外部样式类 | ---  |
+| l-icon-class  | 覆盖toast图标部分的外部样式类 | ---  |
 
-## icon参数说明
+## icon 参数说明
 
-| 属性值   | 说明 | 类型 |
-|:----|:----|:----|
-| success | 显示绿色的`success` 图标 | String | 
-| error | 显示红色的 `error` 图标 | String | 
-| loading | 显示白色的的 `loading` 图标 | String | 
-| other | 参考[icon组件][1]支持的范围 | String | 
+| 属性值  | 说明                                                                      | 类型   |
+| :------ | :------------------------------------------------------------------------ | :----- |
+| success | 显示绿色的`success` 图标                                                  | String |
+| error   | 显示红色的 `error` 图标                                                   | String |
+| loading | 显示白色的的 `loading` 图标                                               | String |
+| 其他值  | 参见 [Icon](http://doc.mini.talelin.com/component/basic/icon.html) 可选值 | String |
 
-
-  [1]: http://doc.mini.talelin.com/component/basic/icon.html
-
-
-<RightMenu />
+## [开放函数](https://doc.mini.talelin.com/start/open-function.html)
+| 函数名           | 说明       | 备注                                                |
+| :--------------- | :--------- | :-------------------------------------------------- |
+| linShow(optinos) | 显示 Toast | optinos 为 Object 类型，属性为 Toast 支持的所有属性 |
+| linHide          | 隐藏 Toast |                                                     |
