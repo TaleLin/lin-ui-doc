@@ -93,6 +93,12 @@ module.exports = {
             '/start/contribute',
             '/start/wx'
           ]
+        }, {
+          title: '高级特性',
+          collapsable: false,
+          children: [
+            '/start/open-function'
+          ]
         }
       ],
       '/component/': [
