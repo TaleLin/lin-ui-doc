@@ -2,42 +2,14 @@
 title: 模态框 Dialog
 ---
 
+<RightMenu />
+
 # <H2Icon /> 模态框 Dialog
 > 保留当前页面，弹出一个对话框，告知用户并承载相关操作。
 
-## 基本使用 
-
-Dialog组件有以下两种用法：
-
-1. 常规组件的使用方式，通过更改传入的属性值来控制`Dialog`的显示和隐藏。
-
-2. `wx.lin.showDialog(object)`，使用`wx.lin.showDialog`的调用时，与组件的使用一致，需要在json文件中引入组件，且在wxml中写入`Dialog`组件。
-
-`wx.lin.showDialog接受的参数是个对象，里面包含了与消息提示相关的属性。
-
-### 示例代码（第二种用法）
-
-```wxml
-<l-dialog />
-```
-
-```js
-// js
-showMessage(){
-    wx.lin.showDialog({
-      type:"alert",     
-      title:"标题",
-      content:"这个是提示框" ,
-      success: (res) => {
-        if (res.confirm) {
-          console.log('用户点击确定')
-        } else if (res.cancel) {
-          console.log('用户点击取消')
-        }
-      }
-    })
-}
-```
+:::tip 组件特性
+- 支持[开放函数](#开放函数)
+:::
 
 ## 模态框类型
 
@@ -160,41 +132,45 @@ showMessage(){
 
 ## 模态框参数
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| show | 控制模态框的显示 | Boolean | true/false | false | 
-| type | 设置模态框的类型 | String |  alert/confirm  | alert  | 
-| title | 设置模态框的标题 | String |  -----  | 提示  | 
-| title-color  | 设置标题的颜色 | String |  |  #45526b;|
-| content | 设置模态框的内容 | String | ----- |  | 
-| locked | 设置背景是否为锁定态 | Boolean | ----- | true | 
-| show-title   | 是否显示模态框的标题 | Boolean | true/false | true |
-| confirm-text  | 确定按钮的文本 | String |  |  确定 |
-| confirm-color  | 确定按钮的颜色 | String |  |  #3683d6 |
-| cancel-text   | 取消按钮的文本 | String | | 取消|
-| cancel-color   | 取消按钮的颜色 | String | | #45526b|
-| is-hover | 是否显示hover效果 | Boolean | --- | true |
+| 参数          | 说明                 | 类型    | 可选值        | 默认值   |
+| :------------ | :------------------- | :------ | :------------ | :------- |
+| show          | 控制模态框的显示     | Boolean | true/false    | false    |
+| type          | 设置模态框的类型     | String  | alert/confirm | alert    |
+| title         | 设置模态框的标题     | String  | -----         | 提示     |
+| title-color   | 设置标题的颜色       | String  |               | #45526b; |
+| content       | 设置模态框的内容     | String  | -----         |          |
+| locked        | 设置背景是否为锁定态 | Boolean | -----         | true     |
+| show-title    | 是否显示模态框的标题 | Boolean | true/false    | true     |
+| confirm-text  | 确定按钮的文本       | String  |               | 确定     |
+| confirm-color | 确定按钮的颜色       | String  |               | #3683d6  |
+| cancel-text   | 取消按钮的文本       | String  |               | 取消     |
+| cancel-color  | 取消按钮的颜色       | String  |               | #45526b  |
+| is-hover      | 是否显示hover效果    | Boolean | ---           | true     |
 
 
 ## 模态框外部样式类
 
-| 外部样式类名    | 说明    | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class   | 设置dialog的外部样式类 | -- |
-| l-title-class   | 设置dialog头部的外部样式类 | -- |
-| l-content-class   | 设置dialog内容的外部样式类 | -- | 
-| l-cancel-class   | 设置dialog取消按钮的外部样式类 | -- |
-| l-confirm-class  | 设置dialog确定按钮的外部样式类 | -- | 
-| l-bg-class  | 设置dialog遮罩的外部样式类 | -- |
+| 外部样式类名    | 说明                           | 备注 |
+| :-------------- | :----------------------------- | :--- |
+| l-class         | 设置dialog的外部样式类         | --   |
+| l-title-class   | 设置dialog头部的外部样式类     | --   |
+| l-content-class | 设置dialog内容的外部样式类     | --   |
+| l-cancel-class  | 设置dialog取消按钮的外部样式类 | --   |
+| l-confirm-class | 设置dialog确定按钮的外部样式类 | --   |
+| l-bg-class      | 设置dialog遮罩的外部样式类     | --   |
 
 <!-- 'l-class', 'l-title-class', 'l-content-class', 'l-confirm-class', 'l-cancel-class', 'l-bg-class' -->
 
 ## 模态框事件
 
-| 事件名称   | 说明   | 返回值   | 备注   | 
-|:----|:----|:----|:----|
-| bind:lintap   | 当点击背景时触发的事件   | ---------   | --------   | 
-| bind:linconfirm   | 当点击确定时触发的事件   | confirm   | --------   | 
-| bind:lincancel   | 当点击取消时触发的事件   |   cancel | --------   | 
+| 事件名称        | 说明                   | 返回值    | 备注     |
+| :-------------- | :--------------------- | :-------- | :------- |
+| bind:lintap     | 当点击背景时触发的事件 | --------- | -------- |
+| bind:linconfirm | 当点击确定时触发的事件 | confirm   | -------- |
+| bind:lincancel  | 当点击取消时触发的事件 | cancel    | -------- |
 
-<RightMenu />
+## [开放函数](https://doc.mini.talelin.com/start/open-function.html)
+| 函数名           | 说明       | 备注                                                 |
+| :--------------- | :--------- | :--------------------------------------------------- |
+| linShow(options) | 显示模态框 | optinos 为 Object 类型，属性为 Dialog 支持的所有属性 |
+| linHide()        | 隐藏模态框 |                                                      |
