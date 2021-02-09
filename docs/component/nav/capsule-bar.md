@@ -103,24 +103,46 @@ Page({
 
 **胶囊栏右侧的原生胶囊颜色和`StatusBar`文字颜色需在页面 json 文件中通过设置[`navigationBarTextStyle`](https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/page.html)来修改。**
 
+## 自定义胶囊按钮图标
+`CapsuleBar` 提供了两个属性用于修改左侧胶囊按钮的图标：`capsule-left-icon-path` 和 `capsule-right-icon-path`
+
+```wxml
+<l-capsule-bar  capsule-left-icon-width="38"
+                capsule-left-icon-height="38"
+                capsule-right-icon-width="38"
+                capsule-right-icon-height="38"
+                capsule-left-icon-path="https://cdn.talelin.com/20201226182234.png"
+                capsule-right-icon-path="https://cdn.talelin.com/20201226182244.png">
+</l-capsule-bar>
+```
+:::img
+![height=100](https://cdn.talelin.com/20201226191258.jpg)
+:::
+
 ## 胶囊栏属性
 
 > 下列属性以`color`结尾的，除可选值有特殊标注外，均可使用 **HEX/RGBA/CSS 颜色名** 作为值传入，表中不再单独说明。
 
-| 参数             | 说明                                               | 类型    | 可选值      | 默认值 | 版本号 |
-| ---------------- | -------------------------------------------------- | ------- | ----------- | ------ | ------ |
-| bg-color         | `CapsuleBar`背景色                                 | String  | ---         | white  | 0.8.3  |
-| status-bar-color | `StatusBar`背景色                                  | String  | ---         | white  | 0.8.3  |
-| title-bar-color  | `TitleBar`背景色                                   | String  | ---         | white  | 0.8.3  |
-| title-color      | 标题颜色                                           | String  | ---         | black  | 0.8.3  |
-| capsule-color    | 左侧胶囊按钮颜色                                   | String  | white/black | white  | 0.8.3  |
-| disable-back     | 禁用左侧按钮返回上一级页面                         | Boolean | ---         | false  | 0.8.3  |
-| disable-home     | 禁用右侧按钮返回主页                               | Boolean | ---         | false  | 0.8.3  |
-| hidden-capsule   | 隐藏左侧胶囊按钮，右侧胶囊按钮为原生组件，无法隐藏 | Boolean | ---         | false  | 0.8.3  |
-| home-page        | 主页面 url，点击右侧按钮时跳转                     | String  | ---         | ---    | 0.8.3  |
-| title            | 胶囊栏标题                                         | String  | ---         | ---    | 0.8.3  |
-| has-padding      | 是否设置页面顶部内边距为 CapsuleBar 的高度         | Boolean | ---         | true   | 0.8.3  |
-| hidden-title     | 隐藏标题                                           | Boolean | ---         | false  | 0.8.12 |
+| 参数                      | 说明                                               | 类型    | 可选值            | 默认值 | 版本号 |
+| ------------------------- | -------------------------------------------------- | ------- | ----------------- | ------ | ------ |
+| bg-color                  | `CapsuleBar`背景色                                 | String  | ---               | white  | 0.8.3  |
+| status-bar-color          | `StatusBar`背景色                                  | String  | ---               | white  | 0.8.3  |
+| title-bar-color           | `TitleBar`背景色                                   | String  | ---               | white  | 0.8.3  |
+| title-color               | 标题颜色                                           | String  | ---               | black  | 0.8.3  |
+| capsule-color             | 左侧胶囊按钮颜色（使用自定义图标时无效）           | String  | white/black       | white  | 0.8.3  |
+| disable-back              | 禁用左侧按钮返回上一级页面                         | Boolean | ---               | false  | 0.8.3  |
+| disable-home              | 禁用右侧按钮返回主页                               | Boolean | ---               | false  | 0.8.3  |
+| hidden-capsule            | 隐藏左侧胶囊按钮，右侧胶囊按钮为原生组件，无法隐藏 | Boolean | ---               | false  | 0.8.3  |
+| home-page                 | 主页面 url，点击右侧按钮时跳转                     | String  | ---               | ---    | 0.8.3  |
+| title                     | 胶囊栏标题                                         | String  | ---               | ---    | 0.8.3  |
+| has-padding               | 是否设置页面顶部内边距为 CapsuleBar 的高度         | Boolean | ---               | true   | 0.8.3  |
+| hidden-title              | 隐藏标题                                           | Boolean | ---               | false  | 0.8.12 |
+| capsule-left-icon-path    | 左侧胶囊按钮左侧图标路径                           | String  | 网络路径/本地路径 | false  | 0.9.3  |
+| capsule-left-icon-width   | 左侧胶囊按钮左侧图标宽度，单位 `rpx`               | Number  | ---               | 20     | 0.9.3  |
+| capsule-left-icon-height  | 左侧胶囊按钮左侧图标高度，单位 `rpx`               | Number  | ---               | 34     | 0.9.3  |
+| capsule-right-icon-path   | 左侧胶囊按钮右侧图标路径                           | String  | 网络路径/本地路径 | false  | 0.9.3  |
+| capsule-right-icon-width  | 左侧胶囊按钮右侧图标宽度，单位 `rpx`               | Number  | ---               | 38     | 0.9.3  |
+| capsule-right-icon-height | 左侧胶囊按钮右侧图标高度，单位 `rpx`               | Number  | ---               | 34     | 0.9.3  |
 
 > 关于 has-padding 属性的说明：
 

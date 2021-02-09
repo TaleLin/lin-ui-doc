@@ -150,45 +150,46 @@ title: 复选框 Checkbox
 
 ## 复选框组件属性
 
-| 参数  | 说明 | 类型 | 可选值 | 默认值 |
-| :----| :---- | :---- | :---- | :---- |
-| placement | checkbox 按钮的位置 | String | left/right | left |
-| custom | 是否自定义图标内容 | Boolean | true/false | false |
-| key | checkbox唯一id | String| --- | --- |
-| cell | 可绑定一个Object对象，在linchange事件触发时，将返回这个当前单选项的cell | Object | --- | --- |
-| size | checkbox的大小 | String | --— | 38rpx |
-| disabled | 设置是否禁用 | Boolean | true/false | false |
-| select-color | checkbox选中时的颜色 | String | #3963BC |
-| disabled-color |checkbox禁用时的颜色 |String | #cccccc |
-| color | checkbox未选中时的颜色 | String| #cccccc |
-| checked | 当前checkbox是否选中| Boolean | true/false | false |                                                                          | String  | toast/message/text | -      |
+| 参数           | 说明                                                                    | 类型    | 可选值     | 默认值 |
+| :------------- | :---------------------------------------------------------------------- | :------ | :--------- | :----- |
+| placement      | checkbox 按钮的位置                                                     | String  | left/right | left   |
+| custom         | 是否自定义图标内容                                                      | Boolean | true/false | false  |
+| key            | checkbox唯一id                                                          | String  | ---        | ---    |
+| cell           | 可绑定一个Object对象，在linchange事件触发时，将返回这个当前单选项的cell | Object  | ---        | ---    |
+| size           | checkbox的大小                                                          | String  | --—        | 38rpx  |
+| disabled       | 设置是否禁用                                                            | Boolean | true/false | false  |
+| select-color   | checkbox选中时的颜色                                                    | String  | #3963BC    |
+| disabled-color | checkbox禁用时的颜色                                                    | String  | #cccccc    |
+| color          | checkbox未选中时的颜色                                                  | String  | #cccccc    |
+| checked        | 当前checkbox是否选中                                                    | Boolean | true/false | false  |  | String | toast/message/text | - |
 
 
-## 复选框组件外部样式类
-| 外部样式类名 | 说明 | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class   | 设置checkbox的外部样式类 |  |  
-| l-disabled-class   | 设置checkbox禁用时的外部样式类 |  | 
+## 复选框组件外部样式类（Checkbox ExternalClasses）
+| 外部样式类名     | 说明                           | 备注 |
+| :--------------- | :----------------------------- | :--- |
+| l-class          | 设置checkbox的外部样式类       |      |
+| l-icon-class     | 覆盖复选框图标区域             |      |
+| l-disabled-class | 设置checkbox禁用时的外部样式类 |      |
 
-## 复选框组组件外部样式类
-| 外部样式类名 | 说明 | 备注 |
-| :--------- | :----------------- | :----- | 
-| l-class| checkbox-group的外部样式类 | --- |
+## 复选框组组件外部样式类（CheckboxGroup ExternalClasses）
+| 外部样式类名 | 说明                       | 备注 |
+| :----------- | :------------------------- | :--- |
+| l-class      | checkbox-group的外部样式类 | ---  |
                               
 
 ## 复选框容器组件属性
 
-| 参数   | 说明 | 类型 | 可选值 | 默认值 |  
-|:----|:----|:----|:----|:----|
-| placement | 更改checkbox的flex布局 | String | row/column  | column | 
-| min-selected | 最少选中个数 | Number | ---  | --- | 
-| max-selected | 最多选中个数 | Number | ---  | --- | 
+| 参数         | 说明                   | 类型   | 可选值     | 默认值 |
+| :----------- | :--------------------- | :----- | :--------- | :----- |
+| placement    | 更改checkbox的flex布局 | String | row/column | column |
+| min-selected | 最少选中个数           | Number | ---        | ---    |
+| max-selected | 最多选中个数           | Number | ---        | ---    |
 
 
 ## 复选框组件事件
 
-| 事件名称        | 说明                                              | 返回值          | 备注 |
-| :------------- | :------------------------------------------------ | :-------------- | :--- |
-| bind:linchange | 点击时触发            | 选中项发生变化时触发 `linchange` 事件，event.detail = {key: 选中项Checkbox的key, cell: checkbox-group传入的cell属性，checked: 按钮切换后的状态} | -    |
-| bind:linout | 当设置了min-selected或者max-selected，选中数量不满足要求时触发 linout 事件 |event.detail = {key:当前点击checkbox的key, limitNumber: 选项个数限制的值, type: 数量溢出的类型，可选值 overflow_max_selected/overflow_min_selected}| --  |
+| 事件名称       | 说明                                                                       | 返回值                                                                                                                                              | 备注 |
+| :------------- | :------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :--- |
+| bind:linchange | 点击时触发                                                                 | 选中项发生变化时触发 `linchange` 事件，event.detail = {key: 选中项Checkbox的key, cell: checkbox-group传入的cell属性，checked: 按钮切换后的状态}     | -    |
+| bind:linout    | 当设置了min-selected或者max-selected，选中数量不满足要求时触发 linout 事件 | event.detail = {key:当前点击checkbox的key, limitNumber: 选项个数限制的值, type: 数量溢出的类型，可选值 overflow_max_selected/overflow_min_selected} | --   |
 <RightMenu />

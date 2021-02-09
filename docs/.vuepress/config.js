@@ -75,8 +75,8 @@ module.exports = {
         link: '/imooc/'
       },
       {
-        text: '版本日志',
-        link: '/update/'
+        text: '更新日志',
+        link: 'https://github.com/TaleLin/lin-ui/releases'
       }
     ],
     sidebar: {
@@ -92,6 +92,12 @@ module.exports = {
             '/start/class',
             '/start/contribute',
             '/start/wx'
+          ]
+        }, {
+          title: '高级特性',
+          collapsable: false,
+          children: [
+            '/start/open-function'
           ]
         }
       ],
