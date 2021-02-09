@@ -75,8 +75,8 @@ module.exports = {
         link: '/imooc/'
       },
       {
-        text: '版本日志',
-        link: '/update/'
+        text: '更新日志',
+        link: 'https://github.com/TaleLin/lin-ui/releases'
       }
     ],
     sidebar: {
