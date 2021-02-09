@@ -4,7 +4,7 @@
   "description": "Lin UI 文档",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --debug",
     "build": "vuepress build docs"
   },
   "repository": {
@@ -20,6 +20,10 @@
   "devDependencies": {
     "vuepress": "^1.8.0",
     "vuepress-plugin-container": "^2.1.4",
-    "vuepress-plugin-medium-zoom": "^1.1.8"
+    "vuepress-plugin-medium-zoom": "^1.1.8",
+    "vuepress-plugin-yuque-sidebar": "1.0.0"
+  },
+  "dependencies": {
+    "@nine-theme/vuepress-plugin-back-to-top": "0.0.6"
   }
 }

@@ -2,13 +2,13 @@
 title: 按钮 Button
 ---
 
-# <H2Icon /> 按钮 Button
+# 按钮 Button
 
-> 常用的操作按钮。
+> 常用的操作按钮。11
 
 ## 按钮类型 
 
-通过设置`type`属性为`default`、`success`、`error`、`warning`来创建不同样式的Button，样式默认为`default`。
+## 通过设置`type`属性为`default`、`success`、`error`、`warning`来创建不同样式的Button，样式默认为`default`。
 
 :::img
 ![height=100](/screenshots/button/1.png)
@@ -266,5 +266,3 @@ Lin-Mini的Button组件同样支持小程序原生Button的相关开放能力。
 
 
 [1]: https://developers.weixin.qq.com/miniprogram/dev/component/button.html
-
-<RightMenu /> 

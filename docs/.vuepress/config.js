@@ -9,6 +9,7 @@ module.exports = {
   dest: './dist',
   plugins: [
     'vuepress-plugin-medium-zoom',
+    'vuepress-plugin-yuque-sidebar',
     ['vuepress-plugin-container', {
       type: 'img',
       before: info => `<div class="l-img">`,
