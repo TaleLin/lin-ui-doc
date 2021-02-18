@@ -89,7 +89,7 @@ title: 宫格 Grid
 
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |  
 |:----|:----|:----|:----|:----|
-| rowNum | 每行显示的宫格数目 | String | -  | `3` |
+| row-num | 每行显示的宫格数目 | String | -  | `3` |
 | show-border  | 控制是否显示所有的边框 | Boolean | `false` |
 | show-row-border | 控制是否显示横向边框 | Boolean | `false` |
 | show-col-border | 控制是否显示纵向边框 | Boolean | `false` | - |
