@@ -34,7 +34,7 @@ Tips：静态图片展示效果相同，不做重复展示。
 
 ## 从不同方向弹出
 
-根据不同的业务场景需求，可以在弹出层中插入 `slot` ，并通过通过设置 `content-align` 属性的值来控制 `slot` 从不同的方向进入屏幕，可选值为 `top` 、`left` 、`right` 、`bottom` 、`center`。
+根据不同的业务场景需求，可以在弹出层中插入 `slot` ，并通过设置 `content-align` 属性的值来控制 `slot` 从不同的方向进入屏幕，可选值为 `top` 、`left` 、`right` 、`bottom` 、`center`。
 
 
 ::: tip 注意事项
