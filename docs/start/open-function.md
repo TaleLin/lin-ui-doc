@@ -42,7 +42,7 @@ Lin UI 组件内部所有的**开放函数**均以 `linXXX` 的格式进行命�
 // index.js
 
 // 第一步：使用 id 选择器语法获取 toast 实例
-const toast = this.selecComponet('#my-toast');
+const toast = this.selectComponent('#my-toast');
 
 // 第二步：调用开放函数
 
