@@ -131,10 +131,6 @@ title: 按钮 Button
 
 自定义内容在组件slot插入即可。
 
-:::img
-![height=200](/screenshots/button/2.png)
-:::
-
 ### 示例代码
 ```wxml
 <l-button special="{{true}}" open-type="share">
