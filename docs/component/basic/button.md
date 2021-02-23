@@ -132,7 +132,7 @@ title: 按钮 Button
 自定义内容在组件slot插入即可。
 
 :::img
-![height=200](/screenshots/button/2.png)
+![height=200](/screenshots/button/8.png)
 :::
 
 ### 示例代码
