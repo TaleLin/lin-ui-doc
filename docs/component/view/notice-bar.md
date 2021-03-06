@@ -105,7 +105,7 @@ title: 通告栏 NoticeBar
 ```
 
 ## 动态修改通告栏内容
-如果你的通告栏内容不是写死在 wxml 文件中，而是在运行过程中会**动态修改**的（比如通过 API 请求修改通告栏内容），那么你需要在修改通告栏内容之后调用 `flush()` 函数刷新一下，通告栏滚动动画才会正常显示。
+如果你的通告栏内容不是写死在 wxml 文件中，而是在运行过程中会**动态修改**的（比如通过 API 请求修改通告栏内容），那么你需要在修改通告栏内容之后调用 `linFlush()` 开放函数刷新一下，通告栏滚动动画才会正常显示。
 
 ##### 示例代码
 ```wxml
@@ -123,7 +123,7 @@ getNoticeBar(){
     // 获取 notice-bar 组件实例
     const noticeBarComponent = this.selectComponent("#my-notice-bar");
     // 刷新组件动画
-    noticeBarComponent.flush();
+    noticeBarComponent.linFlush();
   });
 }
 ```
@@ -159,7 +159,7 @@ getNoticeBar(){
 | bind:lintap     | 点击通告栏信息触发的事件         | e.detail.index | 在`type`为`swip`时有返回值 |
 | bind:linicontap | 点击通告栏文字后的图标触发的事件 | ---            | ---                        |
 
-## 开放函数
+## [开放函数](https://doc.mini.talelin.com/start/open-function.html)
 | 函数名   | 说明                                                         | 备注 |
 | :------- | :----------------------------------------------------------- | :--- |
 | linFlush | 修改通告栏内容之后，需要调用该函数刷新，滚动动画才能正常显示 |      |
