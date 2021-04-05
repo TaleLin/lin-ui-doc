@@ -6,7 +6,9 @@ title: 加载中 Loading
 
 > 当区域正在获取数据时使用，提高用户体验。
 
-该组件支持<a href="/start/wx.html">wx.lin</a>用法。
+:::tip 组件特性
+- 支持[开放函数](#开放函数)
+:::
 
 ## 加载类型
 
@@ -132,30 +134,36 @@ title: 加载中 Loading
 
 ## 加载中属性
 
-| 参数   | 说明   | 类型   | 可选值   | 默认值    |
-|:----|:----|:----|:----|:----|
-| show   | 是否显示加载动画   | Boolean   | ----   | false   |
-| type   | 加载动画类型   | String   | flash/flip/change/rotate/circle   | rotate   |
-| size   | 加载动画大小   | String   | mini/medium/large   | medium   |
-| color  | 加载动画颜色    | String   | -----   | ----   |  主题色 |
-| z-index |  加载动画层级  | String   | -----   | 776   |
-| custom   |  加载动画（内容部分）是否自定义   | Boolean   | -----   | false   |
-| full-screen  |  加载动画（内容部分）是否全屏  | Boolean   | -----   | false   |
-| bg-color  | 加载动画背景颜色（全屏模式）    | String   | -----   | ----   |  #fff |
-| opacity |  加载动画背景透明度 | String   | -----   | 1  |
+| 参数        | 说明                           | 类型    | 可选值                          | 默认值 |
+| :---------- | :----------------------------- | :------ | :------------------------------ | :----- |
+| show        | 是否显示加载动画               | Boolean | ----                            | false  |
+| type        | 加载动画类型                   | String  | flash/flip/change/rotate/circle | rotate |
+| size        | 加载动画大小                   | String  | mini/medium/large               | medium |
+| color       | 加载动画颜色                   | String  | -----                           | ----   | 主题色 |
+| z-index     | 加载动画层级                   | String  | -----                           | 776    |
+| custom      | 加载动画（内容部分）是否自定义 | Boolean | -----                           | false  |
+| full-screen | 加载动画（内容部分）是否全屏   | Boolean | -----                           | false  |
+| bg-color    | 加载动画背景颜色（全屏模式）   | String  | -----                           | ----   | #fff   |
+| opacity     | 加载动画背景透明度             | String  | -----                           | 1      |
 
 ## 加载中插槽
 
-| 插槽名称    | 说明    | 备注 |
-| :--------- | :----------------- | :----- |
-| -  | 自定义loading图标  | ---   |
-| content  | 非全屏模式下主体内容区域  | loading组件将包裹在content插槽外部   |
+| 插槽名称 | 说明                     | 备注                               |
+| :------- | :----------------------- | :--------------------------------- |
+| -        | 自定义loading图标        | ---                                |
+| content  | 非全屏模式下主体内容区域 | loading组件将包裹在content插槽外部 |
 
 ## 加载中外部样式类
 
-| 外部样式类名    | 说明    | 备注 |
-| :--------- | :----------------- | :----- |
-| l-class   | 覆盖动画区域（内容部分）自定义外部样式类   |  ---   |
-| l-container-class   | 覆盖背景部分的自定义外部样式类   |  ---   |
+| 外部样式类名      | 说明                                     | 备注 |
+| :---------------- | :--------------------------------------- | :--- |
+| l-class           | 覆盖动画区域（内容部分）自定义外部样式类 | ---  |
+| l-container-class | 覆盖背景部分的自定义外部样式类           | ---  |
+
+## [开放函数](https://doc.mini.talelin.com/start/open-function.html)
+| 函数名           | 说明         | 版本  | 备注                                                  |
+| :--------------- | :----------- | :---- | :---------------------------------------------------- |
+| linShow(optinos) | 显示 Loading | 0.9.5 | optinos 为 Object 类型，属性为 Loading 支持的所有属性 |
+| linHide          | 隐藏 Loading | 0.9.5 |
 
 <RightMenu />
