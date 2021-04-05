@@ -145,7 +145,7 @@ Toast 组件常用于在页面中展示重要的提示信息。
 | 其他值  | 参见 [Icon](http://doc.mini.talelin.com/component/basic/icon.html) 可选值 | String |
 
 ## [开放函数](https://doc.mini.talelin.com/start/open-function.html)
-| 函数名           | 说明       | 备注                                                |
-| :--------------- | :--------- | :-------------------------------------------------- |
-| linShow(optinos) | 显示 Toast | optinos 为 Object 类型，属性为 Toast 支持的所有属性 |
-| linHide          | 隐藏 Toast |                                                     |
+| 函数名           | 说明       | 支持版本  | 备注                                                |
+| :--------------- | :--------- | :---- | :-------------------------------------------------- |
+| linShow(optinos) | 显示 Toast | 0.9.3 | optinos 为 Object 类型，属性为 Toast 支持的所有属性 |
+| linHide          | 隐藏 Toast | 0.9.3 |                                                     |
