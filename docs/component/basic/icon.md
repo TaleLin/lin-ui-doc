@@ -12,7 +12,7 @@ title: 图标 Icon
 ![height=200](/screenshots/icon/1.png)
 :::
 
-> 更多图标请移步示例小程序中查看
+> 更多图标见本页底部
 
 
 ## 图标类型
@@ -128,4 +128,9 @@ title: 图标 Icon
 | :--------- | :----------------- | :----- |
 | l-class | 覆盖图标的外部样式类 | --- | 
 
+
+## 所有图标
+:::img
+![height=300](/screenshots/icon/5.jpg)
+:::
 <RightMenu />
