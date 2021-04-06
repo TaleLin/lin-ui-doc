@@ -13,21 +13,26 @@ module.exports = {
       type: 'img',
       before: info => `<div class="l-img">`,
       after: '</div>'
+    }],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: {
+        message: '有新内容啦~',
+        buttonText: '刷新'
+      }
     }]
   ],
   head: [
-    ['link', {
-      rel: 'icon',
-      href: '/favicon.ico'
-    }], ["script", {
-      async: true,
-      type: "text/javascript",
-      src: "https://s9.cnzz.com/z_stat.php?id=1279053128&web_id=1279053128"
-    }], ["script", {
-      async: true,
-      type: "text/javascript",
-      src: "https://hm.baidu.com/hm.js?8628fff92d16599a4cb40c15288bf5e3"
-    }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['meta', { name: 'theme-color', content: '#3a63bd' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/favicon.ico' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#3A63BD' }],
+    ["script", { async: true, type: "text/javascript", src: "https://s9.cnzz.com/z_stat.php?id=1279053128&web_id=1279053128" }],
+    ["script", { async: true, type: "text/javascript", src: "https://hm.baidu.com/hm.js?8628fff92d16599a4cb40c15288bf5e3" }]
   ],
   chainMarkdown(config) {
     config
