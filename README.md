@@ -24,8 +24,12 @@
     <a href="https://www.npmjs.com/package/lin-ui">
         <img alt="周下载量" src="https://img.shields.io/npm/dw/lin-ui?color=%233c973c&label=%E5%91%A8%E4%B8%8B%E8%BD%BD%E9%87%8F&logo=node.js&logoColor=white" />
     </a>
+    <a href="https://www.npmjs.com/package/lin-ui">
+        <img alt="基础库版本" src="https://img.shields.io/badge/%E5%9F%BA%E7%A1%80%E5%BA%93%E7%89%88%E6%9C%AC-%3E%3D2.8.2-brightgreen" />
+    </a>
 </div>
 
+---
 
 
 ## 目录
@@ -36,6 +40,7 @@
   - [安装](#安装)
   - [引入](#引入)
 - [讨论交流](#讨论交流)
+- [用户案例](#用户案例)
 - [贡献代码](#贡献代码)
 - [开源协议](#开源协议)
 
@@ -48,6 +53,8 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
 
 
 ## 快速上手
+
+**务必勾选`增强编译`、`Es6 转 ES5`以及`使用 npm 模块`选项**，[参考图片](https://cdn.talelin.com/20210128165243.png)
 
 ### 安装
 1. 初始化你的项目为一个 NPM 项目
@@ -65,13 +72,16 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
    ```
 
 3. 配置微信开发者工具
-   要正确安装 Lin UI，需将微信开发者工具的 `使用 npm 模块` 选项勾选上
+   要正确安装 Lin UI，需将微信开发者工具的如下**三个选项全部勾选上**，[参考图片](https://cdn.talelin.com/20210128165243.png)
+   - `使用 npm 模块`
+   - `增强编译`
+   - `ES6 转 ES5`
 
    > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
 
 4. 构建 NPM 模块
    微信开发者工具配置完成以后，还需进行一次 NPM 模块的构建
-   
+
    > 按钮位置：微信开发者工具顶部 -> 工具 -> 构建 npm
 
 > **若你本地没有 Node.js 环境，无法使用 NPM 安装，则可以采用[源码方式安装](https://doc.mini.talelin.com/start/#方式二：下载代码)**
@@ -79,9 +89,12 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
 
 1. 配置微信开发者工具
 
-   要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 和 `增强编译` 选项勾选上
-   
-   > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
+     - 要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 和 `增强编译` 选项勾选上
+
+       > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
+
+     - **将基础库版本设置到 `>=2.8.2`**
+
 2. 在页面中引入
    ```json
    {
@@ -102,15 +115,15 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
 
 ![](https://img.juzibiji.top/20200807155013.png)
 
+## 用户案例
 
+Lin UI 经过大量用户实践，已产生出非常多的优秀案例，[点击链接](https://github.com/TaleLin/lin-ui/issues/947)可查看其他用户的提交的案例小程序。
 
 ## 贡献代码
 
 我们的代码基于 develop 分支开发，欢迎提交 Pull Request 进行代码贡献。
 
 在提交 Pull Request 之前，请详细阅读我们的[开发规范](https://github.com/TaleLin/lin-ui/wiki)，否则可能因为 Commit 信息不规范等原因被关闭 Pull Request。
-
-
 
 ## 开源协议
 
