@@ -6,10 +6,6 @@ title: 索引列表 IndexList
 
 > 使用场景：地区选择、联系人列表
 
-::: warning 注意
-使用该组件需开启微信开发者工具[**增强编译**](https://developers.weixin.qq.com/miniprogram/dev/devtools/codecompile.html)选项
-:::
-
 ## 核心概念
 
 因索引列表元素较多，为了便于你理解文档，我会简单介绍一下索引列表各个部分的名称
