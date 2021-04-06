@@ -1,0 +1,9 @@
+{
+  "short_name": "Lin UI",
+  "name": "Lin UI 中文文档",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#3a63bd",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary"
+}
