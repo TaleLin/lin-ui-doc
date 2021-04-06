@@ -147,7 +147,7 @@ data:{
 
 ```wxml
 <l-input label="验证码"  label-layout="left"  placeholder="请输入验证码" >
-	<img slot="right" src="path/to/img.png">
+	<image slot="right" src="path/to/img.png" />
 </l-input>
 ```
 
@@ -164,7 +164,7 @@ data:{
 ```wxml
 <l-input  placeholder="请输入邮箱" >
 	<view class="email" slot="left">
-		<img src="path/to/email.png">
+		<image src="path/to/email.png" />
 		<text>邮箱：</text>
 	</view>
 </l-input>
