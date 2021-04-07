@@ -87,11 +87,9 @@ title: 折叠面板 Collapse
 | 参数 | 说明               | 类型   | 可选值 | 默认值 | 版本号 |
 | ---- | ------------------ | ------ | ------ | ------ | ------ |
 | item-id  | 折叠面板子项id，需要确保唯一性 | String | -      | 折叠面板子项索引值      | -|
-| disabled  | 是否禁用折叠面板 | Boolean | -      | false      | -|
+| disable  | 是否禁用折叠面板 | Boolean | -      | false      | -|
 | title  | 标题文字 | String | -      |    默认标题   | |
 | custom-title  | 是否开启自定义标题区内容（slot注入） | Boolean | -      |    false   | |
-| title-color  | 标题可点击时的颜色 | String | -      | #333333      |- |
-| title-disabled-color  | 标题不可点击时的颜色 | String | -      | #DEE2E6      | -|
 | animation-time  | 内容区域展开动画速度（单位：秒） | Number | -      | 0.3      |- |
 
 
