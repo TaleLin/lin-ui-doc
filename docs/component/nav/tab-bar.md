@@ -82,7 +82,7 @@ redDot 支持传入`Boolean/Number`的值。**当 redDot 为 false 时，不显�
 | bg-color              | TabBar 背景色             | String          | CSS 支持的颜色 | 否   | white   | -      |
 | bg-img                | TabBar 背景图             | String          | 图片网络路径   | 否   | -       | -      |
 | text-selected-color   | TabBar 文字选中时的颜色   | String          | CSS 支持的颜色 | 否   | 主题色  | -      |
-| text-unselected-color | TabBar 文字未选中时的颜色 | String          | CSS 支持的颜色 | 否   | #666666 | -      |
+| text-color            | TabBar 文字未选中时的颜色 | String          | CSS 支持的颜色 | 否   | #666666 | -      |
 
 ## 页面列表属性
 
