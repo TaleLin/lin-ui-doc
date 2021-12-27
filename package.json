@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/juzi214032/lin-ui-doc#readme",
   "devDependencies": {
-    "vuepress": "^1.8.2",
+    "vuepress": "^1.9.5",
     "vuepress-plugin-container": "^2.1.4",
     "@vuepress/plugin-pwa": "^1.5.3",
     "vuepress-plugin-medium-zoom": "^1.1.8"
