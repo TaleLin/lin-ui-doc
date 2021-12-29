@@ -1,6 +1,6 @@
 {
   "name": "lin-ui-doc",
-  "version": "0.9.5",
+  "version": "0.9.7",
   "description": "Lin UI 文档",
   "main": "index.js",
   "scripts": {
