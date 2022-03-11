@@ -46,7 +46,13 @@ title: 头像 Avatar
    <l-avatar src="http://img3.a0bi.com/upload/ttq/20161015/1476518118768.png" />
 ```
 
-### 3 open-data
+### 3 open-data(废弃)
+
+:::warning
+微信官方从 2022 年 2 月 21 日 24 时起回收通过 `<open-data>` 展示个人信息的能力，具体看下面的网址
+
+[小程序用户信息相关接口调整公告](https://developers.weixin.qq.com/community/develop/doc/000e881c7046a8fa1f4d464105b001?blockType=1&page=2#comment-list)
+:::
 
 用于展示当前用户的微信头像和昵称
 
