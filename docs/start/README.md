@@ -12,7 +12,7 @@ Lin UI 致力于给小程序开发者提供愉悦的开发体验。
 Lin UI提供两种安装方法，满足不同开发者的需求。如果您需要使用`npm`安装，请确保您已经在本机安装了`npm`。
 
 ::: warning
-**使用 Lin UI 务必勾选`增强编译`、`Es6 转 ES5`以及`使用 npm 模块`选项**，[参考图片](https://cdn.talelin.com/20210128165243.png)
+**使用 Lin UI 务必勾选`将 JS 编译成 ES5 `选项**，[参考图片](https://s1.ax1x.com/2022/04/13/LKdjpV.png)
 :::
 
 ### 方式一： 使用npm安装 （推荐）
@@ -124,7 +124,7 @@ npm install
 @text-color             : #888;
 
 ```
- 
+
 - 主题色更改
 
 同样打开根目录，打开`config/style/_theme.less`文件，看到文件中定义了一个变量 `@theme-color` ，如果有主题色修改的需求，更改它即可。
@@ -179,8 +179,8 @@ npm run build
 根目录下的 `dist` 文件即是编译后的自定义组件，使用时将他拷贝到自己的项目里即可。
 
 
-  [1]: https://developers.weixin.qq.com/miniprogram/dev/index.html?t=18101612
-  [2]: http://es6.ruanyifeng.com/
-  [3]: https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/
+[1]: https://developers.weixin.qq.com/miniprogram/dev/index.html?t=18101612
+[2]: http://es6.ruanyifeng.com/
+[3]: https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/
 
 <RightMenu />
