@@ -26,8 +26,6 @@ promisic(wx.getStorage)().then(res=>{
 })
 ```
 
-> 小程序使用async、await需开启`增强编译`。
-
 ```js
 import { promisic } from '/dist/utils/util.js'
 

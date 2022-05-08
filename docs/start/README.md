@@ -12,7 +12,7 @@ Lin UI 致力于给小程序开发者提供愉悦的开发体验。
 Lin UI提供两种安装方法，满足不同开发者的需求。如果您需要使用`npm`安装，请确保您已经在本机安装了`npm`。
 
 ::: warning
-**使用 Lin UI 务必勾选`增强编译`、`Es6 转 ES5`以及`使用 npm 模块`选项**，[参考图片](https://cdn.talelin.com/20210128165243.png)
+**使用 Lin UI 务必勾选`Es6 转 ES5`和`使用 npm 模块`选项**，[参考图片](https://cdn.talelin.com/%E6%9C%AC%E5%9C%B0%E8%AE%BE%E7%BD%AE.png)
 :::
 
 ### 方式一： 使用npm安装 （推荐）
@@ -59,7 +59,7 @@ git clone https://github.com/TaleLin/lin-ui.git
 
 1. 配置微信开发者工具
 
-     - 要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 和 `增强编译` 选项勾选上
+     - 要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 选项勾选上
 
        > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
 
