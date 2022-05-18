@@ -59,6 +59,13 @@ title: 数量选择器 Counter
 3. `l-disabled-class`与`l-symbol-class`为互斥关系。
 :::
 
+## 整数模式
+
+:::
+组件默认支持小数输入，如果你不想让用户输入小数，可以将round—float设置为true。当用户输入小数时，组件将自动取整
+注意：此种取整模式为四舍五入
+:::
+
 | 参数   | 说明 | 类型 | 可选值 | 默认值 |
 |:----|:----|:----|:----|:----|
 | count | 设置起始数量 | Number | --- | 1 |
@@ -67,7 +74,7 @@ title: 数量选择器 Counter
 | step | 设置数量增减步长 | Number | --- | 1|
 | disabled | 设置禁用状态 | Boolean | --- | false |
 | is-hover | 是否显示hover效果 | Boolean | --- | true |
-| roundFloat | 开启整数模式 | Boolean | --- | false |
+| round-float | 开启整数模式 | Boolean | --- | false |
 
 ## 数量选择器外部样式类
 
