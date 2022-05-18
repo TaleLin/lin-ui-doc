@@ -67,6 +67,7 @@ title: 数量选择器 Counter
 | step | 设置数量增减步长 | Number | --- | 1|
 | disabled | 设置禁用状态 | Boolean | --- | false |
 | is-hover | 是否显示hover效果 | Boolean | --- | true |
+| roundFloat | 开启整数模式 | Boolean | --- | false |
 
 ## 数量选择器外部样式类
 
