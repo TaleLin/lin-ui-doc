@@ -263,6 +263,7 @@ Lin-Mini的Button组件同样支持小程序原生Button的相关开放能力。
 | bind:error          | 当使用开放能力时，发生错误的回调                                                                                                                                                    | -----  | ---  |
 | bind:opensetting    | 在打开授权设置页后回调                                                                                                                                                              | -----  | ---  |
 | bind:getuserinfo    | 用户点击该按钮时，会返回获取到的用户信息，回调的detail数据与[wx.getUserInfo](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html)返回的一致 | -----  | ---  |
+| bind:chooseavatar    | 	获取用户头像，可以从 bindchooseavatar 回调中获取到头像信息                                                                                                                      | -----  | ---  |
 
 
 [1]: https://developers.weixin.qq.com/miniprogram/dev/component/button.html
