@@ -64,9 +64,9 @@ title: 按钮 Button
 ### 示例代码
 
 ```wxml
-<l-button shape="semicircle">半圆角</l-button>
-<l-button shape="circle">圆弧角</l-button>
-<l-button shape="square">方角</l-button>
+<l-button shape="circle">圆弧按钮</l-button>
+<l-button shape="square">方形按钮</l-button>
+<l-button shape="semicircle">半圆按钮</l-button>
 ```
 
 ## 镂空按钮
