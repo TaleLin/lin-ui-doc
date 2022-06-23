@@ -53,7 +53,7 @@ title: 弧形滚动弹出层 ArcPopup
 ```wxml
 <l-arc-popup show="{{true}}" arc-radius="50">
   设置组件弧度
-</l--arc-popup>
+</l-arc-popup>
 ```
 :::img
 ![height=300](/screenshots/arc-popup/3.png)
@@ -66,7 +66,7 @@ title: 弧形滚动弹出层 ArcPopup
 ```wxml
 <l-arc-popup show="{{true}}" opacity="0.8">
   设置遮罩区域透明度
-</l--arc-popup>
+</l-arc-popup>
 ```
 :::img
 ![height=300](/screenshots/arc-popup/4.png)
@@ -79,7 +79,7 @@ title: 弧形滚动弹出层 ArcPopup
 ```wxml
 <l-arc-popup show="{{true}}" direction="top">
   从上方弹出
-</l--arc-popup>
+</l-arc-popup>
 ```
 :::img
 ![height=300](/screenshots/arc-popup/5.png)
