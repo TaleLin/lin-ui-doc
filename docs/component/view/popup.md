@@ -45,7 +45,7 @@ Tips：静态图片展示效果相同，不做重复展示。
 ### 代码演示
 ```wxml
 <l-popup show="{{true}}" content-align="bottom" > 
-  <view class="botton"> 从下方弹出</view>
+  <view class="bottom"> 从下方弹出</view>
 </l-popup>
 
 ```
