@@ -57,7 +57,7 @@ title: 状态展示页 StatusShow
 ### 示例代码
 
 ```wxml
-<l-status-show bg-color="f3f3f3" show="{{true}}"></l-status-show>
+<l-status-show bg-color="#f3f3f3" show="{{true}}"></l-status-show>
 ```
 
 ## 自定义状态展示页
