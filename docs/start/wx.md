@@ -36,7 +36,7 @@ wx.lin 已废弃，将在未来的某个版本移除，如果对应组件有[开
 ```js
 onLoad(){
   wx.lin.showLoading({
-    type:"filp",
+    type:"flip",
     fullScreen: true
   })
   setTimeout(()=>{
