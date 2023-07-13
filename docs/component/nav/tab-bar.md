@@ -26,7 +26,7 @@ title: 导航栏 TabBar
   // 页面 json 文件
   {
       "usingComponents":{
-          "l-tab-bar":"/miniprogram_npm/tab-bar/index"
+          "l-tab-bar":"/miniprogram_npm/lin-ui/tab-bar/index"
       }
   }
   ```
