@@ -26,7 +26,7 @@ title: 贡献指南
 
 LinUI 团队会尽快处理您所提的 Pull Request ，review 并合并代码，也有可能要求你做一些修改或者告诉你我们为什么不能接受这样的修改。
 
-在您发送 Pull Request 之前，请确保您是按照一下流程进行的：
+在您发送 Pull Request 之前，请确保您是按照以下流程进行的：
 
 1. clone最新的`develop`做修改。
 2. 在src文件夹下对应的组件进行修改。
