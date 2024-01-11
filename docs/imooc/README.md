@@ -7,7 +7,7 @@
     </div>
     <div style="box-shadow:0px 0px 16px 0px rgba(206,218,225,0.5);padding:30px;margin: 30px auto;overflow:hidden;" >
         <div style="float:left;">
-            <img src="https://consumerminiaclprd01.blob.core.chinacloudapi.cn/miniappbackground/sfgmember/lin/doc-1.png" style="width:200px;height:200px;">
+            <img src="https://cdn.talelin.com/lin/doc-1.png" style="width:200px;height:200px;">
         </div>
         <div style="display:inline-block;width: calc(100% - 250px);float:right;">
             <div style="height:25px;line-height:25px;font-weight:500;font-size:18px;color:#333333;">微信小程序入门与实战 常用组件API开发技巧项目实战</div>
@@ -19,7 +19,7 @@
     </div>
     <div style="box-shadow:0px 0px 16px 0px rgba(206,218,225,0.5);padding:30px;margin: 30px auto;overflow:hidden;" >
         <div style="float:left;">
-            <img src="https://consumerminiaclprd01.blob.core.chinacloudapi.cn/miniappbackground/sfgmember/lin/doc-2.png" style="width:200px;height:200px;">
+            <img src="https://cdn.talelin.com/lin/doc-2.png" style="width:200px;height:200px;">
         </div>
         <div style="display:inline-block;width: calc(100% - 250px);float:right;">
             <div style="height:25px;line-height:25px;font-weight:500;font-size:18px;color:#333333;">纯正商业级应用-微信小程序开发实战</div>
@@ -31,7 +31,7 @@
     </div>
     <div style="box-shadow:0px 0px 16px 0px rgba(206,218,225,0.5);padding:30px;margin: 30px auto;overflow:hidden;" >
         <div style="float:left;">
-            <img src="https://consumerminiaclprd01.blob.core.chinacloudapi.cn/miniappbackground/sfgmember/lin/doc-3.png" style="width:200px;height:200px;">
+            <img src="https://cdn.talelin.com/lin/doc-3.png" style="width:200px;height:200px;">
         </div>
         <div style="display:inline-block;width: calc(100% - 250px);float:right;">
             <div style="height:25px;line-height:25px;font-weight:500;font-size:18px;color:#333333;">微信小程序商城构建全栈应用</div>
@@ -43,7 +43,7 @@
     </div>
     <div style="box-shadow:0px 0px 16px 0px rgba(206,218,225,0.5);padding:30px;margin: 30px auto;overflow:hidden;" >
         <div style="float:left;">
-            <img src="https://consumerminiaclprd01.blob.core.chinacloudapi.cn/miniappbackground/sfgmember/lin/doc-4.png" style="width:200px;height:200px;">
+            <img src="https://cdn.talelin.com/lin/doc-4.png" style="width:200px;height:200px;">
         </div>
         <div style="display:inline-block;width: calc(100% - 250px);float:right;">
             <div style="height:25px;line-height:25px;font-weight:500;font-size:18px;color:#333333;">全面系统 Python3入门+进阶课程 更快上手实际开发</div>
@@ -55,7 +55,7 @@
     </div>
     <div style="box-shadow:0px 0px 16px 0px rgba(206,218,225,0.5);padding:30px;margin: 30px auto;overflow:hidden;" >
         <div style="float:left;">
-            <img src="https://consumerminiaclprd01.blob.core.chinacloudapi.cn/miniappbackground/sfgmember/lin/doc-5.png" style="width:200px;height:200px;">
+            <img src="https://cdn.talelin.com/lin/doc-5.png" style="width:200px;height:200px;">
         </div>
         <div style="display:inline-block;width: calc(100% - 250px);float:right;">
             <div style="height:25px;line-height:25px;font-weight:500;font-size:18px;color:#333333;">Python Flask构建可扩展的RESTful API</div>
@@ -67,7 +67,7 @@
     </div>
     <div style="box-shadow:0px 0px 16px 0px rgba(206,218,225,0.5);padding:30px;margin: 30px auto;overflow:hidden;" >
         <div style="float:left;">
-            <img src="https://consumerminiaclprd01.blob.core.chinacloudapi.cn/miniappbackground/sfgmember/lin/doc-6.png" style="width:200px;height:200px;">
+            <img src="https://cdn.talelin.com/lin/doc-6.png" style="width:200px;height:200px;">
         </div>
         <div style="display:inline-block;width: calc(100% - 250px);float:right;">
             <div style="height:25px;line-height:25px;font-weight:500;font-size:18px;color:#333333;">Python Flask高级编程</div>
